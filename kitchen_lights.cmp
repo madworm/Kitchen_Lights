@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Sat 05 Mar 2011 02:29:18 PM CET
+
+BeginCmp
+TimeStamp = /4D723331;
+Reference = D1;
+ValeurCmp = LED_WW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D723363;
+Reference = D2;
+ValeurCmp = LED_NW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D723367;
+Reference = D3;
+ValeurCmp = LED_WW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D72336A;
+Reference = D4;
+ValeurCmp = LED_NW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D723370;
+Reference = D5;
+ValeurCmp = LED_WW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D723373;
+Reference = D6;
+ValeurCmp = LED_NW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D723376;
+Reference = D7;
+ValeurCmp = LED_WW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D723379;
+Reference = D8;
+ValeurCmp = LED_NW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7233F3;
+Reference = D9;
+ValeurCmp = LED_WW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7233F2;
+Reference = D10;
+ValeurCmp = LED_NW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7233F1;
+Reference = D11;
+ValeurCmp = LED_WW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7233F0;
+Reference = D12;
+ValeurCmp = LED_NW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7233EF;
+Reference = D13;
+ValeurCmp = LED_WW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7233EE;
+Reference = D14;
+ValeurCmp = LED_NW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7233ED;
+Reference = D15;
+ValeurCmp = LED_WW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7233EC;
+Reference = D16;
+ValeurCmp = LED_NW;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D723139;
+Reference = IC1;
+ValeurCmp = ATtiny2313/4313;
+IdModule  = -SO20-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D723286;
+Reference = IC2;
+ValeurCmp = MBI5168;
+IdModule  = MADW__SO16;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D72328C;
+Reference = IC3;
+ValeurCmp = MBI5168;
+IdModule  = MADW__SO16;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7232C3;
+Reference = JP1;
+ValeurCmp = AVR-ISP-6;
+IdModule  = pin_array_3x2;
+EndCmp
+
+EndListe

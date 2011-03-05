@@ -1,4 +1,4 @@
-update=Sat 05 Mar 2011 02:32:39 PM CET
+update=Sat 05 Mar 2011 03:15:06 PM CET
 version=1
 last_client=pcbnew
 [general]
@@ -80,9 +80,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=394
+PadDimH=787
+PadDimV=1181
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
@@ -95,7 +95,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=
+LastNetListRead=kitchen_lights.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets

@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 15 Mar 2011 04:22:42 AM CET
+# EESchema Netlist Version 1.1 created  Tue 15 Mar 2011 06:42:02 AM CET
 (
  ( /4D7EAC9E -C0805 C1 100nF
   ( 1 VCC )
@@ -26,82 +26,82 @@
  )
  ( /4D723331 MADW__TOPBRIGHT_STRAW_HAT D1 LED
   ( 1 /V_LED )
-  ( 2 N-000045 )
+  ( 2 N-000047 )
  )
  ( /4D723363 MADW__TOPBRIGHT_STRAW_HAT D2 LED
-  ( 1 N-000045 )
-  ( 2 N-000044 )
+  ( 1 N-000047 )
+  ( 2 N-000049 )
  )
  ( /4D723367 MADW__TOPBRIGHT_STRAW_HAT D3 LED
-  ( 1 N-000044 )
-  ( 2 N-000046 )
+  ( 1 N-000049 )
+  ( 2 N-000048 )
  )
  ( /4D72336A MADW__TOPBRIGHT_STRAW_HAT D4 LED
-  ( 1 N-000046 )
+  ( 1 N-000048 )
   ( 2 /OUT0 )
  )
  ( /4D723370 MADW__TOPBRIGHT_STRAW_HAT D5 LED
   ( 1 /V_LED )
-  ( 2 N-000028 )
+  ( 2 N-000032 )
  )
  ( /4D723373 MADW__TOPBRIGHT_STRAW_HAT D6 LED
-  ( 1 N-000028 )
-  ( 2 N-000029 )
+  ( 1 N-000032 )
+  ( 2 N-000033 )
  )
  ( /4D723376 MADW__TOPBRIGHT_STRAW_HAT D7 LED
-  ( 1 N-000029 )
-  ( 2 N-000031 )
+  ( 1 N-000033 )
+  ( 2 N-000035 )
  )
  ( /4D723379 MADW__TOPBRIGHT_STRAW_HAT D8 LED
-  ( 1 N-000031 )
+  ( 1 N-000035 )
   ( 2 /OUT1 )
  )
  ( /4D7233F3 MADW__TOPBRIGHT_STRAW_HAT D9 LED
   ( 1 /V_LED )
-  ( 2 N-000039 )
+  ( 2 N-000044 )
  )
  ( /4D7233F2 MADW__TOPBRIGHT_STRAW_HAT D10 LED
-  ( 1 N-000039 )
-  ( 2 N-000038 )
+  ( 1 N-000044 )
+  ( 2 N-000043 )
  )
  ( /4D7233F1 MADW__TOPBRIGHT_STRAW_HAT D11 LED
-  ( 1 N-000038 )
-  ( 2 N-000037 )
+  ( 1 N-000043 )
+  ( 2 N-000042 )
  )
  ( /4D7233F0 MADW__TOPBRIGHT_STRAW_HAT D12 LED
-  ( 1 N-000037 )
+  ( 1 N-000042 )
   ( 2 /OUT2 )
  )
  ( /4D7233EF MADW__TOPBRIGHT_STRAW_HAT D13 LED
   ( 1 /V_LED )
-  ( 2 N-000035 )
+  ( 2 N-000040 )
  )
  ( /4D7233EE MADW__TOPBRIGHT_STRAW_HAT D14 LED
-  ( 1 N-000035 )
-  ( 2 N-000034 )
+  ( 1 N-000040 )
+  ( 2 N-000038 )
  )
  ( /4D7233ED MADW__TOPBRIGHT_STRAW_HAT D15 LED
-  ( 1 N-000034 )
-  ( 2 N-000033 )
+  ( 1 N-000038 )
+  ( 2 N-000037 )
  )
  ( /4D7233EC MADW__TOPBRIGHT_STRAW_HAT D16 LED
-  ( 1 N-000033 )
+  ( 1 N-000037 )
   ( 2 /OUT3 )
  )
  ( /4D7EA5E3 MADW__TOPBRIGHT_STRAW_HAT D17 LED
   ( 1 /V_LED )
-  ( 2 N-000023 )
+  ( 2 N-000025 )
  )
  ( /4D7EA5E2 MADW__TOPBRIGHT_STRAW_HAT D18 LED
-  ( 1 N-000023 )
-  ( 2 N-000022 )
+  ( 1 N-000025 )
+  ( 2 N-000015 )
  )
  ( /4D7EA5E1 MADW__TOPBRIGHT_STRAW_HAT D19 LED
-  ( 1 N-000022 )
-  ( 2 N-000016 )
+  ( 1 N-000015 )
+  ( 2 N-000010 )
  )
  ( /4D7EA5E0 MADW__TOPBRIGHT_STRAW_HAT D20 LED
-  ( 1 N-000016 )
+  ( 1 N-000010 )
   ( 2 /OUT4 )
  )
  ( /4D7EA5DF MADW__TOPBRIGHT_STRAW_HAT D21 LED
@@ -153,7 +153,7 @@
   ( 2 /OUT7 )
  )
  ( /4D7EA61F LEDV D33 LED
-  ( 1 N-000024 )
+  ( 1 N-000026 )
   ( 2 GND )
  )
  ( /4D7E900D -SO-14 IC1 ATTINY24/44/84-SSU
@@ -168,7 +168,7 @@
   ( 9 /CLOCK )
   ( 10 /ENABLE )
   ( 11 /SWITCHES )
-  ( 12 N-000043 )
+  ( 12 N-000045 )
   ( 13 /RESERVED )
   ( 14 GND )
  )
@@ -187,10 +187,10 @@
   ( 12 /OUT7 )
   ( 13 /ENABLE )
   ( 14 ? )
-  ( 15 N-000061 )
+  ( 15 N-000063 )
   ( 16 VCC )
  )
- ( /4D7232C3 pin_array_3x2 JP1 AVR-ISP-6
+ ( /4D7232C3 pin_array_3x2 JP1 ISP
   ( 1 /DATA_/_MISO )
   ( 2 VCC )
   ( 3 /CLOCK )
@@ -226,6 +226,12 @@
  ( /4D7ED5DF MADW__mounting_hole_3mm P6 CONN_1
   ( 1 GNDPWR )
  )
+ ( /4D7EFB96 MADW__mounting_hole_3mm P7 CONN_1
+  ( 1 GNDPWR )
+ )
+ ( /4D7EFB9A MADW__mounting_hole_3mm P8 CONN_1
+  ( 1 GNDPWR )
+ )
  ( /4D7E944A murata-resonators-CSTLA_T Q1 CSTLA_T
   ( 1 /XTAL1 )
   ( 2 GND )
@@ -241,7 +247,7 @@
  )
  ( /4D7E9C4B -R0805 R3 10k
   ( 1 /SWITCHES )
-  ( 2 N-000010 )
+  ( 2 N-000017 )
  )
  ( /4D7E9C55 -R0805 R4 10k
   ( 1 /SWITCHES )
@@ -252,34 +258,34 @@
   ( 2 N-000018 )
  )
  ( /4D7E9DF2 -R0805 R6 10k
-  ( 1 N-000060 )
-  ( 2 N-000017 )
+  ( 1 N-000016 )
+  ( 2 N-000021 )
  )
  ( /4D7EA001 -R0805 R7 10k
-  ( 1 N-000017 )
-  ( 2 N-000056 )
+  ( 1 N-000021 )
+  ( 2 N-000020 )
  )
  ( /4D7EA007 -R0805 R8 10k
-  ( 1 N-000021 )
-  ( 2 N-000060 )
+  ( 1 N-000027 )
+  ( 2 N-000016 )
  )
  ( /4D7EA004 -R0805 R9 10k
   ( 1 /SWITCHES )
-  ( 2 N-000021 )
+  ( 2 N-000027 )
  )
  ( /4D7EA62E -R0805 R10 1k
-  ( 1 N-000024 )
-  ( 2 N-000043 )
+  ( 1 N-000026 )
+  ( 2 N-000045 )
  )
  ( /4D7E94BE RV2X4 RV1 POT
   ( 1 GND )
-  ( 2 N-000061 )
+  ( 2 N-000063 )
   ( 3 ? )
  )
  ( /4D7E9BEE MADW__LPH_SW SW1 LPH_SW
   ( 1 ? )
   ( 2 GND )
-  ( 3 N-000010 )
+  ( 3 N-000017 )
   ( 4 ? )
  )
  ( /4D7E9BF5 MADW__LPH_SW SW2 LPH_SW
@@ -291,7 +297,7 @@
  ( /4D7E9BE7 MADW__LPH_SW SW3 LPH_SW
   ( 1 ? )
   ( 2 GND )
-  ( 3 N-000056 )
+  ( 3 N-000020 )
   ( 4 ? )
  )
  ( /4D7EADDB -SO8-7_5 U1 7805MS

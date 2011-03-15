@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Tue 15 Mar 2011 04:22:42 AM CET
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Tue 15 Mar 2011 06:42:02 AM CET
 
 BeginCmp
 TimeStamp = /4D7EAC9E;
@@ -290,7 +290,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4D7232C3;
 Reference = JP1;
-ValeurCmp = AVR-ISP-6;
+ValeurCmp = ISP;
 IdModule  = pin_array_3x2;
 EndCmp
 
@@ -332,6 +332,20 @@ EndCmp
 BeginCmp
 TimeStamp = /4D7ED5DF;
 Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EFB96;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EFB9A;
+Reference = P8;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
 EndCmp

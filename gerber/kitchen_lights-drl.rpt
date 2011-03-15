@@ -1,15 +1,15 @@
 Drill report for /black_hole/home/robert/Electronics/Arduino/KiCAD/Projects/_git_/Kitchen_Lights/kitchen_lights.brd
-Created on Tue 15 Mar 2011 06:31:47 AM CET
+Created on Tue 15 Mar 2011 07:35:40 PM CET
 Selected Drill Unit: Imperial (")
 
 Drill report for through holes :
-T1  0.025"  0.64mm  (34 holes)
+T1  0.025"  0.64mm  (24 holes)
 T2  0.032"  0.81mm  (5 holes)
 T3  0.039"  1.00mm  (64 holes)
 T4  0.040"  1.02mm  (30 holes)
 T5  0.050"  1.27mm  (3 holes)
 T6  0.120"  3.05mm  (6 holes)
 
-total holes count 142
+total holes count 132
 
 

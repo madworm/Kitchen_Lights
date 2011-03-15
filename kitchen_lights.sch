@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 15 Mar 2011 06:41:34 AM CET
+EESchema Schematic File Version 2  date Tue 15 Mar 2011 07:48:21 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -51,17 +51,41 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Notes Line
+	2550 6700 550  6700
+Wire Notes Line
+	2550 6700 2550 7600
+Wire Notes Line
+	2550 7600 550  7600
+Wire Notes Line
+	550  7600 550  6700
+Wire Notes Line
+	5300 4150 2600 4150
+Wire Notes Line
+	5300 4150 5300 5300
+Wire Notes Line
+	5300 5300 2600 5300
+Wire Notes Line
+	2600 5300 2600 4150
+Wire Notes Line
+	4050 3200 2600 3200
+Wire Notes Line
+	4050 3200 4050 4100
+Wire Notes Line
+	4050 4100 2600 4100
+Wire Notes Line
+	2600 4100 2600 3200
+Wire Notes Line
+	5300 550  550  550 
+Wire Notes Line
+	5300 550  5300 3150
+Wire Notes Line
+	5300 3150 550  3150
+Wire Notes Line
+	550  3150 550  550 
 Wire Wire Line
 	4700 3800 4750 3800
 Connection ~ 4700 3700
-Wire Notes Line
-	5300 3200 4150 3200
-Wire Notes Line
-	5300 3200 5300 4100
-Wire Notes Line
-	5300 4100 4150 4100
-Wire Notes Line
-	4150 4100 4150 3200
 Connection ~ 4550 3600
 Wire Wire Line
 	4550 3500 4750 3500
@@ -114,16 +138,6 @@ Wire Wire Line
 	4900 4500 4600 4500
 Wire Wire Line
 	2850 5000 3200 5000
-Wire Bus Line
-	5150 3150 5350 3150
-Wire Bus Line
-	5350 3150 5350 550 
-Wire Bus Line
-	5350 550  550  550 
-Wire Bus Line
-	550  550  550  3150
-Wire Bus Line
-	550  3150 5200 3150
 Connection ~ 1150 2450
 Wire Wire Line
 	1150 2400 1150 2450
@@ -155,14 +169,6 @@ Wire Wire Line
 	9550 6150 9650 6150
 Wire Wire Line
 	9550 5850 9650 5850
-Wire Notes Line
-	2550 6700 550  6700
-Wire Notes Line
-	2550 6700 2550 7600
-Wire Notes Line
-	2550 7600 550  7600
-Wire Notes Line
-	550  7600 550  6700
 Wire Wire Line
 	9700 3800 9700 3900
 Wire Wire Line
@@ -365,24 +371,6 @@ Wire Wire Line
 	10100 3900 10100 3800
 Wire Wire Line
 	10500 3800 10500 3900
-Wire Notes Line
-	2600 3250 2600 4100
-Wire Notes Line
-	2600 4100 4100 4100
-Wire Notes Line
-	4100 4100 4100 3200
-Wire Notes Line
-	4100 3200 2600 3200
-Wire Notes Line
-	2600 3200 2600 3300
-Wire Notes Line
-	550  6650 550  3200
-Wire Notes Line
-	550  6650 2550 6650
-Wire Notes Line
-	2550 6650 2550 3200
-Wire Notes Line
-	2550 3200 550  3200
 Wire Wire Line
 	9550 6050 9650 6050
 Wire Wire Line
@@ -399,16 +387,6 @@ Wire Wire Line
 	750  2400 750  2450
 Wire Wire Line
 	750  2450 1350 2450
-Wire Notes Line
-	7250 1600 7250 6450
-Wire Notes Line
-	7250 6450 10750 6450
-Wire Notes Line
-	10750 6450 10750 1500
-Wire Notes Line
-	10750 1500 7250 1500
-Wire Notes Line
-	7250 1500 7250 1650
 Wire Wire Line
 	2850 4500 3200 4500
 Wire Wire Line
@@ -424,14 +402,6 @@ Connection ~ 4650 5000
 Wire Wire Line
 	4900 5100 4900 4900
 Connection ~ 4900 5000
-Wire Notes Line
-	5300 5300 2600 5300
-Wire Notes Line
-	5300 5300 5300 4150
-Wire Notes Line
-	5300 4150 2600 4150
-Wire Notes Line
-	2600 4150 2600 5300
 Wire Wire Line
 	10100 2450 10100 2500
 Wire Wire Line
@@ -468,21 +438,43 @@ Wire Wire Line
 Wire Wire Line
 	4550 3400 4750 3400
 Connection ~ 4550 3500
-Wire Notes Line
-	2600 5400 2600 6750
-Wire Notes Line
-	2600 6750 4350 6750
-Wire Notes Line
-	4350 6750 4350 5350
-Wire Notes Line
-	4350 5350 2600 5350
-Wire Notes Line
-	2600 5350 2600 5450
 Wire Wire Line
 	4700 3700 4700 3900
 Wire Wire Line
 	4700 3900 4750 3900
 Connection ~ 4700 3800
+Wire Notes Line
+	7250 6550 7250 1500
+Wire Notes Line
+	7250 6550 10850 6550
+Wire Notes Line
+	10850 6550 10850 1500
+Wire Notes Line
+	10850 1500 7250 1500
+Wire Notes Line
+	550  6650 550  3200
+Wire Notes Line
+	550  6650 2550 6650
+Wire Notes Line
+	2550 6650 2550 3200
+Wire Notes Line
+	2550 3200 550  3200
+Wire Notes Line
+	4100 4100 4100 3200
+Wire Notes Line
+	4100 4100 5300 4100
+Wire Notes Line
+	5300 4100 5300 3200
+Wire Notes Line
+	5300 3200 4100 3200
+Wire Notes Line
+	2600 6700 2600 5350
+Wire Notes Line
+	2600 6700 4300 6700
+Wire Notes Line
+	4300 6700 4300 5350
+Wire Notes Line
+	4300 5350 2600 5350
 $Comp
 L CONN_1 P8
 U 1 1 4D7EFB9A

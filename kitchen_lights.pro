@@ -1,8 +1,6 @@
-update=Tue 15 Mar 2011 06:49:12 AM CET
+update=Tue 15 Mar 2011 07:36:16 PM CET
 version=1
-last_client=pcbnew
-[general]
-version=1
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -115,3 +113,5 @@ LibName10=dip_sockets
 LibName11=/home/robert/Arduino/KiCAD/my_parts
 LibName12=ref-packages
 LibName13=murata-resonators
+[general]
+version=1

@@ -1,11 +1,8 @@
-update=Tue 15 Mar 2011 07:36:16 PM CET
+update=Tue 15 Mar 2011 08:07:55 PM CET
 version=1
-last_client=kicad
-[cvpcb]
+last_client=pcbnew
+[general]
 version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -72,14 +69,19 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/robert/Arduino/KiCAD/atmega8_168_328_DIP
-LibName32=/home/robert/Arduino/KiCAD/atmega8_168_328_TQFP
-LibName33=/home/robert/Arduino/KiCAD/attiny
-LibName34=/home/robert/Arduino/KiCAD/my_parts
-LibName35=attiny24_44_84
-LibName36=crystal
-LibName37=crystal-epson
-LibName38=murata-resonators
+LibName31=attiny24_44_84
+LibName32=crystal
+LibName33=crystal-epson
+LibName34=murata-resonators
+LibName35=/home/robert/Arduino/KiCAD/LIBS/atmega8_168_328_DIP
+LibName36=/home/robert/Arduino/KiCAD/LIBS/atmega8_168_328_TQFP
+LibName37=/home/robert/Arduino/KiCAD/LIBS/attiny
+LibName38=/home/robert/Arduino/KiCAD/LIBS/my_parts
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=394
@@ -110,8 +112,6 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=/home/robert/Arduino/KiCAD/my_parts
-LibName12=ref-packages
-LibName13=murata-resonators
-[general]
-version=1
+LibName11=ref-packages
+LibName12=murata-resonators
+LibName13=/home/robert/Arduino/KiCAD/LIBS/my_parts

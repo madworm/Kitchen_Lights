@@ -1,8 +1,13 @@
-update=Sat 05 Mar 2011 03:15:06 PM CET
+update=Tue 15 Mar 2011 04:50:24 AM CET
 version=1
 last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -73,16 +78,15 @@ LibName31=/home/robert/Arduino/KiCAD/atmega8_168_328_DIP
 LibName32=/home/robert/Arduino/KiCAD/atmega8_168_328_TQFP
 LibName33=/home/robert/Arduino/KiCAD/attiny
 LibName34=/home/robert/Arduino/KiCAD/my_parts
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName35=attiny24_44_84
+LibName36=crystal
+LibName37=crystal-epson
+LibName38=murata-resonators
 [pcbnew]
 version=1
 PadDrlX=394
-PadDimH=787
-PadDimV=1181
+PadDimH=1000
+PadDimV=1000
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
@@ -110,3 +114,4 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=/home/robert/Arduino/KiCAD/my_parts
 LibName12=ref-packages
+LibName13=murata-resonators

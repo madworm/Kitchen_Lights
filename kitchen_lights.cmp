@@ -1,122 +1,283 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Sat 05 Mar 2011 03:12:42 PM CET
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Tue 15 Mar 2011 04:22:42 AM CET
+
+BeginCmp
+TimeStamp = /4D7EAC9E;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EAC9D;
+Reference = C2;
+ValeurCmp = 10muF;
+IdModule  = -C1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EABFC;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EAC02;
+Reference = C4;
+ValeurCmp = 10muF;
+IdModule  = -C1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EADF3;
+Reference = C5;
+ValeurCmp = 10muF;
+IdModule  = -C1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EAE05;
+Reference = C6;
+ValeurCmp = 10muF;
+IdModule  = -C1206;
+EndCmp
 
 BeginCmp
 TimeStamp = /4D723331;
 Reference = D1;
-ValeurCmp = LED_WW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D723363;
 Reference = D2;
-ValeurCmp = LED_NW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D723367;
 Reference = D3;
-ValeurCmp = LED_WW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D72336A;
 Reference = D4;
-ValeurCmp = LED_NW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D723370;
 Reference = D5;
-ValeurCmp = LED_WW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D723373;
 Reference = D6;
-ValeurCmp = LED_NW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D723376;
 Reference = D7;
-ValeurCmp = LED_WW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D723379;
 Reference = D8;
-ValeurCmp = LED_NW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7233F3;
 Reference = D9;
-ValeurCmp = LED_WW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7233F2;
 Reference = D10;
-ValeurCmp = LED_NW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7233F1;
 Reference = D11;
-ValeurCmp = LED_WW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7233F0;
 Reference = D12;
-ValeurCmp = LED_NW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7233EF;
 Reference = D13;
-ValeurCmp = LED_WW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7233EE;
 Reference = D14;
-ValeurCmp = LED_NW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7233ED;
 Reference = D15;
-ValeurCmp = LED_WW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7233EC;
 Reference = D16;
-ValeurCmp = LED_NW;
+ValeurCmp = LED;
 IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D723139;
+TimeStamp = /4D7EA5E3;
+Reference = D17;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5E2;
+Reference = D18;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5E1;
+Reference = D19;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5E0;
+Reference = D20;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5DF;
+Reference = D21;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5DE;
+Reference = D22;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5DD;
+Reference = D23;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5DC;
+Reference = D24;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5D4;
+Reference = D25;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5D5;
+Reference = D26;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5D6;
+Reference = D27;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5D7;
+Reference = D28;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5D8;
+Reference = D29;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5D9;
+Reference = D30;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5DA;
+Reference = D31;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA5DB;
+Reference = D32;
+ValeurCmp = LED;
+IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA61F;
+Reference = D33;
+ValeurCmp = LED;
+IdModule  = LEDV;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E900D;
 Reference = IC1;
-ValeurCmp = ATtiny2313/4313;
-IdModule  = -SO20-2;
+ValeurCmp = ATTINY24/44/84-SSU;
+IdModule  = -SO-14;
 EndCmp
 
 BeginCmp
@@ -127,17 +288,164 @@ IdModule  = MADW__SO16;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D72328C;
-Reference = IC3;
-ValeurCmp = MBI5168;
-IdModule  = MADW__SO16;
-EndCmp
-
-BeginCmp
 TimeStamp = /4D7232C3;
 Reference = JP1;
 ValeurCmp = AVR-ISP-6;
 IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7ED1A8;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7ED1AE;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7ED5D4;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7ED5D9;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7ED5DC;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7ED5DF;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E944A;
+Reference = Q1;
+ValeurCmp = CSTLA_T;
+IdModule  = murata-resonators-CSTLA_T;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E9CFF;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E9C92;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E9C4B;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E9C55;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E9FFD;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E9DF2;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA001;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA007;
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA004;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EA62E;
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E94BE;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = RV2X4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E9BEE;
+Reference = SW1;
+ValeurCmp = LPH_SW;
+IdModule  = MADW__LPH_SW;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E9BF5;
+Reference = SW2;
+ValeurCmp = LPH_SW;
+IdModule  = MADW__LPH_SW;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7E9BE7;
+Reference = SW3;
+ValeurCmp = LPH_SW;
+IdModule  = MADW__LPH_SW;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7EADDB;
+Reference = U1;
+ValeurCmp = 7805MS;
+IdModule  = -SO8-7_5;
 EndCmp
 
 EndListe

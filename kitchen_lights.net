@@ -1,138 +1,340 @@
-# EESchema Netlist Version 1.1 created  Sat 05 Mar 2011 03:12:42 PM CET
+# EESchema Netlist Version 1.1 created  Tue 15 Mar 2011 04:22:42 AM CET
 (
- ( /4D723331 MADW__TOPBRIGHT_STRAW_HAT D1 LED_WW
-  ( 1 /V_LED )
-  ( 2 /D1_OUT0 )
+ ( /4D7EAC9E -C0805 C1 100nF
+  ( 1 VCC )
+  ( 2 GND )
  )
- ( /4D723363 MADW__TOPBRIGHT_STRAW_HAT D2 LED_NW
-  ( 1 /V_LED )
-  ( 2 /D1_OUT4 )
+ ( /4D7EAC9D -C1206 C2 10muF
+  ( 1 VCC )
+  ( 2 GND )
  )
- ( /4D723367 MADW__TOPBRIGHT_STRAW_HAT D3 LED_WW
-  ( 1 /V_LED )
-  ( 2 /D1_OUT1 )
+ ( /4D7EABFC -C0805 C3 100nF
+  ( 1 VCC )
+  ( 2 GNDPWR )
  )
- ( /4D72336A MADW__TOPBRIGHT_STRAW_HAT D4 LED_NW
-  ( 1 /V_LED )
-  ( 2 /D1_OUT5 )
+ ( /4D7EAC02 -C1206 C4 10muF
+  ( 1 VCC )
+  ( 2 GNDPWR )
  )
- ( /4D723370 MADW__TOPBRIGHT_STRAW_HAT D5 LED_WW
+ ( /4D7EADF3 -C1206 C5 10muF
   ( 1 /V_LED )
-  ( 2 /D1_OUT2 )
+  ( 2 GNDPWR )
  )
- ( /4D723373 MADW__TOPBRIGHT_STRAW_HAT D6 LED_NW
+ ( /4D7EAE05 -C1206 C6 10muF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4D723331 MADW__TOPBRIGHT_STRAW_HAT D1 LED
   ( 1 /V_LED )
-  ( 2 /D1_OUT6 )
+  ( 2 N-000045 )
  )
- ( /4D723376 MADW__TOPBRIGHT_STRAW_HAT D7 LED_WW
+ ( /4D723363 MADW__TOPBRIGHT_STRAW_HAT D2 LED
+  ( 1 N-000045 )
+  ( 2 N-000044 )
+ )
+ ( /4D723367 MADW__TOPBRIGHT_STRAW_HAT D3 LED
+  ( 1 N-000044 )
+  ( 2 N-000046 )
+ )
+ ( /4D72336A MADW__TOPBRIGHT_STRAW_HAT D4 LED
+  ( 1 N-000046 )
+  ( 2 /OUT0 )
+ )
+ ( /4D723370 MADW__TOPBRIGHT_STRAW_HAT D5 LED
   ( 1 /V_LED )
-  ( 2 /D1_OUT3 )
+  ( 2 N-000028 )
  )
- ( /4D723379 MADW__TOPBRIGHT_STRAW_HAT D8 LED_NW
+ ( /4D723373 MADW__TOPBRIGHT_STRAW_HAT D6 LED
+  ( 1 N-000028 )
+  ( 2 N-000029 )
+ )
+ ( /4D723376 MADW__TOPBRIGHT_STRAW_HAT D7 LED
+  ( 1 N-000029 )
+  ( 2 N-000031 )
+ )
+ ( /4D723379 MADW__TOPBRIGHT_STRAW_HAT D8 LED
+  ( 1 N-000031 )
+  ( 2 /OUT1 )
+ )
+ ( /4D7233F3 MADW__TOPBRIGHT_STRAW_HAT D9 LED
   ( 1 /V_LED )
-  ( 2 /D1_OUT7 )
+  ( 2 N-000039 )
  )
- ( /4D7233F3 MADW__TOPBRIGHT_STRAW_HAT D9 LED_WW
+ ( /4D7233F2 MADW__TOPBRIGHT_STRAW_HAT D10 LED
+  ( 1 N-000039 )
+  ( 2 N-000038 )
+ )
+ ( /4D7233F1 MADW__TOPBRIGHT_STRAW_HAT D11 LED
+  ( 1 N-000038 )
+  ( 2 N-000037 )
+ )
+ ( /4D7233F0 MADW__TOPBRIGHT_STRAW_HAT D12 LED
+  ( 1 N-000037 )
+  ( 2 /OUT2 )
+ )
+ ( /4D7233EF MADW__TOPBRIGHT_STRAW_HAT D13 LED
   ( 1 /V_LED )
-  ( 2 /D2_OUT0 )
+  ( 2 N-000035 )
  )
- ( /4D7233F2 MADW__TOPBRIGHT_STRAW_HAT D10 LED_NW
+ ( /4D7233EE MADW__TOPBRIGHT_STRAW_HAT D14 LED
+  ( 1 N-000035 )
+  ( 2 N-000034 )
+ )
+ ( /4D7233ED MADW__TOPBRIGHT_STRAW_HAT D15 LED
+  ( 1 N-000034 )
+  ( 2 N-000033 )
+ )
+ ( /4D7233EC MADW__TOPBRIGHT_STRAW_HAT D16 LED
+  ( 1 N-000033 )
+  ( 2 /OUT3 )
+ )
+ ( /4D7EA5E3 MADW__TOPBRIGHT_STRAW_HAT D17 LED
   ( 1 /V_LED )
-  ( 2 /D2_OUT4 )
+  ( 2 N-000023 )
  )
- ( /4D7233F1 MADW__TOPBRIGHT_STRAW_HAT D11 LED_WW
+ ( /4D7EA5E2 MADW__TOPBRIGHT_STRAW_HAT D18 LED
+  ( 1 N-000023 )
+  ( 2 N-000022 )
+ )
+ ( /4D7EA5E1 MADW__TOPBRIGHT_STRAW_HAT D19 LED
+  ( 1 N-000022 )
+  ( 2 N-000016 )
+ )
+ ( /4D7EA5E0 MADW__TOPBRIGHT_STRAW_HAT D20 LED
+  ( 1 N-000016 )
+  ( 2 /OUT4 )
+ )
+ ( /4D7EA5DF MADW__TOPBRIGHT_STRAW_HAT D21 LED
   ( 1 /V_LED )
-  ( 2 /D2_OUT1 )
+  ( 2 N-000009 )
  )
- ( /4D7233F0 MADW__TOPBRIGHT_STRAW_HAT D12 LED_NW
+ ( /4D7EA5DE MADW__TOPBRIGHT_STRAW_HAT D22 LED
+  ( 1 N-000009 )
+  ( 2 N-000008 )
+ )
+ ( /4D7EA5DD MADW__TOPBRIGHT_STRAW_HAT D23 LED
+  ( 1 N-000008 )
+  ( 2 N-000007 )
+ )
+ ( /4D7EA5DC MADW__TOPBRIGHT_STRAW_HAT D24 LED
+  ( 1 N-000007 )
+  ( 2 /OUT5 )
+ )
+ ( /4D7EA5D4 MADW__TOPBRIGHT_STRAW_HAT D25 LED
   ( 1 /V_LED )
-  ( 2 /D2_OUT5 )
+  ( 2 N-000001 )
  )
- ( /4D7233EF MADW__TOPBRIGHT_STRAW_HAT D13 LED_WW
+ ( /4D7EA5D5 MADW__TOPBRIGHT_STRAW_HAT D26 LED
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+ ( /4D7EA5D6 MADW__TOPBRIGHT_STRAW_HAT D27 LED
+  ( 1 N-000002 )
+  ( 2 N-000003 )
+ )
+ ( /4D7EA5D7 MADW__TOPBRIGHT_STRAW_HAT D28 LED
+  ( 1 N-000003 )
+  ( 2 /OUT6 )
+ )
+ ( /4D7EA5D8 MADW__TOPBRIGHT_STRAW_HAT D29 LED
   ( 1 /V_LED )
-  ( 2 /D2_OUT2 )
+  ( 2 N-000004 )
  )
- ( /4D7233EE MADW__TOPBRIGHT_STRAW_HAT D14 LED_NW
-  ( 1 /V_LED )
-  ( 2 /D2_OUT6 )
+ ( /4D7EA5D9 MADW__TOPBRIGHT_STRAW_HAT D30 LED
+  ( 1 N-000004 )
+  ( 2 N-000005 )
  )
- ( /4D7233ED MADW__TOPBRIGHT_STRAW_HAT D15 LED_WW
-  ( 1 /V_LED )
-  ( 2 /D2_OUT3 )
+ ( /4D7EA5DA MADW__TOPBRIGHT_STRAW_HAT D31 LED
+  ( 1 N-000005 )
+  ( 2 N-000006 )
  )
- ( /4D7233EC MADW__TOPBRIGHT_STRAW_HAT D16 LED_NW
-  ( 1 /V_LED )
-  ( 2 /D2_OUT7 )
+ ( /4D7EA5DB MADW__TOPBRIGHT_STRAW_HAT D32 LED
+  ( 1 N-000006 )
+  ( 2 /OUT7 )
  )
- ( /4D723139 -SO20-2 IC1 ATtiny2313/4313
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
+ ( /4D7EA61F LEDV D33 LED
+  ( 1 N-000024 )
+  ( 2 GND )
+ )
+ ( /4D7E900D -SO-14 IC1 ATTINY24/44/84-SSU
+  ( 1 VCC )
+  ( 2 /XTAL1 )
+  ( 3 /XTAL2 )
+  ( 4 /RESET )
   ( 5 ? )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 ? )
-  ( 13 ? )
-  ( 14 ? )
-  ( 15 ? )
-  ( 16 ? )
-  ( 17 ? )
-  ( 18 ? )
-  ( 19 ? )
-  ( 20 ? )
+  ( 6 /LATCH )
+  ( 7 /MOSI )
+  ( 8 /DATA_/_MISO )
+  ( 9 /CLOCK )
+  ( 10 /ENABLE )
+  ( 11 /SWITCHES )
+  ( 12 N-000043 )
+  ( 13 /RESERVED )
+  ( 14 GND )
  )
  ( /4D723286 MADW__SO16 IC2 MBI5168
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 /D1_OUT0 )
-  ( 6 /D1_OUT1 )
-  ( 7 /D1_OUT2 )
-  ( 8 /D1_OUT3 )
-  ( 9 /D1_OUT4 )
-  ( 10 /D1_OUT5 )
-  ( 11 /D1_OUT6 )
-  ( 12 /D1_OUT7 )
-  ( 13 ? )
+  ( 1 GNDPWR )
+  ( 2 /DATA_/_MISO )
+  ( 3 /CLOCK )
+  ( 4 /LATCH )
+  ( 5 /OUT0 )
+  ( 6 /OUT1 )
+  ( 7 /OUT2 )
+  ( 8 /OUT3 )
+  ( 9 /OUT4 )
+  ( 10 /OUT5 )
+  ( 11 /OUT6 )
+  ( 12 /OUT7 )
+  ( 13 /ENABLE )
   ( 14 ? )
-  ( 15 ? )
-  ( 16 ? )
- )
- ( /4D72328C MADW__SO16 IC3 MBI5168
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 /D2_OUT0 )
-  ( 6 /D2_OUT1 )
-  ( 7 /D2_OUT2 )
-  ( 8 /D2_OUT3 )
-  ( 9 /D2_OUT4 )
-  ( 10 /D2_OUT5 )
-  ( 11 /D2_OUT6 )
-  ( 12 /D2_OUT7 )
-  ( 13 ? )
-  ( 14 ? )
-  ( 15 ? )
-  ( 16 ? )
+  ( 15 N-000061 )
+  ( 16 VCC )
  )
  ( /4D7232C3 pin_array_3x2 JP1 AVR-ISP-6
-  ( 1 ? )
-  ( 2 ? )
+  ( 1 /DATA_/_MISO )
+  ( 2 VCC )
+  ( 3 /CLOCK )
+  ( 4 /MOSI )
+  ( 5 /RESET )
+  ( 6 GND )
+ )
+ ( /4D7ED1A8 PIN_ARRAY-6X1 P1 CONN_6
+  ( 1 /SWITCHES )
+  ( 2 /RESERVED )
+  ( 3 /V_LED )
+  ( 4 /V_LED )
+  ( 5 GNDPWR )
+  ( 6 GNDPWR )
+ )
+ ( /4D7ED1AE PIN_ARRAY-6X1 P2 CONN_6
+  ( 1 /SWITCHES )
+  ( 2 /RESERVED )
+  ( 3 /V_LED )
+  ( 4 /V_LED )
+  ( 5 GNDPWR )
+  ( 6 GNDPWR )
+ )
+ ( /4D7ED5D4 MADW__mounting_hole_3mm P3 CONN_1
+  ( 1 GNDPWR )
+ )
+ ( /4D7ED5D9 MADW__mounting_hole_3mm P4 CONN_1
+  ( 1 GNDPWR )
+ )
+ ( /4D7ED5DC MADW__mounting_hole_3mm P5 CONN_1
+  ( 1 GNDPWR )
+ )
+ ( /4D7ED5DF MADW__mounting_hole_3mm P6 CONN_1
+  ( 1 GNDPWR )
+ )
+ ( /4D7E944A murata-resonators-CSTLA_T Q1 CSTLA_T
+  ( 1 /XTAL1 )
+  ( 2 GND )
+  ( 3 /XTAL2 )
+ )
+ ( /4D7E9CFF -R0805 R1 10k
+  ( 1 VCC )
+  ( 2 /RESET )
+ )
+ ( /4D7E9C92 -R0805 R2 10k
+  ( 1 VCC )
+  ( 2 /SWITCHES )
+ )
+ ( /4D7E9C4B -R0805 R3 10k
+  ( 1 /SWITCHES )
+  ( 2 N-000010 )
+ )
+ ( /4D7E9C55 -R0805 R4 10k
+  ( 1 /SWITCHES )
+  ( 2 N-000019 )
+ )
+ ( /4D7E9FFD -R0805 R5 10k
+  ( 1 N-000019 )
+  ( 2 N-000018 )
+ )
+ ( /4D7E9DF2 -R0805 R6 10k
+  ( 1 N-000060 )
+  ( 2 N-000017 )
+ )
+ ( /4D7EA001 -R0805 R7 10k
+  ( 1 N-000017 )
+  ( 2 N-000056 )
+ )
+ ( /4D7EA007 -R0805 R8 10k
+  ( 1 N-000021 )
+  ( 2 N-000060 )
+ )
+ ( /4D7EA004 -R0805 R9 10k
+  ( 1 /SWITCHES )
+  ( 2 N-000021 )
+ )
+ ( /4D7EA62E -R0805 R10 1k
+  ( 1 N-000024 )
+  ( 2 N-000043 )
+ )
+ ( /4D7E94BE RV2X4 RV1 POT
+  ( 1 GND )
+  ( 2 N-000061 )
   ( 3 ? )
+ )
+ ( /4D7E9BEE MADW__LPH_SW SW1 LPH_SW
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 N-000010 )
   ( 4 ? )
-  ( 5 ? )
-  ( 6 ? )
+ )
+ ( /4D7E9BF5 MADW__LPH_SW SW2 LPH_SW
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 N-000018 )
+  ( 4 ? )
+ )
+ ( /4D7E9BE7 MADW__LPH_SW SW3 LPH_SW
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 N-000056 )
+  ( 4 ? )
+ )
+ ( /4D7EADDB -SO8-7_5 U1 7805MS
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 GND )
+  ( 6 GNDPWR )
+  ( 7 GNDPWR )
+  ( 8 /V_LED )
  )
 )
 *
 { Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
 $component D1
  LED-3MM
  LED-5MM
@@ -276,6 +478,219 @@ $component D16
  LED-0805
  LED-1206
  LEDV
+$endlist
+$component D17
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D18
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D19
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D20
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D21
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D22
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D23
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D24
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D25
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D26
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D27
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D28
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D29
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D30
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D31
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D32
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D33
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
 $endlist
 $endfootprintlist
 }

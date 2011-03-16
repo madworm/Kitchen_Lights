@@ -1,8 +1,6 @@
-update=Tue 15 Mar 2011 08:07:55 PM CET
+update=Wed 16 Mar 2011 01:38:46 AM CET
 version=1
-last_client=pcbnew
-[general]
-version=1
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -115,3 +113,5 @@ LibName10=dip_sockets
 LibName11=ref-packages
 LibName12=murata-resonators
 LibName13=/home/robert/Arduino/KiCAD/LIBS/my_parts
+[general]
+version=1

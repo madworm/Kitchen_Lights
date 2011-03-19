@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Tue 15 Mar 2011 06:43:03 PM CET
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Sun 20 Mar 2011 12:32:30 AM CET
 
 BeginCmp
 TimeStamp = /4D7EAC9E;
@@ -288,6 +288,13 @@ IdModule  = MADW__SO16;
 EndCmp
 
 BeginCmp
+TimeStamp = /4D7EADDB;
+Reference = IC3;
+ValeurCmp = 7805MS;
+IdModule  = -SO-08;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D7232C3;
 Reference = JP1;
 ValeurCmp = ISP;
@@ -351,10 +358,45 @@ IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7E944A;
-Reference = Q1;
-ValeurCmp = CSTLA_T;
-IdModule  = murata-resonators-CSTLA_T;
+TimeStamp = /4D84F420;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D84F423;
+Reference = P10;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D84E510;
+Reference = P11;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D84E524;
+Reference = P12;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D84E527;
+Reference = P13;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D84E6B1;
+Reference = P14;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
@@ -453,13 +495,6 @@ TimeStamp = /4D7E9BE7;
 Reference = SW3;
 ValeurCmp = LPH_SW;
 IdModule  = MADW__LPH_SW;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7EADDB;
-Reference = U1;
-ValeurCmp = 7805MS;
-IdModule  = -SO8-7_5;
 EndCmp
 
 EndListe

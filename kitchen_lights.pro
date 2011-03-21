@@ -1,4 +1,4 @@
-update=Sun 20 Mar 2011 01:08:20 AM CET
+update=Mon 21 Mar 2011 07:44:19 PM CET
 version=1
 last_client=pcbnew
 [eeschema]
@@ -94,7 +94,7 @@ TxtPcbH=600
 TxtModV=600
 TxtModH=600
 TxtModW=120
-VEgarde=100
+VEgarde=40
 DrawLar=150
 EdgeLar=150
 TxtLar=120

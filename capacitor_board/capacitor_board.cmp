@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Sun 24 Apr 2011 11:44:28 PM CEST
+
+BeginCmp
+TimeStamp = /4DB48B95;
+Reference = C1;
+ValeurCmp = 2200µF;
+IdModule  = MADW__elko_16.5mm_RM7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7ED1A8;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7ED1AE;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB48D4C;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB48D4F;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB48D52;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB48D55;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+EndListe

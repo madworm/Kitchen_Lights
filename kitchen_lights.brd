@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Wed 04 May 2011 07:28:05 PM CEST
+PCBNEW-BOARD Version 1 date Wed 04 May 2011 07:45:53 PM CEST
 
 # Created by Pcbnew(2010-04-21 BZR 23xx)-stable
 
@@ -19,10 +19,10 @@ $EndGENERAL
 
 $SHEETDESCR
 Sheet A3 16535 11700
-Title ""
+Title "BestKitchenLightsEver(tm)"
 Date "4 may 2011"
-Rev ""
-Comp ""
+Rev "1.01"
+Comp "My 2µF Blog"
 Comment1 ""
 Comment2 ""
 Comment3 ""

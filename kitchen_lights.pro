@@ -1,6 +1,6 @@
-update=Wed 04 May 2011 07:36:19 PM CEST
+update=Wed 04 May 2011 07:46:03 PM CEST
 version=1
-last_client=pcbnew
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -80,8 +80,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 PadDrlX=394
@@ -115,3 +113,5 @@ LibName10=dip_sockets
 LibName11=ref-packages
 LibName12=murata-resonators
 LibName13=/home/robert/Arduino/KiCAD/LIBS/my_parts
+[general]
+version=1

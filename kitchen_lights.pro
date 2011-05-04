@@ -1,4 +1,4 @@
-update=Mon 21 Mar 2011 07:44:19 PM CET
+update=Wed 04 May 2011 07:36:19 PM CEST
 version=1
 last_client=pcbnew
 [eeschema]
@@ -98,7 +98,7 @@ VEgarde=40
 DrawLar=150
 EdgeLar=150
 TxtLar=120
-MSegLar=150
+MSegLar=120
 LastNetListRead=kitchen_lights.net
 [pcbnew/libraries]
 LibDir=

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Sun 20 Mar 2011 12:32:30 AM CET
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Wed 04 May 2011 06:23:24 PM CEST
 
 BeginCmp
 TimeStamp = /4D7EAC9E;
@@ -40,6 +40,20 @@ TimeStamp = /4D7EAE05;
 Reference = C6;
 ValeurCmp = 10muF;
 IdModule  = -C1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC14BAC;
+Reference = C7;
+ValeurCmp = 2.2mF;
+IdModule  = MADW__elko_16.5mm_RM7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC14BB0;
+Reference = C8;
+ValeurCmp = 2.2mF;
+IdModule  = MADW__elko_16.5mm_RM7.62mm;
 EndCmp
 
 BeginCmp
@@ -302,99 +316,92 @@ IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7ED1A8;
-Reference = P1;
-ValeurCmp = CONN_6;
-IdModule  = PIN_ARRAY-6X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7ED1AE;
-Reference = P2;
-ValeurCmp = CONN_6;
-IdModule  = PIN_ARRAY-6X1;
-EndCmp
-
-BeginCmp
 TimeStamp = /4D7ED5D4;
-Reference = P3;
+Reference = MH0;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7ED5D9;
-Reference = P4;
+Reference = MH1;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7ED5DC;
-Reference = P5;
+Reference = MH2;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7ED5DF;
-Reference = P6;
+Reference = MH3;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7EFB96;
-Reference = P7;
+Reference = MH4;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7EFB9A;
-Reference = P8;
+Reference = MH5;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D84F420;
-Reference = P9;
+Reference = MH6;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D84F423;
-Reference = P10;
+Reference = MH7;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D84E510;
-Reference = P11;
-ValeurCmp = CONN_6;
-IdModule  = PIN_ARRAY-6X1;
+TimeStamp = /4DC1364B;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = MADW__SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC13669;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = MADW__SIL-8;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D84E524;
-Reference = P12;
+Reference = P4;
 ValeurCmp = CONN_6;
 IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D84E527;
-Reference = P13;
+Reference = P5;
 ValeurCmp = CONN_6;
 IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D84E6B1;
-Reference = P14;
+Reference = P6;
 ValeurCmp = CONN_6;
 IdModule  = PIN_ARRAY-6X1;
 EndCmp
@@ -472,7 +479,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4D7E94BE;
 Reference = RV1;
-ValeurCmp = POT;
+ValeurCmp = I_REF;
 IdModule  = RV2X4;
 EndCmp
 

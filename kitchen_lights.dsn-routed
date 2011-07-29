@@ -30,7 +30,7 @@
     (rule
       (width 6.0)
       (clear 6.2)
-      (clear 3.0 (type smd_to_turn_gap))
+      (clear -0.1 (type smd_to_turn_gap))
       (clear 10.2 (type default_GNDPWR))
       (clear 10.2 (type default_"LED_GND"))
       (clear 10.2 (type default_"V_LED"))
@@ -62,7 +62,7 @@
       (via_costs 50)
       (plane_via_costs 5)
       (start_ripup_costs 100)
-      (start_pass_no 645)
+      (start_pass_no 3575)
       (layer_rule Front
         (active on)
         (preferred_direction horizontal)
@@ -80,12 +80,12 @@
   (placement
     (component "pin_array_3x2"
       (place 
-        JP1 7580.0 -5540.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
+        JP1 8210.0 -5570.0 front 180
+        (pin 1 (clearance_class "LED_GND"))
         (pin 2 (clearance_class "kicad_default"))
         (pin 3 (clearance_class "kicad_default"))
         (pin 4 (clearance_class "kicad_default"))
-        (pin 5 (clearance_class "kicad_default"))
+        (pin 5 (clearance_class "LED_GND"))
         (pin 6 (clearance_class "kicad_default"))
       )
     )
@@ -253,52 +253,12 @@
     )
     (component "-R0805"
       (place 
-        R9 8520.0 -5240.0 back 270
-        (pin 1 (clearance_class "kicad_default"))
+        R1 8470.0 -5250.0 front 90
+        (pin 1 (clearance_class "LED_GND"))
         (pin 2 (clearance_class "kicad_default"))
       )
       (place 
-        R8 8690.0 -5240.0 back 90
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R7 8780.0 -5240.0 back 90
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R6 8950.0 -5240.0 back 270
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R5 8240.0 -5240.0 back 90
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R4 8150.0 -5240.0 back 270
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R3 7700.0 -5240.0 back 270
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R2 7610.0 -5240.0 back 270
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R1 7570.0 -6070.0 back 180
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R10 7440.0 -5240.0 back 90
+        R10 7440.0 -5240.0 front 90
         (pin 1 (clearance_class "kicad_default"))
         (pin 2 (clearance_class "kicad_default"))
       )
@@ -307,21 +267,21 @@
       (place 
         SW3 8740.0 -5250.0 front 0
         (pin 1 (clearance_class default))
-        (pin 2 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "LED_GND"))
         (pin 3 (clearance_class "kicad_default"))
         (pin 4 (clearance_class default))
       )
       (place 
         SW2 8200.0 -5250.0 front 0
         (pin 1 (clearance_class default))
-        (pin 2 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "LED_GND"))
         (pin 3 (clearance_class "kicad_default"))
         (pin 4 (clearance_class default))
       )
       (place 
         SW1 7660.0 -5250.0 front 0
         (pin 1 (clearance_class default))
-        (pin 2 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "LED_GND"))
         (pin 3 (clearance_class "kicad_default"))
         (pin 4 (clearance_class default))
       )
@@ -330,49 +290,49 @@
       (place 
         D33 7930.0 -5240.0 front 180
         (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "LED_GND"))
       )
     )
     (component "-C0805"
       (place 
-        C3 8200.0 -6160.0 back 270
-        (pin 1 (clearance_class "kicad_default"))
+        C3 8300.0 -5770.0 front 0
+        (pin 1 (clearance_class "LED_GND"))
         (pin 2 (clearance_class GNDPWR))
       )
       (place 
-        C1 7570.0 -5820.0 back 180
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
+        C1 8000.0 -5570.0 front 90
+        (pin 1 (clearance_class "LED_GND"))
+        (pin 2 (clearance_class "LED_GND"))
       )
     )
     (component "-C1206"
       (place 
-        C6 8200.0 -5580.0 back 270
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
+        C6 9000.0 -5570.0 front 90
+        (pin 1 (clearance_class "LED_GND"))
+        (pin 2 (clearance_class "LED_GND"))
       )
       (place 
-        C5 7920.0 -5600.0 front 90
+        C5 8560.0 -5570.0 front 90
         (pin 1 (clearance_class "V_LED"))
         (pin 2 (clearance_class GNDPWR))
       )
       (place 
-        C4 8200.0 -5970.0 back 90
-        (pin 1 (clearance_class "kicad_default"))
+        C4 8110.0 -5770.0 front 180
+        (pin 1 (clearance_class "LED_GND"))
         (pin 2 (clearance_class GNDPWR))
       )
       (place 
-        C2 7570.0 -5950.0 back 180
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
+        C2 8460.0 -5570.0 front 270
+        (pin 1 (clearance_class "LED_GND"))
+        (pin 2 (clearance_class "LED_GND"))
       )
     )
     (component RV2X4
       (place 
-        RV1 8710.0 -5780.0 front 180
+        RV1 8710.0 -5910.0 front 180
         (pin 1 (clearance_class default))
         (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class "LED_GND"))
       )
     )
     (component "MADW__SO16"
@@ -393,49 +353,49 @@
         (pin 13 (clearance_class "kicad_default"))
         (pin 14 (clearance_class smd))
         (pin 15 (clearance_class "kicad_default"))
-        (pin 16 (clearance_class "kicad_default"))
+        (pin 16 (clearance_class "LED_GND"))
       )
     )
     (component "MADW__mounting_hole_3mm"
       (place 
         MH0 3650.0 -5200.0 front 0
-        (pin 1 (clearance_class GNDPWR))
+        (pin 1 (clearance_class default))
       )
       (place 
         MH7 12750.0 -6150.0 front 0
-        (pin 1 (clearance_class GNDPWR))
+        (pin 1 (clearance_class default))
       )
       (place 
         MH6 12750.0 -5200.0 front 0
-        (pin 1 (clearance_class GNDPWR))
+        (pin 1 (clearance_class default))
       )
       (place 
         MH5 9550.0 -6150.0 front 0
-        (pin 1 (clearance_class GNDPWR))
+        (pin 1 (clearance_class default))
       )
       (place 
         MH4 9550.0 -5200.0 front 0
-        (pin 1 (clearance_class GNDPWR))
+        (pin 1 (clearance_class default))
       )
       (place 
         MH3 6850.0 -6150.0 front 0
-        (pin 1 (clearance_class GNDPWR))
+        (pin 1 (clearance_class default))
       )
       (place 
         MH2 6850.0 -5200.0 front 0
-        (pin 1 (clearance_class GNDPWR))
+        (pin 1 (clearance_class default))
       )
       (place 
         MH1 3650.0 -6150.0 front 0
-        (pin 1 (clearance_class GNDPWR))
+        (pin 1 (clearance_class default))
       )
     )
     (component "-SO-08"
       (place 
-        IC3 8200.0 -5580.0 front 90
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
+        IC3 8780.0 -5570.0 front 90
+        (pin 1 (clearance_class "LED_GND"))
+        (pin 2 (clearance_class "LED_GND"))
+        (pin 3 (clearance_class "LED_GND"))
         (pin 4 (clearance_class smd))
         (pin 5 (clearance_class smd))
         (pin 6 (clearance_class GNDPWR))
@@ -457,7 +417,7 @@
     )
     (component "-SO-20DW"
       (place 
-        IC1 7580.0 -5980.0 front 90
+        IC1 7660.0 -5730.0 front 270
         (pin 1 (clearance_class "kicad_default"))
         (pin 2 (clearance_class "kicad_default"))
         (pin 3 (clearance_class "kicad_default"))
@@ -467,7 +427,7 @@
         (pin 7 (clearance_class "kicad_default"))
         (pin 8 (clearance_class "kicad_default"))
         (pin 9 (clearance_class "kicad_default"))
-        (pin 10 (clearance_class "kicad_default"))
+        (pin 10 (clearance_class "LED_GND"))
         (pin 11 (clearance_class "kicad_default"))
         (pin 12 (clearance_class "kicad_default"))
         (pin 13 (clearance_class "kicad_default"))
@@ -477,7 +437,7 @@
         (pin 17 (clearance_class "kicad_default"))
         (pin 18 (clearance_class "kicad_default"))
         (pin 19 (clearance_class "kicad_default"))
-        (pin 20 (clearance_class "kicad_default"))
+        (pin 20 (clearance_class "LED_GND"))
       )
     )
     (component "pin_array_8x2"
@@ -4830,14 +4790,6 @@
         SW3-3
       )
     )
-    (net /SWITCHES 1
-      (pins
-        R2-2
-        R3-1
-        R4-1
-        R9-1
-      )
-    )
     (net /TXO 1
       (pins
         P1-2
@@ -4891,213 +4843,166 @@
         C8-2
         IC3-7
         IC3-6
-        MH1-1
-        MH2-1
-        MH3-1
-        MH4-1
-        MH5-1
-        MH6-1
-        MH7-1
-        MH0-1
         IC2-1
         C4-2
         C5-2
         C3-2
       )
     )
-    (net "N-000004" 1
-      (pins
-        D19-1
-        D18-2
-      )
-    )
-    (net "N-000005" 1
-      (pins
-        D18-1
-        D17-2
-      )
-    )
-    (net "N-000006" 1
-      (pins
-        D33-1
-        R10-1
-      )
-    )
-    (net "N-000010" 1
-      (pins
-        R8-1
-        R9-2
-      )
-    )
-    (net "N-000011" 1
-      (pins
-        R7-2
-      )
-    )
-    (net "N-000019" 1
-      (pins
-        D7-1
-        D6-2
-      )
-    )
-    (net "N-000021" 1
-      (pins
-        D8-1
-        D7-2
-      )
-    )
-    (net "N-000023" 1
-      (pins
-        D15-2
-        D16-1
-      )
-    )
-    (net "N-000024" 1
-      (pins
-        D15-1
-        D14-2
-      )
-    )
-    (net "N-000025" 1
-      (pins
-        D14-1
-        D13-2
-      )
-    )
-    (net "N-000027" 1
-      (pins
-        D12-1
-        D11-2
-      )
-    )
-    (net "N-000028" 1
-      (pins
-        D11-1
-        D10-2
-      )
-    )
-    (net "N-000029" 1
-      (pins
-        D10-1
-        D9-2
-      )
-    )
-    (net "N-000035" 1
-      (pins
-        D2-1
-        D1-2
-      )
-    )
-    (net "N-000036" 1
-      (pins
-        D3-1
-        D2-2
-      )
-    )
-    (net "N-000038" 1
-      (pins
-        D4-1
-        D3-2
-      )
-    )
-    (net "N-000039" 1
-      (pins
-        D6-1
-        D5-2
-      )
-    )
-    (net "N-000040" 1
-      (pins
-        D25-2
-        D26-1
-      )
-    )
-    (net "N-000041" 1
-      (pins
-        D26-2
-        D27-1
-      )
-    )
-    (net "N-000043" 1
-      (pins
-        D27-2
-        D28-1
-      )
-    )
-    (net "N-000045" 1
-      (pins
-        D29-2
-        D30-1
-      )
-    )
-    (net "N-000046" 1
-      (pins
-        D30-2
-        D31-1
-      )
-    )
-    (net "N-000048" 1
-      (pins
-        D31-2
-        D32-1
-      )
-    )
-    (net "N-000050" 1
-      (pins
-        D24-1
-        D23-2
-      )
-    )
-    (net "N-000051" 1
-      (pins
-        D23-1
-        D22-2
-      )
-    )
-    (net "N-000052" 1
-      (pins
-        D22-1
-        D21-2
-      )
-    )
-    (net "N-000054" 1
+    (net "N-000008" 1
       (pins
         D20-1
         D19-2
       )
     )
+    (net "N-000009" 1
+      (pins
+        D19-1
+        D18-2
+      )
+    )
+    (net "N-000010" 1
+      (pins
+        D18-1
+        D17-2
+      )
+    )
+    (net "N-000011" 1
+      (pins
+        D33-1
+        R10-1
+      )
+    )
+    (net "N-000030" 1
+      (pins
+        D7-1
+        D6-2
+      )
+    )
+    (net "N-000032" 1
+      (pins
+        D8-1
+        D7-2
+      )
+    )
+    (net "N-000034" 1
+      (pins
+        D15-2
+        D16-1
+      )
+    )
+    (net "N-000035" 1
+      (pins
+        D15-1
+        D14-2
+      )
+    )
+    (net "N-000036" 1
+      (pins
+        D14-1
+        D13-2
+      )
+    )
+    (net "N-000037" 1
+      (pins
+        D6-1
+        D5-2
+      )
+    )
+    (net "N-000038" 1
+      (pins
+        D12-1
+        D11-2
+      )
+    )
+    (net "N-000039" 1
+      (pins
+        D11-1
+        D10-2
+      )
+    )
+    (net "N-000040" 1
+      (pins
+        D10-1
+        D9-2
+      )
+    )
+    (net "N-000046" 1
+      (pins
+        D2-1
+        D1-2
+      )
+    )
+    (net "N-000047" 1
+      (pins
+        D3-1
+        D2-2
+      )
+    )
+    (net "N-000049" 1
+      (pins
+        D4-1
+        D3-2
+      )
+    )
+    (net "N-000051" 1
+      (pins
+        D25-2
+        D26-1
+      )
+    )
+    (net "N-000052" 1
+      (pins
+        D26-2
+        D27-1
+      )
+    )
+    (net "N-000054" 1
+      (pins
+        D27-2
+        D28-1
+      )
+    )
+    (net "N-000055" 1
+      (pins
+        D29-2
+        D30-1
+      )
+    )
+    (net "N-000056" 1
+      (pins
+        D30-2
+        D31-1
+      )
+    )
     (net "N-000058" 1
       (pins
-        IC2-15
-        RV1-2
+        D31-2
+        D32-1
       )
     )
     (net "N-000060" 1
       (pins
-        R5-2
+        D24-1
+        D23-2
       )
     )
     (net "N-000061" 1
       (pins
-        R4-2
-        R5-1
+        D23-1
+        D22-2
       )
     )
-    (net "N-000063" 1
+    (net "N-000062" 1
       (pins
-        R6-2
-        R7-1
+        D22-1
+        D21-2
       )
     )
-    (net "N-000064" 1
+    (net "N-000066" 1
       (pins
-        R6-1
-        R8-2
-      )
-    )
-    (net "N-000065" 1
-      (pins
-        R3-2
+        IC2-15
+        RV1-2
       )
     )
     (net VCC 1
@@ -5111,7 +5016,6 @@
         C1-1
         C3-1
         R1-1
-        R2-1
         JP1-1
       )
     )
@@ -5172,9 +5076,8 @@
     )
     (class "kicad_default"
       /CLOCK "/DATA_/_MISO" /ENABLE /LATCH /LED /MOSI /PB0 /PB1
-      /PB3 /PD6 /RESET /RXI /SW1 /SW2 /SW3 /SWITCHES
-      /TXO GND "N-000006" "N-000010" "N-000011" "N-000058" "N-000060" "N-000061"
-      "N-000063" "N-000064" "N-000065" VCC
+      /PB3 /PD6 /RESET /RXI /SW1 /SW2 /SW3 /TXO
+      "N-000011" "N-000066"
       (clearance_class "kicad_default")
       (via_rule kicad_default)
       (rule
@@ -5197,9 +5100,10 @@
     )
     (class "LED_GND"
       /OUT0 /OUT1 /OUT2 /OUT3 /OUT4 /OUT5 /OUT6 /OUT7
-      "N-000004" "N-000005" "N-000019" "N-000021" "N-000023" "N-000024" "N-000025" "N-000027"
-      "N-000028" "N-000029" "N-000035" "N-000036" "N-000038" "N-000039" "N-000040" "N-000041"
-      "N-000043" "N-000045" "N-000046" "N-000048" "N-000050" "N-000051" "N-000052" "N-000054"
+      GND "N-000008" "N-000009" "N-000010" "N-000030" "N-000032" "N-000034" "N-000035"
+      "N-000036" "N-000037" "N-000038" "N-000039" "N-000040" "N-000046" "N-000047" "N-000049"
+      "N-000051" "N-000052" "N-000054" "N-000055" "N-000056" "N-000058" "N-000060" "N-000061"
+      "N-000062" VCC
       (clearance_class "LED_GND")
       (via_rule LED_GND)
       (rule
@@ -5224,1444 +5128,780 @@
   (wiring
     (wire
       (polyline_path Front 6.0
-        7761.1 -5855.0 7761.1 -5854.9 
-        7761.1 -5855.0 7761.2 -5855.0 
-        7813.7 0.0 7813.7 0.1 
+        7478.9 -5755.0 7478.9 -5754.9 
+        7478.9 -5755.0 7519.2 -5755.0 
+        7519.2 -5755.0 7519.2 -5754.9 
+        7519.2 -5754.9 7540.1 -5734.0 
+        7540.1 -5734.0 7588.4 -5734.0 
+        7588.4 -5734.0 7588.4 -5734.1 
       )
-      (net /SW3 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7866.5 -5843.3 7866.4 -5843.3 
-        7866.5 -5843.3 7866.5 -5805.0 
-        7866.5 -5805.0 8141.8 -5529.7 
-        8141.8 -5529.7 8141.8 -5469.6 
-        8143.4 -5469.6 8143.5 -5469.5 
-        8141.8 -5469.6 8501.1 -5469.6 
-        8610.0 -5332.5 8610.1 -5332.4 
-        8610.0 -5332.5 8610.1 -5332.5 
-      )
-      (net /SW3 1)
+      (net /SW1 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Back 6.0
-        8070.0 -5332.5 8070.1 -5332.5 
-        8070.0 -5332.5 8070.0 -5584.2 
-        8070.0 -5584.2 7827.9 -5826.3 
-        7827.9 -5826.3 7827.9 -5879.4 
-        7827.9 -5879.4 7827.8 -5879.4 
-      )
-      (net /SW2 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7700.0 -5277.4 7700.1 -5277.4 
-        7700.0 -5277.4 7700.0 -5313.7 
-        7700.0 -5313.7 7776.7 -5390.4 
-        7776.7 -5390.4 7776.7 -5591.9 
-        7776.7 -5591.9 7812.7 -5627.9 
-        7812.7 -5627.9 7812.7 -5654.7 
-        7812.7 -5654.7 7791.1 -5676.3 
-        7791.1 -5676.3 7791.1 -5894.7 
-        7791.1 -5894.7 7802.9 -5906.5 
-        7802.9 -5906.5 7841.2 -5906.5 
-        7841.2 -5906.5 7893.3 -5854.4 
-        7893.3 -5832.1 7893.3 -5832.0 
-        7891.5 -5830.3 8154.5 -5567.3 
-        8154.5 -5567.3 8154.5 -5484.9 
-        8154.5 -5484.9 8156.1 -5483.3 
-        8156.1 -5483.3 8515.9 -5483.3 
-        8515.9 -5483.3 8651.1 -5348.1 
-        8651.1 -5348.1 8651.1 -5289.5 
-        8651.1 -5289.5 8639.0 -5277.4 
-        8639.0 -5277.4 8520.0 -5277.4 
-        8520.0 -5277.4 8520.0 -5277.3 
-      )
-      (net /SWITCHES 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        13630.0 -5820.0 13629.9 -5820.1 
-        13630.0 -5820.0 13572.9 -5762.9 
-        13572.9 -5762.9 13322.3 -5762.9 
-        13322.3 -5762.9 13256.9 -5697.5 
-        13256.9 -5697.5 9107.8 -5697.5 
-        9107.8 -5697.5 9037.8 -5767.5 
-        9037.8 -5767.5 8629.4 -5767.5 
-        8629.4 -5767.5 8562.0 -5700.1 
-        8562.0 -5700.1 8471.3 -5700.1 
-        8471.3 -5700.1 8415.6 -5755.8 
-        8415.6 -5755.8 8195.8 -5755.8 
-        8195.8 -5755.8 8189.2 -5749.2 
-        8189.2 -5749.2 8081.4 -5749.2 
-        8081.4 -5749.2 8025.4 -5805.2 
-        8024.4 -5804.2 7872.4 -5804.2 
-        7872.4 -5804.2 7847.2 -5779.0 
-        7847.2 -5779.0 7682.0 -5779.0 
-        7682.0 -5779.0 7506.0 -5955.0 
-        7506.0 -5955.0 7398.9 -5955.0 
-        7398.9 -5955.0 7398.9 -5954.9 
-      )
-      (net /PB3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        13630.0 -5420.0 13630.1 -5419.9 
-        13630.0 -5420.0 13670.2 -5460.2 
-        13670.2 -5460.2 13670.2 -5857.8 
-        13670.2 -5857.8 13667.8 -5860.2 
-        13667.8 -5860.2 13592.2 -5860.2 
-        13592.2 -5860.2 13590.6 -5858.6 
-        13590.6 -5858.6 13590.6 -5805.1 
-        13590.6 -5805.1 13565.0 -5779.5 
-        13565.0 -5779.5 13276.3 -5779.5 
-        13276.3 -5779.5 13209.5 -5712.7 
-        13209.5 -5712.7 9135.4 -5712.7 
-        9135.4 -5712.7 9058.8 -5789.3 
-        9058.8 -5789.3 8633.9 -5789.3 
-        8633.9 -5789.3 8557.0 -5712.4 
-        8557.0 -5712.4 8476.4 -5712.4 
-        8476.4 -5712.4 8420.7 -5768.1 
-        8420.7 -5768.1 8190.8 -5768.1 
-        8190.8 -5768.1 8184.3 -5761.6 
-        8184.3 -5761.6 8096.1 -5761.6 
-        8096.1 -5761.6 8041.2 -5816.5 
-        7826.0 -5816.5 7825.9 -5816.5 
-        7825.6 -5816.9 7813.7 -5805.0 
-        7813.7 -5805.0 7813.8 -5804.9 
-      )
-      (net /LED 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7761.1 -5855.0 7761.2 -5855.0 
-        7813.7 -5855.0 7813.8 -5854.9 
-        7772.8 -5843.3 7866.5 -5843.3 
-        7866.5 -5843.3 7866.5 -5843.4 
-      )
-      (net /SW3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7761.1 -5905.0 7761.1 -5904.9 
-        7761.1 -5905.0 7761.2 -5905.0 
-        7813.7 0.0 7813.7 0.1 
-      )
-      (net /SW2 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        7761.1 -5905.0 7761.2 -5905.0 
-        7813.7 0.0 7813.7 0.1 
-        7860.8 -5846.5 7860.9 -5846.4 
-        7827.9 -5879.4 7827.8 -5879.3 
-      )
-      (net /SW2 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7451.5 -6005.0 7451.4 -6004.9 
-        7451.5 -6005.0 7472.6 -5983.9 
-        7472.6 -5983.9 7805.0 -5983.9 
-        7805.0 -5983.9 7842.8 -5946.1 
-        7842.8 -5946.1 7842.8 -5917.8 
-        7842.8 -5917.8 7930.3 -5830.3 
-        7930.3 -5830.3 8049.0 -5830.3 
-        8049.0 -5830.3 8101.0 -5778.3 
-        8101.0 -5778.3 8144.2 -5778.3 
-        8144.2 -5778.3 8162.1 -5796.2 
-        8162.1 -5796.2 8162.1 -5956.2 
-        8162.1 -5956.2 8162.0 -5956.2 
-      )
-      (net /LATCH 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7827.1 -6081.2 7827.1 -6081.3 
-        7778.6 -5920.9 7778.7 -5920.9 
-        7778.7 -5994.8 7926.4 -5847.1 
-        7926.4 -5847.1 7926.4 -5822.0 
-        7926.4 -5822.0 8160.9 -5587.5 
-        8160.9 -5587.5 8803.6 -5587.5 
-        8803.6 -5587.5 8977.7 -5413.4 
-        8977.7 -5413.4 13196.1 -5413.4 
-        13196.1 -5413.4 13328.9 -5280.6 
-        13328.9 -5280.6 13590.6 -5280.6 
-        13590.6 -5280.6 13630.0 -5320.0 
-        13629.9 -5320.1 13630.0 -5320.0 
-      )
-      (net /TXO 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        2880.0 -5320.0 2880.0 -5319.9 
-        2880.0 -5320.0 3710.0 -5320.0 
-        3710.0 -5320.0 3782.2 -5247.8 
-        3782.2 -5247.8 6667.8 -5247.8 
-        6667.8 -5247.8 6713.4 -5293.4 
-        6713.4 -5293.4 6927.4 -5293.4 
-        6927.4 -5293.4 6978.3 -5242.5 
-        6978.3 -5242.5 7499.6 -5242.5 
-        7499.6 -5242.5 7612.3 -5355.2 
-        7612.3 -5355.2 7638.2 -5355.2 
-        7638.2 -5355.2 7750.7 -5467.7 
-        7750.7 -5467.7 7750.7 -5920.9 
-        7752.3 -5920.9 7752.4 -5921.0 
-        7750.7 -5920.9 7827.1 -5920.9 
-        7827.1 -5920.9 7827.1 -5921.0 
-      )
-      (net /TXO 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7778.7 -5920.9 7778.6 -5920.9 
-        7827.1 -6081.2 7827.1 -6081.3 
-        7827.1 -6081.2 7827.0 -6081.1 
-      )
-      (net /TXO 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7827.1 -6081.2 7827.0 -6081.1 
-        7828.0 -6080.3 7827.9 -6080.4 
-        7813.7 -6083.9 7813.7 -6105.0 
-        7813.7 -6105.0 7813.6 -6105.0 
-      )
-      (net /TXO 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7761.1 -6105.0 7761.1 -6104.9 
-        7761.1 -6105.0 7761.2 -6105.0 
-        7813.7 0.0 7813.7 0.1 
-      )
-      (net /TXO 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7515.2 -5820.0 7515.2 -5820.1 
-        7526.8 -5897.0 7526.9 -5897.0 
-        7525.2 -5897.0 7525.3 -5897.1 
-        7526.8 -5897.0 7526.8 -6016.6 
-        7526.8 -6016.6 7526.7 -6016.6 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7514.8 -5950.0 7514.9 -5950.0 
-        7514.9 -5992.2 7514.9 -5885.1 
-        7515.2 -5897.0 7515.3 -5896.9 
-        7515.2 -5820.0 7515.2 -5820.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7515.2 -5820.0 7515.3 -5820.1 
-        7515.2 -5820.0 7515.2 -5820.1 
-        7526.8 -5897.0 7526.9 -5897.0 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7398.9 -6205.0 7398.9 -6204.9 
-        7398.9 -6205.0 7453.7 -6205.0 
-        7453.7 -6205.0 7526.8 -6131.9 
-        7526.8 -6074.6 7526.8 -6013.7 
-        7526.8 -6016.6 7526.7 -6016.6 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7526.8 -6016.6 7526.7 -6016.6 
-        7526.8 -6013.7 7526.8 -6064.2 
-        7532.6 -6031.2 7532.7 -6031.3 
-        7532.6 -6069.9 7532.6 -6070.0 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7532.6 -6070.0 7532.5 -6070.0 
-        7532.6 -6070.0 7532.6 -6069.9 
-        0.0 -6031.2 -0.1 -6031.2 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7440.0 -5345.4 7440.1 -5345.3 
-        7440.0 -5345.4 7514.2 -5419.6 
-        7514.2 -5419.6 7666.9 -5419.6 
-        7666.9 -5419.6 7721.3 -5474.0 
-        7721.3 -5765.1 7721.3 -5765.2 
-        7727.5 -5771.3 7693.0 -5805.8 
-        7693.0 -5805.8 7692.9 -5805.7 
-      )
-      (net /LED 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7530.0 -5332.5 7530.1 -5332.4 
-        7530.0 -5332.5 7604.7 -5407.2 
-        7604.7 -5407.2 7671.8 -5407.2 
-        7671.8 -5407.2 7733.6 -5469.0 
-        7733.6 -5880.3 7733.6 -5880.4 
-        7739.8 -5886.5 7695.5 -5930.8 
-        7695.5 -5930.8 7695.4 -5930.7 
+        7637.3 -5436.7 7637.4 -5436.8 
+        7637.3 -5436.7 7588.4 -5485.6 
+        7588.4 -5485.6 7588.4 -5748.0 
+        7588.4 -5734.0 7588.5 -5734.0 
       )
       (net /SW1 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        8302.3 -5935.0 8302.3 -5934.9 
-        8348.7 -5935.0 8355.0 -5935.0 
-        8355.0 -5935.0 8510.0 -5780.0 
-        8510.0 -5780.0 8510.1 -5780.1 
+        7478.9 -5805.0 7478.9 -5804.9 
+        7525.3 -5805.0 7531.6 -5805.0 
+        7548.4 -5763.5 7548.5 -5763.4 
+        7547.1 -5764.8 7547.0 -5764.7 
       )
-      (net "N-000058" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8438.3 -5525.0 8438.3 -5524.9 
-        8411.6 -5525.0 8755.0 -5525.0 
-        8755.0 -5525.0 8910.0 -5680.0 
-        8910.0 -5680.0 8909.9 -5680.1 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8354.9 -5555.0 8354.8 -5554.9 
-        8354.9 -5555.0 8384.9 -5525.0 
-        8411.6 -5525.0 8755.0 -5525.0 
-        8438.3 -5525.0 8438.3 -5524.9 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8384.9 -5525.0 8438.3 -5525.0 
-        8438.3 -5525.0 8438.3 -5524.9 
-        8438.3 -5524.9 8438.4 -5524.9 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8302.3 -5555.0 8302.3 -5554.9 
-        8302.3 -5555.0 8302.4 -5555.0 
-        8354.9 0.0 8354.9 0.1 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        8438.3 -5524.9 8438.3 -5524.8 
-        8244.7 -5524.9 8244.8 -5524.9 
-        8780.3 -5530.0 8780.4 -5529.9 
-        8988.9 -5361.3 8988.9 -5169.2 
-        8988.9 -5169.2 8977.2 -5157.5 
-        8977.2 -5157.5 8865.0 -5157.5 
-        8865.0 -5157.5 8865.0 -5157.4 
-      )
-      (net GND 1)
+      (net /SW2 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Back 6.0
-        8244.7 -5524.9 8244.8 -5524.8 
-        8244.7 -5524.9 8244.8 -5524.9 
-        8438.3 -5524.9 8438.3 -5524.8 
+        8070.0 -5332.5 8070.0 -5332.6 
+        8070.0 -5332.5 7998.9 -5332.5 
+        7998.9 -5332.5 7941.7 -5275.3 
+        7941.7 -5275.3 7941.7 -5232.5 
+        7941.7 -5232.5 7908.3 -5199.1 
+        7908.3 -5199.1 7861.0 -5199.1 
+        7861.0 -5199.1 7767.0 -5293.1 
+        7767.0 -5293.1 7742.6 -5293.1 
+        7742.6 -5293.1 7547.1 -5488.6 
+        7547.1 -5488.6 7547.1 -5764.8 
+        7547.1 -5764.8 7547.0 -5764.8 
       )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7913.3 -6050.9 7965.2 -6050.9 
-        7965.2 -6050.9 8157.5 -6243.2 
-        8157.5 -6243.2 8226.4 -6243.2 
-        8226.4 -6243.2 8276.5 -6193.1 
-        8276.5 -6193.1 8276.5 -5917.5 
-        8276.5 -5917.5 8575.8 -5618.2 
-        8575.8 -5618.2 9138.8 -5618.2 
-        9138.8 -5618.2 9314.1 -5442.9 
-        9314.1 -5442.9 13452.9 -5442.9 
-        13452.9 -5442.9 13530.0 -5520.0 
-        13529.9 -5520.1 13530.0 -5520.0 
-      )
-      (net "/DATA_/_MISO" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7464.7 -6088.0 7464.8 -6087.9 
-        7466.6 -6086.1 7466.7 -6086.2 
-        7488.3 -6111.5 7852.7 -6111.5 
-        7852.7 -6111.5 7913.3 -6050.9 
-        7913.3 -6050.9 7965.2 -6050.9 
-        7965.2 -6050.9 7965.2 -6050.8 
-      )
-      (net "/DATA_/_MISO" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7965.2 -6050.9 7965.1 -6050.9 
-        7965.2 -6050.9 7965.2 -5939.5 
-        7965.2 -5939.5 7970.0 -5934.7 
-        7970.0 -5934.7 7970.1 -5934.8 
-      )
-      (net "/DATA_/_MISO" 1)
+      (net /SW2 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        8097.7 -5935.0 8097.7 -5935.1 
-        8097.7 -5935.0 8097.6 -5935.0 
-        8045.1 0.0 8045.1 -0.1 
-      )
-      (net "/DATA_/_MISO" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        7970.0 -5934.7 7970.0 -5934.6 
-        7970.0 -5934.7 8097.4 -5934.7 
-        8045.1 -5935.0 8045.2 -5935.1 
-        8097.6 -5935.0 8097.7 -5935.0 
-      )
-      (net "/DATA_/_MISO" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7803.5 -5559.8 7803.4 -5559.7 
-        7803.5 -5559.8 7880.0 -5483.3 
-        7880.0 -5483.3 7880.0 -5240.0 
-        7880.0 -5240.0 7880.1 -5240.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7610.0 -5312.2 7610.0 -5312.1 
-        7610.0 -5312.2 7614.4 -5312.2 
-        7764.5 -5463.1 7764.6 -5463.2 
-        7764.4 -5463.2 7764.4 -5622.1 
-        7764.4 -5622.1 7785.9 -5643.6 
-        7785.9 -5643.6 7785.8 -5643.7 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        13530.0 -5420.0 13530.0 -5420.1 
-        13530.0 -5420.0 13265.9 -5420.0 
-        13265.9 -5420.0 13069.6 -5616.3 
-        13069.6 -5616.3 9247.5 -5616.3 
-        9247.5 -5616.3 9081.5 -5450.3 
-        9081.5 -5450.3 8283.5 -5450.3 
-        8283.5 -5450.3 8248.4 -5485.4 
-        8248.4 -5485.4 8248.4 -5581.3 
-        8248.4 -5581.3 8148.1 -5681.6 
-        8148.1 -5681.6 7981.2 -5681.6 
-        7981.2 -5681.6 7962.7 -5700.1 
-        7962.7 -5700.1 7875.9 -5700.1 
-        7875.9 -5700.1 7830.3 -5654.5 
-        7830.3 -5654.5 7830.3 -5548.7 
-        7830.3 -5548.7 7814.6 -5533.0 
-        7657.6 -5533.0 7657.5 -5533.0 
-        7640.3 -5550.3 7580.0 -5490.0 
-        7580.0 -5490.0 7580.1 -5489.9 
-      )
-      (net /MOSI 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7680.0 -5590.0 7680.0 -5589.9 
-        7680.0 -5590.0 7773.3 -5590.0 
-        7773.3 -5590.0 7803.5 -5559.8 
-        7803.5 -5559.8 7803.6 -5559.9 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7700.0 -5277.4 7699.9 -5277.4 
-        7700.0 -5277.4 7700.0 -5277.3 
-        0.0 -5242.5 -0.1 -5242.5 
-      )
-      (net /SWITCHES 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7610.0 -5202.6 7610.0 -5202.5 
-        7610.0 -5202.6 7610.1 -5202.6 
-        7648.8 0.0 7648.8 0.1 
-      )
-      (net /SWITCHES 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7610.0 -5202.6 7610.1 -5202.6 
-        7648.8 0.1 7648.8 0.0 
-        7660.1 -5237.5 7700.0 -5277.4 
-        -0.1 -5242.5 0.0 -5242.5 
-        7700.0 -5277.3 7700.0 -5277.4 
-      )
-      (net /SWITCHES 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7480.0 -5490.0 7480.1 -5490.1 
-        7480.0 -5490.0 7428.1 -5541.9 
-        7428.1 -5541.9 7428.1 -6047.6 
-        7428.1 -6047.6 7466.6 -6086.1 
-        7466.6 -6086.1 7466.5 -6086.2 
-      )
-      (net "/DATA_/_MISO" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7466.6 -6086.1 7466.5 -6086.0 
-        7471.6 -6081.1 7447.7 -6105.0 
-        7451.5 0.1 7451.5 0.0 
-        7399.0 -6105.0 7398.9 -6105.0 
-      )
-      (net "/DATA_/_MISO" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7398.9 -6105.0 7398.9 -6104.9 
-        7398.9 -6105.0 7399.0 -6105.0 
-        7451.5 0.0 7451.5 0.1 
-      )
-      (net "/DATA_/_MISO" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7468.2 -6147.3 7468.1 -6147.2 
-        7468.2 -6147.3 7491.6 -6123.9 
-        7873.9 -6123.9 7874.0 -6123.9 
-        7922.1 -6081.0 7922.2 -6080.9 
-        7922.1 -6081.0 7972.8 -6081.0 
-        7972.8 -6081.0 8147.4 -6255.6 
-        8147.4 -6255.6 8236.5 -6255.6 
-        8236.5 -6255.6 8378.2 -6113.9 
-        8378.2 -6113.9 8378.2 -6006.1 
-        8378.2 -6006.1 8378.3 -6006.1 
-      )
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 20.0
-        7100.0 -6000.0 7100.1 -5999.9 
-        7100.0 -6000.0 7353.2 -6253.2 
-        7353.2 -6253.2 7990.0 -6253.2 
-        7990.0 -6253.2 8004.6 -6238.6 
-        8004.6 -6238.6 8004.7 -6238.7 
-      )
-      (net /OUT3 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Back 20.0
-        7268.5 -6114.2 7268.6 -6114.1 
-        7268.5 -6114.2 7377.2 -6222.9 
-        7377.2 -6222.9 7945.9 -6222.9 
-        7945.9 -6222.9 7959.6 -6209.2 
-        7959.6 -6209.2 7959.7 -6209.3 
-      )
-      (net /OUT2 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Back 20.0
-        7254.0 -6032.0 7254.1 -6031.9 
-        7254.0 -6032.0 7414.6 -6192.6 
-        7414.6 -6192.6 7918.3 -6192.6 
-        7918.3 -6192.6 7947.1 -6163.8 
-        7947.1 -6163.8 7959.7 -6163.8 
-        7959.7 -6163.8 7959.7 -6163.9 
-      )
-      (net /OUT1 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Back 20.0
-        7670.2 -6154.8 7670.2 -6154.7 
-        7854.9 -6154.8 7899.0 -6154.8 
-        7899.0 -6154.8 7935.4 -6118.4 
-        7935.4 -6118.4 7961.1 -6118.4 
-        7961.1 -6118.4 7961.1 -6118.5 
-      )
-      (net /OUT0 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7398.9 -6005.0 7398.9 -6005.1 
-        7398.9 -6005.0 7398.8 -6005.0 
-        7346.3 0.0 7346.3 -0.1 
-      )
-      (net /LATCH 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        2780.0 -5720.0 2780.1 -5720.1 
-        2780.0 -5720.0 2740.4 -5759.6 
-        2740.4 -5759.6 2740.4 -5857.8 
-        2740.4 -5857.8 2742.0 -5859.4 
-        2742.0 -5859.4 2901.9 -5859.4 
-        2901.9 -5859.4 2966.8 -5924.3 
-        2966.8 -5924.3 7278.7 -5924.3 
-        7346.3 -6005.0 7346.4 -6005.1 
-        7398.8 -6005.0 7398.9 -6005.0 
-      )
-      (net /LATCH 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7346.3 -5955.0 7346.2 -5955.1 
-        7346.3 -5955.0 7299.9 -5908.6 
-        7299.9 -5908.6 2968.6 -5908.6 
-        2968.6 -5908.6 2880.0 -5820.0 
-        2880.0 -5820.0 2880.1 -5819.9 
+        2880.0 -5820.0 2879.9 -5819.9 
+        2880.0 -5820.0 2973.5 -5726.5 
+        2973.5 -5726.5 7529.4 -5726.5 
+        7529.4 -5726.5 7551.9 -5704.0 
+        7551.9 -5704.0 7596.7 -5704.0 
+        7596.7 -5704.0 7647.7 -5755.0 
+        7647.7 -5755.0 7841.1 -5755.0 
+        7841.1 -5755.0 7841.1 -5755.1 
       )
       (net /PB3 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        8162.1 -5954.6 8162.1 -5954.7 
-        8160.5 -5956.2 9188.8 -5956.2 
-        9188.8 -5956.2 9258.4 -5886.6 
-        9258.4 -5886.6 13209.2 -5886.6 
-        13209.2 -5886.6 13209.2 -5886.7 
+        7530.0 -5332.5 7530.1 -5332.4 
+        7530.0 -5332.5 7634.2 -5436.7 
+        7634.2 -5436.7 7646.7 -5436.7 
+        7637.3 -5436.7 7637.3 -5436.6 
       )
-      (net /LATCH 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8045.0 -6035.0 8045.1 -6035.0 
-        8045.1 -6035.0 8045.1 -5965.0 
-        8045.1 -5965.0 8053.9 -5956.2 
-        8160.5 -5956.2 9188.8 -5956.2 
-        8162.1 -5954.6 8162.1 -5954.7 
-      )
-      (net /LATCH 1)
+      (net /SW1 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Back 6.0
-        13530.0 -5720.1 13530.0 -5720.0 
-        13530.0 -5720.0 13375.8 -5720.0 
-        13300.0 -5795.8 13209.2 -5886.6 
-        13209.2 -5886.6 13209.1 -5886.5 
+        7716.5 -5265.8 7716.6 -5265.8 
+        7716.5 -5265.8 7716.5 -5301.9 
+        7716.5 -5301.9 7509.2 -5509.2 
+        7514.1 -5537.8 7514.1 -5537.9 
+        7515.2 -5537.8 7419.0 -5634.0 
+        7419.0 -5634.0 7411.3 -5634.0 
+        7411.3 -5634.0 7411.3 -5633.9 
       )
-      (net /LATCH 1)
+      (net /LED 1)
       (clearance_class "kicad_default")
     )
     (wire
-      (polyline_path Front 6.0
-        8354.9 -6035.0 8354.9 -6034.9 
-        8354.9 -6035.0 9148.3 -6035.0 
-        9148.3 -6035.0 9269.4 -5913.9 
-        9269.4 -5913.9 13436.1 -5913.9 
-        13436.1 -5913.9 13530.0 -5820.0 
-        13530.0 -5820.0 13530.1 -5820.1 
+      (polyline_path Back 20.0
+        7550.1 -5875.9 7550.0 -5875.9 
+        7550.1 -5875.9 7550.1 -5846.0 
+        7550.1 -5846.0 7876.1 -5520.0 
+        7876.1 -5520.0 7880.0 -5520.0 
+        7880.0 -5520.0 7880.0 -5520.1 
       )
-      (net /ENABLE 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8378.2 -6113.9 8378.2 -6006.1 
-        8378.2 -6006.1 8378.3 -6006.1 
-        8569.3 -6106.9 9016.8 -5659.4 
-        9016.8 -5659.4 9090.7 -5659.4 
-        9064.4 -5659.4 9064.4 -5659.3 
-      )
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        13530.1 -5620.1 13530.0 -5620.0 
-        13530.0 -5620.0 13487.2 -5662.8 
-        9090.7 -5659.4 9064.4 -5659.4 
-        9064.4 -5659.4 9064.4 -5659.3 
-      )
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7398.9 -5855.0 7398.9 -5854.9 
-        7398.9 -5855.0 7488.3 -5855.0 
-        7488.3 -5855.0 7631.7 -5711.6 
-        7631.7 -5711.6 7814.4 -5711.6 
-        7814.4 -5711.6 7864.4 -5761.6 
-        7864.4 -5761.6 7987.7 -5761.6 
-        7987.7 -5761.6 8012.4 -5736.9 
-        8012.4 -5736.9 8194.2 -5736.9 
-        8194.2 -5736.9 8200.8 -5743.5 
-        8200.8 -5743.5 8393.3 -5743.5 
-        8393.3 -5743.5 8449.0 -5687.8 
-        8449.0 -5687.8 8567.0 -5687.8 
-        8567.0 -5687.8 8634.4 -5755.2 
-        8634.4 -5755.2 9032.8 -5755.2 
-        9032.8 -5755.2 9112.0 -5676.0 
-        9112.0 -5676.0 13586.0 -5676.0 
-        13586.0 -5676.0 13630.0 -5720.0 
-        13630.0 -5720.0 13629.9 -5720.1 
-      )
-      (net /PB1 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        13630.0 -5520.0 13629.9 -5520.1 
-        13630.0 -5520.0 13580.0 -5470.0 
-        13580.0 -5470.0 13264.2 -5470.0 
-        13264.2 -5470.0 13105.6 -5628.6 
-        9399.0 -5628.6 9115.1 -5628.6 
-        9115.1 -5628.6 9106.8 -5620.3 
-        9106.8 -5620.3 9047.7 -5620.3 
-        9047.7 -5620.3 8937.4 -5730.6 
-        8937.4 -5730.6 8644.4 -5730.6 
-        8644.4 -5730.6 8577.0 -5663.2 
-        8577.0 -5663.2 8429.3 -5663.2 
-        8429.3 -5663.2 8373.6 -5718.9 
-        8373.6 -5718.9 8210.8 -5718.9 
-        8210.8 -5718.9 8204.2 -5712.3 
-        8204.2 -5712.3 8002.3 -5712.3 
-        8002.3 -5712.3 7989.9 -5724.7 
-        7989.9 -5724.7 7862.1 -5724.7 
-        7862.1 -5724.7 7815.9 -5678.5 
-        7815.9 -5678.5 7422.8 -5678.5 
-        7422.8 -5678.5 7346.3 -5755.0 
-        7346.3 -5755.0 7346.2 -5754.9 
-      )
-      (net /PD6 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        13630.0 -5620.0 13629.9 -5620.1 
-        13630.0 -5620.0 13580.0 -5570.0 
-        13580.0 -5570.0 13283.3 -5570.0 
-        13283.3 -5570.0 13212.4 -5640.9 
-        9404.0 -5640.9 9110.1 -5640.9 
-        9110.1 -5640.9 9101.8 -5632.6 
-        9101.8 -5632.6 9052.7 -5632.6 
-        9052.7 -5632.6 8942.4 -5742.9 
-        8942.4 -5742.9 8639.4 -5742.9 
-        8639.4 -5742.9 8572.0 -5675.5 
-        8572.0 -5675.5 8444.0 -5675.5 
-        8444.0 -5675.5 8388.3 -5731.2 
-        8388.3 -5731.2 8205.8 -5731.2 
-        8205.8 -5731.2 8199.2 -5724.6 
-        8199.2 -5724.6 8007.4 -5724.6 
-        8007.4 -5724.6 7995.0 -5737.0 
-        7995.0 -5737.0 7857.1 -5737.0 
-        7857.1 -5737.0 7811.4 -5691.3 
-        7811.4 -5691.3 7598.0 -5691.3 
-        7598.0 -5691.3 7484.3 -5805.0 
-        7484.3 -5805.0 7398.9 -5805.0 
-        7398.9 -5805.0 7398.9 -5804.9 
-      )
-      (net /PB0 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7813.7 -6205.0 7813.6 -6205.0 
-        7813.7 -6205.0 7813.7 -6139.3 
-        7813.7 -6139.3 7807.0 -6132.6 
-        7807.0 -6132.6 7704.9 -6132.6 
-        7704.9 -6132.6 7656.9 -6084.6 
-        7656.9 -6084.6 7657.0 -6084.5 
-      )
-      (net /RESET 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7642.3 -6070.0 7642.4 -6069.9 
-        7642.3 -6070.0 7656.9 -6084.6 
-        7662.8 -6084.6 7656.9 -6084.6 
-      )
-      (net /RESET 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 20.0
-        4400.0 -6000.0 4400.1 -5999.9 
-        4400.0 -6000.0 4546.1 -6146.1 
-        4546.1 -6146.1 6712.0 -6146.1 
-        6712.0 -6146.1 6812.2 -6045.9 
-        6812.2 -6045.9 6960.5 -6045.9 
-        6960.5 -6045.9 7151.7 -6237.1 
-        7151.7 -6237.1 7587.9 -6237.1 
-        7587.9 -6237.1 7670.2 -6154.8 
-        7670.2 -6154.8 7670.3 -6154.9 
-      )
-      (net /OUT0 1)
+      (net GND 1)
       (clearance_class "LED_GND")
     )
     (wire
-      (polyline_path Front 6.0
-        7109.3 -6261.9 7109.3 -6261.8 
-        7109.3 -6261.9 7606.7 -6261.9 
-        7606.7 -6261.9 7708.5 -6160.1 
-        7708.5 -6160.1 7708.5 -6155.0 
-        7708.5 -6155.0 7708.6 -6155.0 
+      (polyline_path Front 20.0
+        9000.0 -5514.9 9000.1 -5515.0 
+        9000.0 -5514.9 8969.9 -5545.0 
+        8969.9 -5545.0 8882.3 -5545.0 
+        8882.3 -5545.0 8882.3 -5544.9 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8865.0 -5157.5 8865.1 -5157.4 
+        8865.0 -5157.5 9000.0 -5292.5 
+        9000.0 -5359.5 9000.0 -5514.9 
+        9000.0 -5514.9 8999.9 -5514.9 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Back 6.0
+        7700.5 -5226.7 7409.8 -5517.4 
+        7409.8 -5605.0 7409.8 -5605.1 
+        7393.6 -5605.0 7409.8 -5605.0 
+      )
+      (net /TXO 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        13630.0 -5320.0 13629.9 -5320.1 
+        13630.0 -5320.0 13383.4 -5073.4 
+        13383.4 -5073.4 8848.6 -5073.4 
+        8848.6 -5073.4 8800.1 -5121.9 
+        8800.1 -5121.9 8743.9 -5121.9 
+        8743.9 -5121.9 8696.1 -5074.1 
+        8696.1 -5074.1 7933.7 -5074.1 
+        7933.7 -5074.1 7781.1 -5226.7 
+        7781.1 -5226.7 7700.5 -5226.7 
+        7700.5 -5226.7 7409.8 -5517.4 
+        7409.8 -5517.4 7409.7 -5517.4 
+      )
+      (net /TXO 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        7409.8 -5517.4 7409.7 -5517.5 
+        7409.8 -5517.4 7306.9 -5414.5 
+        7306.9 -5414.5 2974.5 -5414.5 
+        2974.5 -5414.5 2880.0 -5320.0 
+        2880.0 -5320.0 2880.1 -5319.9 
+      )
+      (net /TXO 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        7512.3 -5461.4 7512.2 -5461.4 
+        7512.3 -5461.4 7512.3 -5432.2 
+        7512.3 -5432.2 7705.5 -5239.0 
+        7759.3 -5239.0 7759.4 -5239.0 
+        7772.8 -5252.5 7936.7 -5088.6 
+        7936.7 -5088.6 8661.3 -5088.6 
+        8661.3 -5088.6 8713.4 -5140.7 
+        8713.4 -5140.7 8798.8 -5140.7 
+        8798.8 -5140.7 8853.7 -5085.8 
+        8853.7 -5085.8 13295.8 -5085.8 
+        13295.8 -5085.8 13530.0 -5320.0 
+        13530.0 -5320.0 13529.9 -5320.1 
       )
       (net /RXI 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Back 6.0
-        7368.8 -5450.5 7368.9 -5450.5 
-        7368.8 -5450.5 7368.8 -6047.9 
-        7368.8 -6047.9 7468.2 -6147.3 
-        7468.2 -6147.3 7468.1 -6147.4 
-      )
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8384.7 -5999.6 8378.1 -6006.2 
-        8150.3 -6006.1 8150.2 -6006.1 
-        8150.3 -5985.0 8150.2 -5984.9 
-        8150.3 -5985.0 8150.4 -5985.0 
-      )
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8097.7 -5985.0 8097.7 -5984.9 
-        8097.7 -5985.0 8097.8 -5985.0 
-        8150.3 0.0 8150.3 0.1 
-      )
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        8216.3 -5692.1 8216.2 -5692.1 
-        8215.8 -5691.6 8215.8 -5691.7 
-        8247.3 -5826.9 8215.8 -5858.4 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8200.1 -5675.7 8200.0 -5675.8 
-        8200.0 -5675.8 8215.8 -5691.6 
-        8215.8 -5691.6 8215.8 -5691.7 
-        8216.3 -5692.1 8216.2 -5692.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8221.8 -5692.1 8221.8 -5692.2 
-        8216.3 -5692.1 8216.2 -5692.1 
-        8215.8 -5691.6 8215.8 -5691.7 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8221.8 -5692.1 8221.7 -5692.0 
-        8219.9 -5694.0 8220.0 -5693.9 
-        8249.7 -5674.5 8249.7 -5655.0 
-        8249.8 -5655.0 8249.7 -5655.0 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7785.9 -5643.5 7785.9 -5643.6 
-        7785.9 -5643.6 7802.1 -5643.6 
-        7801.9 -5643.5 7802.0 -5643.6 
-        7870.7 -5712.4 7976.4 -5712.4 
-        7976.4 -5712.4 7994.8 -5694.0 
-        7994.8 -5694.0 8260.4 -5694.0 
-        8219.9 -5694.0 8220.0 -5693.9 
-        8221.8 -5692.1 8221.7 -5692.0 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8249.7 -5885.0 8249.6 -5885.0 
-        8249.7 -5869.0 8249.7 -5868.9 
-        8225.4 -5848.8 8225.3 -5848.7 
-        8236.0 -5859.4 8235.9 -5859.5 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8215.7 -5858.3 8215.8 -5858.4 
-        8215.8 -5858.4 8215.9 -5858.4 
-        8225.4 -5848.8 8236.0 -5859.4 
-        8236.0 -5859.4 8235.9 -5859.5 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8302.3 -5885.0 8302.3 -5885.1 
-        8302.3 -5885.0 8302.2 -5885.0 
-        8249.7 0.0 8249.7 -0.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        8215.8 -5691.6 8215.8 -5691.7 
-        8200.0 -5874.2 8199.9 -5874.3 
-        8200.0 -5914.8 8200.0 -5914.9 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8200.0 -5914.9 8199.9 -5914.9 
-        8200.0 -5914.9 8200.0 -5914.8 
-        0.0 -5874.2 -0.1 -5874.2 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        7761.1 -5805.0 7761.1 -5804.9 
-        7761.1 -5805.0 7761.2 -5805.0 
-        7813.7 0.0 7813.7 0.1 
+        7716.5 -5265.8 7716.5 -5265.7 
+        7716.5 -5265.8 7776.8 -5265.8 
+        7776.8 -5265.8 7930.6 -5112.0 
+        7930.6 -5112.0 8634.0 -5112.0 
+        8649.3 -5127.5 8674.9 -5153.1 
+        8674.9 -5153.1 8808.1 -5153.1 
+        8808.1 -5153.1 8857.5 -5103.7 
+        8857.5 -5103.7 12412.3 -5103.7 
+        12412.3 -5103.7 12681.8 -5373.2 
+        12681.8 -5373.2 13583.2 -5373.2 
+        13583.2 -5373.2 13630.0 -5420.0 
+        13630.0 -5420.0 13629.9 -5420.1 
       )
       (net /LED 1)
       (clearance_class "kicad_default")
-      (type shove_fixed)
     )
     (wire
       (polyline_path Front 6.0
-        7398.9 -5905.0 7398.9 -5905.1 
-        7398.9 -5905.0 7398.8 -5905.0 
-        7346.3 0.0 7346.3 -0.1 
+        7416.4 -5555.0 7416.3 -5555.0 
+        7416.4 -5555.0 7416.4 -5499.2 
+        7416.4 -5499.2 7454.2 -5461.4 
+        7454.2 -5461.4 7512.3 -5461.4 
+        7512.3 -5461.4 7512.3 -5461.5 
       )
-      (net /ENABLE 1)
+      (net /RXI 1)
       (clearance_class "kicad_default")
-      (type shove_fixed)
     )
     (wire
       (polyline_path Front 6.0
-        2780.0 -5820.0 2779.9 -5819.9 
-        2780.0 -5820.0 2830.0 -5770.0 
-        2830.0 -5770.0 3125.8 -5770.0 
-        3125.8 -5770.0 3239.7 -5883.9 
-        3239.7 -5883.9 7346.3 -5883.9 
-        7346.3 -5905.0 7346.4 -5905.1 
-        7346.3 -5905.0 7346.2 -5905.0 
+        7416.4 -5555.0 7416.4 -5519.9 
+        7334.5 -5555.0 7478.9 -5555.0 
+        7478.9 -5555.0 7478.9 -5555.1 
       )
-      (net /ENABLE 1)
+      (net /RXI 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        2780.0 -5320.0 2780.1 -5319.9 
+        2780.0 -5320.0 2830.0 -5370.0 
+        2830.0 -5370.0 3063.2 -5370.0 
+        3063.2 -5370.0 3307.2 -5614.0 
+        3307.2 -5614.0 7294.9 -5614.0 
+        7334.5 -5574.4 7334.6 -5574.3 
+        7334.5 -5555.0 7478.9 -5555.0 
+        7416.4 -5555.0 7416.4 -5519.9 
+      )
+      (net /RXI 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Back 6.0
-        8200.0 -5914.9 8200.1 -5914.9 
-        8200.0 -5914.9 8200.0 -5915.0 
-        0.0 -5955.7 0.1 -5955.7 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 20.0
-        8034.1 -6085.0 8034.2 -6085.1 
-        8034.1 -6085.0 7994.4 -6124.7 
-        7971.9 -6118.4 7961.1 -6118.4 
-        7961.1 -6118.4 7961.1 -6118.3 
-      )
-      (net /OUT0 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8200.0 -5914.9 8200.0 -5915.0 
-        0.0 -5955.7 0.1 -5955.7 
-        8200.0 -5914.9 8200.1 -5915.0 
-        8249.3 -6161.5 8249.3 -6161.6 
-        8235.9 -6161.5 8200.0 -6197.4 
-        0.0 -6162.5 -0.1 -6162.5 
-        8200.0 -6197.3 8200.0 -6197.4 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7466.4 -6035.3 7466.3 -6035.2 
-        7485.6 -6016.1 7446.7 -6055.0 
-        7451.5 0.1 7451.5 0.0 
-        7399.0 -6055.0 7398.9 -6055.0 
+        13530.0 -5420.0 13530.0 -5420.1 
+        13530.0 -5420.0 9157.2 -5420.0 
+        9157.2 -5420.0 8998.8 -5578.4 
+        8270.6 -5576.2 8253.8 -5576.2 
+        8253.8 -5576.2 8210.0 -5620.0 
+        8210.0 -5620.0 8209.9 -5619.9 
       )
       (net /MOSI 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Back 6.0
-        7580.0 -5490.0 7580.1 -5490.1 
-        7580.0 -5490.0 7520.4 -5549.6 
-        7520.4 -5549.6 7442.0 -5549.6 
-        7442.0 -5549.6 7440.4 -5551.2 
-        7440.4 -5551.2 7440.4 -6009.3 
-        7440.4 -6009.3 7466.4 -6035.3 
-        7466.4 -6035.3 7466.3 -6035.4 
+        8610.0 -5332.5 8610.1 -5332.6 
+        8610.0 -5332.5 8378.7 -5563.8 
+        8378.7 -5563.8 7885.7 -5563.8 
+        7885.7 -5563.8 7604.9 -5844.6 
+        7604.9 -5844.6 7604.8 -5844.5 
+      )
+      (net /SW3 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        8310.0 -5620.0 8310.0 -5619.9 
+        8310.0 -5620.0 8974.7 -5620.0 
+        8974.7 -5620.0 9154.7 -5440.0 
+        9154.7 -5440.0 13450.0 -5440.0 
+        13450.0 -5440.0 13530.0 -5520.0 
+        13530.0 -5520.0 13529.9 -5520.1 
+      )
+      (net "/DATA_/_MISO" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        7878.8 -5643.7 7914.5 -5679.4 
+        7908.4 -5673.3 7908.5 -5673.2 
+        7941.9 -5580.6 8170.6 -5580.6 
+        8170.6 -5580.6 8210.0 -5620.0 
+        8210.0 -5620.0 8209.9 -5620.1 
       )
       (net /MOSI 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Back 6.0
-        13530.0 -5320.0 13530.1 -5320.0 
-        13530.0 -5320.0 13530.0 -5320.1 
-        0.0 -5359.3 0.1 -5359.3 
+        2880.0 -5420.0 2880.1 -5419.9 
+        2880.0 -5420.0 2912.3 -5452.3 
+        2912.3 -5452.3 7218.6 -5452.3 
+        7218.6 -5452.3 7400.3 -5634.0 
+        7400.2 -5634.0 7400.3 -5634.0 
+        7411.3 -5861.4 7411.3 -5861.5 
       )
-      (net /RXI 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        13530.0 -5320.0 13530.0 -5320.1 
-        13530.0 -5359.3 13530.1 -5359.4 
-        13569.4 -5359.4 13569.4 -5558.8 
-        13569.4 -5558.8 13567.8 -5560.4 
-        13567.8 -5560.4 13237.8 -5560.4 
-        13237.8 -5560.4 13132.7 -5455.3 
-        13132.7 -5455.3 9755.1 -5455.3 
-        9755.1 -5455.3 8933.8 -6276.6 
-        8933.8 -6276.6 7124.0 -6276.6 
-        7112.2 -6264.8 7109.3 -6261.9 
-        7109.3 -6261.9 7109.4 -6261.8 
-      )
-      (net /RXI 1)
+      (net /LED 1)
       (clearance_class "kicad_default")
     )
     (wire
-      (polyline_path Front 20.0
-        8034.2 -6185.1 8034.1 -6185.0 
-        8034.1 -6185.0 8025.5 -6193.6 
-        8025.5 -6193.6 7989.7 -6193.6 
-        7989.7 -6193.6 7967.8 -6215.5 
-        7959.6 -6209.2 7959.5 -6209.2 
-        7959.6 -6215.5 7959.6 -6209.2 
-      )
-      (net /OUT2 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Front 20.0
-        8034.1 -6135.0 8034.2 -6135.1 
-        8034.1 -6135.0 8006.6 -6162.5 
-        8006.6 -6162.5 7961.0 -6162.5 
-        7961.0 -6162.5 7959.7 -6163.8 
-        7959.7 -6163.8 7959.6 -6163.7 
-      )
-      (net /OUT1 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Front 20.0
-        6200.0 -6000.0 6200.1 -5999.9 
-        6200.0 -6000.0 6279.8 -6079.8 
-        6279.8 -6079.8 6735.5 -6079.8 
-        6735.5 -6079.8 6810.0 -6005.3 
-        6810.0 -6005.3 7004.5 -6005.3 
-        7004.5 -6005.3 7138.1 -6138.9 
-        7261.8 -6114.2 7268.5 -6114.2 
-        7268.5 -6114.2 7268.5 -6114.3 
-      )
-      (net /OUT2 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
       (polyline_path Back 6.0
-        2780.0 -5320.0 2780.1 -5320.0 
-        2780.0 -5320.0 2780.0 -5320.1 
-        0.0 -5359.3 0.1 -5359.3 
+        7400.2 -5634.0 7400.3 -5634.0 
+        7411.3 -5861.4 7411.3 -5861.5 
+        7411.3 -5861.4 7411.2 -5861.5 
       )
-      (net /RXI 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        2780.0 -5320.0 2780.0 -5320.1 
-        2780.0 -5359.3 2779.9 -5359.4 
-        2739.8 -5360.2 2739.8 -5658.8 
-        2739.8 -5658.8 2741.4 -5660.4 
-        2741.4 -5660.4 3661.9 -5660.4 
-        3661.9 -5660.4 3901.5 -5900.0 
-        3901.5 -5900.0 5085.5 -5900.0 
-        5085.5 -5900.0 5264.8 -6079.3 
-        5264.8 -6079.3 5521.7 -6079.3 
-        5521.7 -6079.3 5676.1 -5924.9 
-        5676.1 -5924.9 6772.3 -5924.9 
-        7087.9 -6240.5 7109.3 -6261.9 
-        7109.3 -6261.9 7109.2 -6262.0 
-      )
-      (net /RXI 1)
+      (net /LED 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        7761.1 -6155.0 7761.1 -6155.1 
-        7761.1 -6155.0 7761.0 -6155.0 
-        7708.5 0.0 7708.5 -0.1 
+        7411.3 -5861.4 7411.2 -5861.5 
+        7404.5 -5854.6 7454.9 -5905.0 
+        7454.9 -5905.0 7478.9 -5905.0 
+        7478.9 -5905.0 7478.9 -5905.1 
       )
-      (net /RXI 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        8302.3 -5555.0 8302.4 -5555.0 
-        8302.3 -5555.0 8302.3 -5605.0 
-        8302.3 -5605.0 8302.2 -5605.0 
-      )
-      (net GND 1)
+      (net /LED 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        7398.9 -5905.0 7398.9 -5904.9 
-        7398.9 -5905.0 7458.3 -5905.0 
-        7458.3 -5905.0 7639.4 -5723.9 
-        7639.4 -5723.9 7809.4 -5723.9 
-        7809.4 -5723.9 7859.9 -5774.4 
-        7859.9 -5774.4 8012.9 -5774.4 
-        8012.9 -5774.4 8012.9 -5774.5 
-      )
-      (net /ENABLE 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8015.9 -6049.0 8015.8 -6049.1 
-        8015.9 -6049.0 8003.4 -6036.5 
-        8012.9 -5774.4 8012.9 -5774.3 
-        8012.9 -5774.4 8013.0 -5774.5 
+        7841.1 -5805.0 7841.1 -5804.9 
+        7859.4 -5805.0 7859.5 -5805.0 
+        7859.4 -5805.0 7914.7 -5860.3 
+        7909.3 -5854.9 7909.4 -5854.8 
       )
       (net /ENABLE 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        8302.3 -5655.0 8302.3 -5655.1 
-        8302.3 -5655.0 8302.2 -5655.0 
-        8249.7 0.0 8249.7 -0.1 
+        2780.0 -5820.0 2780.1 -5819.9 
+        2780.0 -5820.0 2821.1 -5861.1 
+        2821.1 -5861.1 2911.1 -5861.1 
+        2911.1 -5861.1 2933.4 -5883.4 
+        2933.4 -5883.4 3946.3 -5883.4 
+        3946.3 -5883.4 3956.8 -5872.9 
+        3956.8 -5872.9 7255.6 -5872.9 
+        7255.6 -5872.9 7302.3 -5826.2 
+        7302.3 -5826.2 7563.3 -5826.2 
+        7563.3 -5826.2 7613.3 -5776.2 
+        7859.4 -5805.0 7859.5 -5805.0 
+        7841.1 -5805.0 7841.1 -5804.9 
       )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        8200.0 -5635.1 8200.1 -5635.1 
-        8200.0 -5635.1 8200.0 -5635.2 
-        0.0 -5675.8 0.1 -5675.8 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7980.0 -5240.0 7980.0 -5240.1 
-        7980.0 -5240.0 7979.9 -5240.0 
-        7943.2 0.0 7943.2 -0.1 
-      )
-      (net "N-000006" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7943.2 -5240.0 7943.1 -5240.0 
-        7943.2 -5240.0 7943.1 -5239.9 
-        7845.4 -5105.4 7637.9 -5105.4 
-        7637.9 -5105.4 7540.7 -5202.6 
-        7540.7 -5202.6 7440.0 -5202.6 
-        7440.0 -5202.6 7440.0 -5202.5 
-      )
-      (net "N-000006" 1)
+      (net /ENABLE 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        7734.8 -5805.0 7734.8 -5804.9 
-        7734.8 -5805.0 7846.7 -5805.0 
-        7761.1 -5805.0 7761.1 -5805.1 
+        7841.1 -5754.9 7841.1 -5755.0 
+        7841.1 -5755.0 7841.2 -5755.0 
+        7868.0 -5740.6 7955.6 -5828.2 
+        7955.6 -5828.2 7955.5 -5828.3 
       )
-      (net /LED 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7734.8 -5805.0 7734.8 -5804.9 
-        7761.1 -5805.0 7761.0 -5805.0 
-        7708.5 0.0 7708.5 -0.1 
-      )
-      (net /LED 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7378.4 -5407.0 7440.0 -5345.4 
-        7440.0 -5345.4 7440.0 -5277.4 
-        7440.0 -5277.4 7440.1 -5277.4 
-      )
-      (net /LED 1)
+      (net /PB3 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Back 6.0
-        2880.0 -5420.0 2880.0 -5419.9 
-        2880.0 -5420.0 7365.4 -5420.0 
-        7378.4 -5407.0 7440.0 -5345.4 
-        7440.0 -5345.4 7440.1 -5345.5 
+        13630.0 -5820.0 13629.9 -5820.1 
+        13630.0 -5820.0 13590.6 -5780.6 
+        13590.6 -5780.6 13499.2 -5780.6 
+        13499.2 -5780.6 13475.2 -5756.6 
+        13475.2 -5756.6 12992.9 -5756.6 
+        12992.9 -5756.6 12857.1 -5892.4 
+        12857.1 -5892.4 8818.4 -5892.4 
+        8818.4 -5892.4 8754.2 -5828.2 
+        8754.2 -5828.2 7952.0 -5828.2 
+        7955.6 -5828.2 7955.6 -5828.3 
       )
-      (net /LED 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7693.0 -5805.8 7693.0 -5805.7 
-        7693.0 -5805.8 7760.3 -5805.8 
-        7708.5 -5805.0 7708.6 -5804.9 
-        7761.0 -5805.0 7761.1 -5805.0 
-      )
-      (net /LED 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7398.9 -6055.0 7398.9 -6054.9 
-        7398.9 -6055.0 7399.0 -6055.0 
-        7451.5 0.0 7451.5 0.1 
-      )
-      (net /MOSI 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7680.0 -5590.0 7680.1 -5589.9 
-        7680.0 -5590.0 7683.6 -5593.6 
-        7683.6 -5593.6 7683.6 -5750.7 
-        7683.6 -5750.7 7683.5 -5750.7 
-      )
-      (net GND 1)
+      (net /PB3 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Back 6.0
-        7607.4 -5820.0 7607.4 -5819.9 
-        7607.4 -5820.0 7607.5 -5820.0 
-        7642.3 0.0 7642.3 0.1 
+        8370.7 -5971.9 8370.6 -5971.8 
+        8370.7 -5971.8 8370.6 -5971.8 
+        7914.7 -5860.3 7909.3 -5854.9 
+        7909.3 -5854.9 7909.4 -5854.8 
       )
-      (net GND 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7683.6 -5750.7 7683.6 -5750.8 
-        7683.6 -5750.7 7683.5 -5750.8 
-        7642.3 0.1 7642.3 0.0 
-        7607.5 -5820.0 7607.4 -5820.0 
-      )
-      (net GND 1)
+      (net /ENABLE 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        7761.1 -5755.0 7761.1 -5755.1 
-        7761.1 -5755.0 7687.9 -5755.0 
-        7687.9 -5755.0 7683.6 -5750.7 
-        7683.6 -5750.7 7683.7 -5750.6 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7515.2 -5820.0 7514.9 -5820.3 
-        7532.6 -5820.0 7532.5 -5820.0 
-        7497.8 0.0 7497.8 -0.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7532.6 -5820.0 7532.6 -5820.1 
-        7532.6 -5820.0 7532.5 -5820.0 
-        7515.2 -5820.0 7514.9 -5820.3 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        8097.7 -6035.0 8097.7 -6035.1 
-        8097.7 -6035.0 8097.6 -6035.0 
-        8045.1 0.0 8045.1 -0.1 
-      )
-      (net /LATCH 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        7398.9 -6005.0 7398.9 -6004.9 
-        7398.9 -6005.0 7399.0 -6005.0 
-        7451.5 0.0 7451.5 0.1 
-      )
-      (net /LATCH 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        2780.0 -5520.0 2779.9 -5520.1 
-        2780.0 -5520.0 2739.8 -5479.8 
-        2739.8 -5479.8 2739.8 -5381.2 
-        2739.8 -5381.2 2741.4 -5379.6 
-        2741.4 -5379.6 3068.6 -5379.6 
-        3068.6 -5379.6 3288.8 -5599.8 
-        3288.8 -5599.8 3757.5 -5599.8 
-        3864.4 -5486.6 3901.0 -5450.0 
-        7163.4 -5450.0 7440.0 -5450.0 
-        7440.0 -5450.0 7480.0 -5490.0 
-        7480.0 -5490.0 7479.9 -5490.1 
+        7784.4 -5479.8 7784.4 -5533.8 
+        7773.1 -5533.8 7892.2 -5533.8 
+        7892.2 -5533.8 7913.6 -5555.2 
+        7913.6 -5555.2 7913.6 -5604.6 
+        7913.6 -5604.6 8009.8 -5700.8 
+        8009.8 -5700.8 8009.8 -5898.3 
+        8009.8 -5898.3 8046.5 -5935.0 
+        8046.5 -5935.0 8097.7 -5935.0 
+        8097.7 -5935.0 8097.7 -5935.1 
       )
       (net "/DATA_/_MISO" 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
+        7382.7 -5578.1 7765.2 -5578.1 
+        7761.6 -5578.1 7761.6 -5578.0 
+        7784.4 -5533.8 7784.5 -5533.7 
+        7784.4 -5479.8 7784.4 -5533.8 
+      )
+      (net "/DATA_/_MISO" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        8310.0 -5620.0 8309.9 -5620.1 
+        8310.0 -5620.0 8255.2 -5565.2 
+        8255.2 -5565.2 8176.9 -5565.2 
+        8176.9 -5565.2 8162.9 -5551.2 
+        8162.9 -5551.2 8162.9 -5490.2 
+        8162.9 -5490.2 8148.6 -5475.9 
+        8148.6 -5475.9 7788.3 -5475.9 
+        7788.3 -5475.9 7784.4 -5479.8 
+        7784.4 -5479.8 7784.4 -5533.8 
+        7784.4 -5533.8 7784.3 -5533.8 
+      )
+      (net "/DATA_/_MISO" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7382.7 -5578.1 7765.2 -5578.1 
+        7788.5 -5605.0 7788.6 -5605.1 
+        7788.5 -5605.0 7788.4 -5605.0 
+      )
+      (net "/DATA_/_MISO" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        2780.1 -5519.9 2780.0 -5520.0 
+        2780.0 -5520.0 2837.7 -5577.7 
+        2837.7 -5577.7 2995.0 -5577.7 
+        2995.0 -5577.7 3043.6 -5626.3 
+        3043.6 -5626.3 7337.8 -5626.3 
+        7337.7 -5623.1 7337.8 -5623.0 
+        7382.7 -5578.1 7765.2 -5578.1 
+        7761.6 -5578.1 7761.6 -5578.0 
+      )
+      (net "/DATA_/_MISO" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7956.1 -5685.2 7956.2 -5685.1 
+        7956.1 -5685.2 7997.4 -5726.5 
+        7997.4 -5726.5 7997.4 -5911.3 
+        7997.4 -5911.3 8071.1 -5985.0 
+        8071.1 -5985.0 8097.7 -5985.0 
+        8097.7 -5985.0 8097.7 -5985.1 
+      )
+      (net /CLOCK 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7958.2 -5764.7 7958.3 -5764.6 
+        7958.2 -5764.7 7983.4 -5789.9 
+        7983.4 -5789.9 7983.4 -5978.4 
+        7983.4 -5978.4 8040.0 -6035.0 
+        8040.0 -6035.0 8097.7 -6035.0 
+        8097.7 -6035.0 8097.7 -6035.1 
+      )
+      (net /LATCH 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7841.1 -5704.9 7841.1 -5705.0 
+        7841.1 -5705.0 7898.5 -5705.0 
+        7945.1 -5751.6 7973.0 -5779.5 
+        7958.2 -5764.7 7958.1 -5764.8 
+      )
+      (net /LATCH 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        13530.0 -5720.0 13530.0 -5720.1 
+        13530.0 -5720.0 12664.4 -5720.0 
+        12664.4 -5720.0 12521.0 -5863.4 
+        12521.0 -5863.4 9095.0 -5863.4 
+        9095.0 -5863.4 8975.9 -5744.3 
+        8856.6 -5744.3 7978.6 -5744.3 
+        7978.6 -5744.3 7958.2 -5764.7 
+        7958.2 -5764.7 7958.1 -5764.6 
+      )
+      (net /LATCH 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        7772.7 -5857.0 7772.6 -5856.9 
+        7772.7 -5857.0 7828.9 -5800.8 
+        7828.9 -5800.8 8798.9 -5800.8 
+        8798.9 -5800.8 8873.9 -5875.8 
+        8873.9 -5875.8 12575.5 -5875.8 
+        12708.9 -5740.6 12709.0 -5740.5 
+        12707.3 -5740.6 13494.9 -5740.6 
+        13494.9 -5740.6 13522.5 -5768.2 
+        13522.5 -5768.2 13581.8 -5768.2 
+        13581.8 -5768.2 13630.0 -5720.0 
+        13630.0 -5720.0 13630.1 -5720.1 
+      )
+      (net /PB1 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        2780.0 -5720.0 2779.9 -5719.9 
+        2780.0 -5720.0 2820.1 -5679.9 
+        2820.1 -5679.9 7816.0 -5679.9 
+        7816.0 -5679.9 7841.1 -5705.0 
+        7841.1 -5705.0 7841.0 -5705.1 
+      )
+      (net /LATCH 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        13530.0 -5820.0 13530.1 -5820.1 
+        13530.0 -5820.0 13466.6 -5883.4 
+        13466.6 -5883.4 10708.6 -5883.4 
+        10708.6 -5883.4 10701.3 -5876.1 
+        10701.3 -5876.1 9193.7 -5876.1 
+        9193.7 -5876.1 9110.4 -5959.4 
+        9110.4 -5959.4 8383.0 -5959.4 
+        8383.0 -5959.4 8370.6 -5971.8 
+        8370.6 -5971.8 8370.5 -5971.7 
+      )
+      (net /ENABLE 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        8370.6 -5971.8 8370.7 -5971.8 
+        8370.6 -5971.8 8370.6 -6006.5 
+        8370.6 -6006.5 8342.1 -6035.0 
+        8342.1 -6035.0 8302.3 -6035.0 
+        8302.3 -6035.0 8302.3 -6034.9 
+      )
+      (net /ENABLE 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        9064.0 -5628.5 9064.0 -5628.4 
+        13153.1 -5628.5 13153.2 -5628.5 
+        13290.1 -5580.6 13300.7 -5570.0 
+        13569.4 -5570.0 13580.0 -5570.0 
+        13580.0 -5570.0 13630.0 -5520.0 
+        13630.0 -5520.0 13630.1 -5520.1 
+      )
+      (net /PD6 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        7630.7 -5904.5 7630.6 -5904.4 
+        7630.7 -5904.5 7819.0 -5716.2 
+        7819.0 -5716.2 8976.3 -5716.2 
+        9026.7 -5665.8 9064.0 -5628.5 
+        9064.0 -5628.5 9064.1 -5628.6 
+      )
+      (net /PD6 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        7685.9 -5909.3 7685.8 -5909.3 
+        7685.9 -5909.3 7685.9 -5906.0 
+        7685.9 -5906.0 7863.3 -5728.6 
+        7863.3 -5728.6 9031.8 -5728.6 
+        9031.8 -5728.6 9274.5 -5485.9 
+        9274.5 -5485.9 12536.0 -5485.9 
+        12536.0 -5485.9 12720.1 -5670.0 
+        12720.1 -5670.0 13580.0 -5670.0 
+        13580.0 -5670.0 13630.0 -5620.0 
+        13630.0 -5620.0 13630.1 -5620.1 
+      )
+      (net /PB0 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        2880.1 -5519.9 2880.0 -5520.0 
+        2880.0 -5520.0 2967.2 -5607.2 
+        2967.2 -5607.2 3625.0 -5607.2 
+        3625.0 -5607.2 3898.0 -5880.2 
+        3898.0 -5880.2 7290.0 -5880.2 
+        7290.0 -5880.2 7328.9 -5919.1 
+        7328.9 -5919.1 7616.1 -5919.1 
+        7623.4 -5911.8 7642.5 -5892.7 
+        7630.7 -5904.5 7630.8 -5904.6 
+      )
+      (net /PD6 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7772.7 -5857.0 7772.7 -5856.9 
+        7772.7 -5857.0 7839.1 -5857.0 
+        7839.1 -5857.0 7841.1 -5855.0 
+        7841.1 -5855.0 7841.2 -5855.1 
+      )
+      (net /PB1 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        2880.0 -5720.0 2880.0 -5719.9 
+        2880.0 -5720.0 3644.4 -5720.0 
+        3644.4 -5720.0 3829.3 -5904.9 
+        3829.3 -5904.9 7152.0 -5904.9 
+        7152.0 -5904.9 7190.9 -5943.8 
+        7706.5 -5943.8 7712.8 -5943.8 
+        7712.8 -5943.8 7772.7 -5883.9 
+        7772.7 -5883.9 7772.7 -5857.0 
+        7772.7 -5857.0 7772.8 -5857.0 
+      )
+      (net /PB1 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        7685.9 -5909.3 7686.0 -5909.4 
+        7685.9 -5909.3 7663.8 -5931.4 
+        7663.8 -5931.4 7319.3 -5931.4 
+        7319.3 -5931.4 7280.4 -5892.5 
+        7280.4 -5892.5 3893.0 -5892.5 
+        3893.0 -5892.5 3620.5 -5620.0 
+        3620.5 -5620.0 2880.0 -5620.0 
+        2880.0 -5620.0 2880.0 -5619.9 
+      )
+      (net /PB0 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        7908.4 -5673.3 7908.4 -5673.4 
+        7908.4 -5673.3 7814.4 -5673.3 
+        7814.4 -5673.3 7581.0 -5906.7 
+        7581.0 -5906.7 7376.2 -5906.7 
+        7376.2 -5906.7 7332.9 -5863.4 
+        7332.9 -5863.4 3915.8 -5863.4 
+        3915.8 -5863.4 3635.8 -5583.4 
+        3635.8 -5583.4 3276.1 -5583.4 
+        3276.1 -5583.4 3162.7 -5470.0 
+        3162.7 -5470.0 2830.0 -5470.0 
+        2830.0 -5470.0 2780.0 -5420.0 
         2780.0 -5420.0 2780.1 -5419.9 
-        2780.0 -5420.0 2830.0 -5470.0 
-        2830.0 -5470.0 2919.4 -5470.0 
-        2919.4 -5470.0 3069.3 -5619.9 
-        7163.4 -5619.9 7266.7 -5619.9 
-        7329.7 -5550.6 7340.3 -5540.0 
-        7519.4 -5544.4 7525.6 -5544.4 
-        7525.6 -5544.4 7580.0 -5490.0 
-        7580.0 -5490.0 7580.1 -5490.1 
       )
       (net /MOSI 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        7519.3 -5590.0 7519.4 -5589.9 
-        7519.3 -5590.0 7572.9 -5643.6 
-        7779.8 -5643.6 7785.9 -5643.6 
-        7785.9 -5643.6 7785.9 -5643.7 
+        7716.5 -5265.8 7716.5 -5265.9 
+        7716.5 -5265.8 7503.2 -5265.8 
+        7479.8 -5242.4 7440.0 -5202.6 
+        7440.0 -5202.6 7440.1 -5202.5 
       )
-      (net VCC 1)
+      (net /LED 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        2880.0 -5520.0 2880.1 -5519.9 
-        2880.0 -5520.0 3004.6 -5644.6 
-        7224.7 -5634.5 7224.8 -5634.5 
-        7224.7 -5633.4 7346.3 -5755.0 
-        7346.3 -5755.0 7346.2 -5755.1 
+        7478.8 -5277.4 7478.9 -5277.3 
+        7478.8 -5277.4 7494.0 -5292.6 
+        7494.0 -5292.6 7890.6 -5292.6 
+        7890.6 -5292.6 7943.2 -5240.0 
+        7943.2 -5240.0 7943.3 -5240.1 
+      )
+      (net "N-000011" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7478.9 -5855.0 7478.8 -5854.9 
+        7478.9 -5855.0 7489.3 -5844.6 
+        7581.4 -5844.6 7604.9 -5844.6 
+        7604.9 -5844.6 7604.9 -5844.7 
+      )
+      (net /SW3 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7896.8 -5623.1 7896.9 -5623.0 
+        7896.8 -5623.1 7956.1 -5682.4 
+        7956.1 -5685.2 7956.1 -5685.3 
+        7956.1 -5685.2 7956.0 -5685.3 
+      )
+      (net /CLOCK 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        8110.0 -5620.0 8110.0 -5619.9 
+        8133.0 -5643.0 7998.3 -5643.0 
+        7998.3 -5643.0 7952.8 -5688.5 
+        7956.1 -5685.2 7956.2 -5685.3 
+      )
+      (net /CLOCK 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        13530.0 -5620.0 13530.0 -5620.1 
+        13530.0 -5620.0 13029.9 -5620.0 
+        13029.9 -5620.0 12880.2 -5470.3 
+        12880.2 -5470.3 9177.2 -5470.3 
+        9177.2 -5470.3 8981.5 -5666.0 
+        8981.5 -5666.0 8133.0 -5666.0 
+        8133.0 -5666.0 8110.0 -5643.0 
+        8110.0 -5643.0 8110.1 -5642.9 
+      )
+      (net /CLOCK 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Back 6.0
+        8133.0 -5643.0 7998.3 -5643.0 
+        8110.0 -5620.0 8110.0 -5619.9 
+        8110.0 -5620.0 7963.7 -5620.0 
+      )
+      (net /CLOCK 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7893.6 -5626.3 7893.7 -5626.2 
+        7896.8 -5626.3 7896.8 -5585.4 
+        7896.8 -5585.4 7866.4 -5555.0 
+        7866.4 -5555.0 7841.1 -5555.0 
+        7841.1 -5555.0 7841.1 -5554.9 
+      )
+      (net /CLOCK 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        2780.0 -5620.0 2780.1 -5619.9 
+        2780.0 -5620.0 2819.4 -5659.4 
+        2819.4 -5659.4 7393.6 -5659.4 
+        7393.6 -5659.4 7426.7 -5626.3 
+        7893.3 -5626.3 7913.7 -5626.3 
+        7893.6 -5626.3 7893.7 -5626.2 
+        7896.8 -5623.1 7896.9 -5623.1 
+      )
+      (net /CLOCK 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7841.1 -5655.0 7841.1 -5654.9 
+        7841.1 -5655.0 7890.1 -5655.0 
+        7890.1 -5655.0 7914.5 -5679.4 
+        7908.4 -5673.3 7908.5 -5673.2 
+      )
+      (net /MOSI 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7685.9 -5909.3 7686.0 -5909.2 
+        7836.8 -5909.3 7836.9 -5909.3 
+        7836.8 -5909.3 7841.1 -5905.0 
+        7841.1 -5905.0 7841.2 -5905.1 
+      )
+      (net /PB0 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 20.0
+        7542.5 -5955.0 7542.4 -5955.0 
+        7542.5 -5955.0 7542.5 -5883.5 
+        7542.5 -5883.5 7550.1 -5875.9 
+        7550.1 -5875.9 7550.2 -5876.0 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7841.1 -5955.0 7841.1 -5955.1 
+        7841.1 -5955.0 7668.8 -5955.0 
+        7630.7 -5904.5 7630.6 -5904.4 
+        7630.7 -5904.5 7630.8 -5904.5 
       )
       (net /PD6 1)
       (clearance_class "kicad_default")
@@ -6669,306 +5909,318 @@
     (wire
       (polyline_path Front 20.0
         8302.3 -6185.0 8302.3 -6184.9 
-        8302.3 -6185.0 9339.9 -6185.0 
-        9375.2 -6149.7 9339.9 -6185.0 
+        8302.3 -6185.0 9384.3 -6185.0 
+        9384.3 -6169.9 9508.0 -6046.2 
+        9508.0 -6046.2 9680.4 -6046.2 
+        9680.4 -6046.2 9741.9 -6107.7 
+        9741.9 -6107.7 10092.3 -6107.7 
+        10092.3 -6107.7 10200.0 -6000.0 
+        10200.0 -6000.0 10200.1 -6000.1 
       )
       (net /OUT5 1)
       (clearance_class "LED_GND")
     )
     (wire
+      (polyline_path Front 20.0
+        11100.0 -5990.0 11100.0 -5990.1 
+        11100.0 -5990.0 10739.5 -5990.0 
+        10739.5 -5990.0 10679.2 -5929.7 
+        10679.2 -5929.7 9581.7 -5929.7 
+        9388.9 -6122.5 9388.8 -6122.6 
+        9388.9 -6135.0 8302.3 -6135.0 
+        8302.3 -6135.0 8302.3 -6134.9 
+      )
+      (net /OUT6 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        12000.0 -6000.0 11999.9 -6000.1 
+        12000.0 -6000.0 11914.3 -5914.3 
+        11914.3 -5914.3 10706.6 -5914.3 
+        10706.6 -5914.3 10691.7 -5899.4 
+        10241.7 -5899.4 9301.3 -5899.4 
+        9301.3 -5899.4 9115.7 -6085.0 
+        9115.7 -6085.0 8302.3 -6085.0 
+        8302.3 -6085.0 8302.3 -6084.9 
+      )
+      (net /OUT7 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        7880.0 -5240.0 7880.0 -5240.1 
+        7880.0 -5240.0 7867.5 -5240.0 
+        7867.5 -5240.0 7785.0 -5157.5 
+        7785.0 -5157.5 7785.1 -5157.4 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7409.8 -5605.0 7409.8 -5605.1 
+        7393.6 -5605.0 7478.9 -5605.0 
+        7478.9 -5605.0 7478.9 -5605.1 
+      )
+      (net /TXO 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8970.4 -5662.2 8970.4 -5864.7 
+        8946.0 -5645.0 8980.1 -5645.0 
+        8980.1 -5645.0 9000.0 -5625.1 
+        9000.0 -5625.1 9000.1 -5625.2 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8938.3 -5645.0 8938.3 -5644.9 
+        8946.0 -5645.0 8980.1 -5645.0 
+        8970.4 -5662.2 8970.4 -5864.7 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8946.0 -5645.0 8980.1 -5645.0 
+        8970.4 -5662.2 8970.4 -5864.7 
+        8970.4 -5864.7 8964.7 -5870.4 
+        8964.7 -5870.4 8880.2 -5870.4 
+        8880.2 -5870.4 8840.3 -5830.5 
+        8840.3 -5830.5 8385.6 -5830.5 
+        8385.6 -5830.5 8385.6 -5830.4 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
       (polyline_path Back 20.0
-        10199.9 -6000.1 10200.0 -6000.0 
-        10200.0 -6000.0 10114.9 -5914.9 
-        10114.9 -5914.9 9820.4 -5914.9 
-        9375.2 -6149.7 9339.9 -6185.0 
-        9339.9 -6185.0 9339.8 -6184.9 
-      )
-      (net /OUT5 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8690.0 -5277.4 8689.9 -5277.4 
-        8690.0 -5277.4 8690.0 -5277.3 
-        0.0 -5242.6 -0.1 -5242.6 
-      )
-      (net "N-000064" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        8950.0 -5277.4 8949.9 -5277.4 
-        8950.0 -5277.4 8950.0 -5277.3 
-        0.0 -5242.5 -0.1 -5242.5 
-      )
-      (net "N-000064" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        8950.0 -5242.5 8950.0 -5242.6 
-        8950.0 -5242.5 8690.1 -5242.5 
-        8690.1 -5242.5 8690.0 -5242.6 
-        8690.0 -5242.6 8689.9 -5242.5 
-      )
-      (net "N-000064" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8200.0 -5524.9 8200.0 -5524.8 
-        8200.0 -5524.9 8200.1 -5524.9 
-        8244.7 0.0 8244.7 0.1 
+        8110.0 -5520.1 8110.0 -5520.0 
+        7881.5 -5520.0 7853.7 -5520.0 
+        7880.0 -5240.0 7880.0 -5239.9 
       )
       (net GND 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
+      (clearance_class "LED_GND")
     )
     (wire
-      (polyline_path Back 6.0
-        8325.0 -5157.5 8324.9 -5157.4 
-        8325.0 -5157.5 8370.3 -5112.2 
-        8370.3 -5112.2 8819.7 -5112.2 
-        8819.7 -5112.2 8865.0 -5157.5 
-        8865.0 -5157.5 8864.9 -5157.6 
+      (polyline_path Back 20.0
+        7881.5 -5520.0 7853.7 -5520.0 
+        7880.0 -5240.0 7880.0 -5239.9 
+        7880.0 -5240.0 7880.1 -5239.9 
       )
       (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8200.0 -6197.4 8199.9 -6197.4 
-        8200.0 -6197.4 8200.0 -6197.3 
-        0.0 -6162.5 -0.1 -6162.5 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        8520.0 -5277.4 8519.9 -5277.4 
-        8520.0 -5277.4 8520.0 -5277.3 
-        0.0 -5242.5 -0.1 -5242.5 
-      )
-      (net /SWITCHES 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        8150.0 -5277.4 8149.9 -5277.4 
-        8150.0 -5277.4 8150.0 -5277.3 
-        0.0 -5242.5 -0.1 -5242.5 
-      )
-      (net /SWITCHES 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        8150.0 -5277.4 8150.0 -5277.3 
-        -0.1 -5242.5 0.0 -5242.5 
-        8520.0 -5277.3 8520.0 -5277.4 
-      )
-      (net /SWITCHES 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8249.7 -6035.0 8249.8 -6035.1 
-        8249.7 -6035.0 8228.6 -6056.1 
-        8228.6 -6056.1 8023.0 -6056.1 
-        8023.0 -6056.1 8015.9 -6049.0 
-        8015.9 -6049.0 8016.0 -6048.9 
-      )
-      (net /ENABLE 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8302.3 -6035.0 8302.3 -6035.1 
-        8302.3 -6035.0 8302.2 -6035.0 
-        8249.7 0.0 8249.7 -0.1 
-      )
-      (net /ENABLE 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 20.0
-        8097.7 -6235.0 8097.7 -6235.1 
-        8097.7 -6235.0 8097.6 -6235.0 
-        8034.1 0.0 8034.1 -0.1 
-      )
-      (net /OUT3 1)
-      (clearance_class "LED_GND")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 20.0
-        8097.7 -6235.0 8097.6 -6235.0 
-        8034.1 -6235.0 8034.0 -6235.1 
-        8004.6 -6238.6 8004.5 -6238.6 
-        8004.6 -6238.6 8004.7 -6238.5 
-      )
-      (net /OUT3 1)
       (clearance_class "LED_GND")
     )
     (wire
-      (polyline_path Front 6.0
-        7761.1 -6205.0 7761.1 -6204.9 
-        7761.1 -6205.0 7761.2 -6205.0 
-        7813.7 0.0 7813.7 0.1 
+      (polyline_path Front 20.0
+        8302.3 -6235.0 8302.3 -6234.9 
+        9048.2 -6235.0 9065.0 -6235.0 
+        9065.0 -6235.0 9065.0 -6235.1 
       )
-      (net /RESET 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
+      (net /OUT4 1)
+      (clearance_class "LED_GND")
     )
     (wire
-      (polyline_path Back 6.0
-        7607.4 -6070.0 7607.4 -6069.9 
-        7607.4 -6070.0 7607.5 -6070.0 
-        7642.3 0.0 7642.3 0.1 
+      (polyline_path Back 20.0
+        9300.1 -6000.1 9300.0 -6000.0 
+        9300.0 -6000.0 9234.1 -6065.9 
+        9048.2 -6235.0 9065.0 -6235.0 
       )
-      (net /RESET 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7610.0 -5277.4 7610.1 -5277.4 
-        7610.0 -5277.4 7610.0 -5277.5 
-        0.0 -5312.2 0.1 -5312.2 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        7480.0 -5590.0 7480.0 -5589.9 
-        7480.0 -5590.0 7480.1 -5590.0 
-        7519.3 0.0 7519.3 0.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        7708.5 -5955.0 7708.4 -5955.0 
-        7708.5 -5955.0 7708.5 -5943.8 
-        7708.5 -5943.8 7693.6 -5928.9 
-        7695.5 -5930.8 7695.4 -5930.9 
-      )
-      (net /SW1 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7480.0 -5590.0 7480.1 -5590.0 
-        7480.0 -5590.0 7480.0 -5590.1 
-        0.0 -5629.3 0.1 -5629.3 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7497.8 -5820.0 7497.7 -5820.0 
-        7497.8 -5820.0 7497.8 -5607.8 
-        7480.0 -5629.3 7479.9 -5629.2 
-        7480.0 -5590.1 7480.0 -5590.0 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        7761.1 -5955.0 7761.1 -5955.1 
-        7761.1 -5955.0 7761.0 -5955.0 
-        7708.5 0.0 7708.5 -0.1 
-      )
-      (net /SW1 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        7398.9 -6155.0 7398.9 -6154.9 
-        7398.9 -6155.0 7399.0 -6155.0 
-        7451.5 0.0 7451.5 0.1 
-      )
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 6.0
-        7468.2 -6147.3 7468.2 -6147.4 
-        7468.2 -6147.3 7406.6 -6147.3 
-        7451.5 -6155.0 7451.4 -6155.1 
-        7399.0 -6155.0 7398.9 -6155.0 
-      )
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7368.8 -5450.5 7368.8 -6010.3 
-        7434.0 -5450.5 7640.5 -5450.5 
-        7640.5 -5450.5 7680.0 -5490.0 
-        7680.0 -5490.0 7679.9 -5490.1 
-      )
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        2780.0 -5620.0 2779.9 -5619.9 
-        2780.0 -5620.0 2830.0 -5570.0 
-        2830.0 -5570.0 3184.9 -5570.0 
-        3184.9 -5570.0 3304.5 -5450.4 
-        7434.0 -5450.5 7640.5 -5450.5 
-        7368.8 -5450.5 7368.8 -6010.3 
-      )
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
+      (net /OUT4 1)
+      (clearance_class "LED_GND")
     )
     (wire
       (polyline_path Front 20.0
-        7311.4 -6043.7 7299.7 -6032.0 
-        7299.7 -6032.0 7218.1 -6032.0 
-        7254.0 -6032.0 7254.0 -6032.1 
+        8097.7 -6085.0 8097.7 -6085.1 
+        8097.7 -6085.0 7459.8 -6085.0 
+        7459.8 -6085.0 7271.9 -5897.1 
+        7271.9 -5897.1 4502.9 -5897.1 
+        4502.9 -5897.1 4400.0 -6000.0 
+        4400.0 -6000.0 4399.9 -5999.9 
+      )
+      (net /OUT0 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        5300.0 -6000.0 5299.9 -5999.9 
+        5300.0 -6000.0 5372.5 -5927.5 
+        5372.5 -5927.5 7219.6 -5927.5 
+        7219.6 -5927.5 7427.1 -6135.0 
+        7427.1 -6135.0 8097.7 -6135.0 
+        8097.7 -6135.0 8097.7 -6135.1 
       )
       (net /OUT1 1)
       (clearance_class "LED_GND")
     )
     (wire
-      (polyline_path Back 20.0
-        5300.0 -6000.0 5299.9 -6000.0 
-        5300.0 -6000.0 5300.0 -5899.6 
-        5300.0 -5899.6 5725.7 -5473.9 
-        5725.7 -5473.9 7134.1 -5473.9 
-        7134.1 -5473.9 7299.7 -5639.5 
-        7299.7 -5639.5 7299.7 -6032.0 
-        7299.7 -6032.0 7299.6 -6032.0 
+      (polyline_path Front 6.0
+        7531.5 -5505.0 7531.4 -5504.9 
+        7531.5 -5505.0 7573.0 -5463.5 
+        7573.0 -5463.5 8210.0 -5463.5 
+        8210.0 -5463.5 8210.0 -5463.6 
       )
-      (net /OUT1 1)
+      (net /RESET 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8882.3 -5583.6 8882.3 -5595.0 
+        8882.3 -5595.0 8882.2 -5595.0 
+        8820.2 -5595.0 8820.1 -5595.1 
+        8814.5 -5725.1 8814.5 -5740.4 
+        8818.7 -5740.3 8840.3 -5740.3 
+      )
+      (net GND 1)
       (clearance_class "LED_GND")
     )
     (wire
-      (polyline_path Back 6.0
-        7580.0 -5590.0 7580.1 -5590.1 
-        7580.0 -5590.0 7566.6 -5603.4 
-        7572.6 -5609.4 7572.6 -6070.0 
-        7572.6 -6070.0 7572.5 -6070.0 
+      (polyline_path Front 20.0
+        8969.9 -5545.0 8882.3 -5545.0 
+        8882.3 -5583.6 8882.3 -5595.0 
+        8882.3 -5595.0 8882.2 -5595.0 
       )
-      (net /RESET 1)
+      (net GND 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8814.5 -5725.1 8814.5 -5740.4 
+        8818.7 -5740.3 8840.3 -5740.3 
+        8840.3 -5740.3 8910.0 -5810.0 
+        8909.9 -5810.1 8910.0 -5810.0 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8460.0 -5676.9 8460.1 -5676.9 
+        8460.0 -5676.9 8460.1 -5677.0 
+        8818.7 -5740.3 8840.3 -5740.3 
+        8814.5 -5725.1 8814.5 -5740.4 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8000.0 -5607.4 8000.1 -5607.3 
+        8000.0 -5607.4 8162.6 -5770.0 
+        8162.6 -5770.0 8188.8 -5770.0 
+        8165.1 -5770.0 8165.1 -5769.9 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8165.1 -5770.0 8165.1 -5769.9 
+        8165.1 -5770.0 8262.6 -5770.0 
+        8215.6 -5770.0 8256.4 -5729.2 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+      (type protect)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8215.6 -5770.0 8215.5 -5769.9 
+        8257.9 -5727.7 8258.0 -5727.6 
+        8241.2 -5744.4 8241.3 -5744.4 
+        2496.9 0.0 2497.0 -0.1 
+        0.0 -5746.9 0.1 -5746.9 
+        8302.2 -5719.7 8302.3 -5719.6 
+        8256.8 -5719.7 8361.8 -5719.7 
+        8361.8 -5719.7 8361.8 -5719.8 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Back 20.0
+        8325.0 -5232.4 8325.1 -5232.5 
+        8325.0 -5232.4 8110.0 -5447.4 
+        8110.0 -5447.4 8110.0 -5520.0 
+        8110.0 -5520.0 8109.9 -5520.0 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 6.0
+        7841.1 -5605.0 7841.1 -5605.1 
+        7841.1 -5605.0 7841.0 -5605.0 
+        7788.5 0.0 7788.5 -0.1 
+      )
+      (net "/DATA_/_MISO" 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8882.3 -5645.0 8882.3 -5644.9 
+        8882.3 -5645.0 8882.4 -5645.0 
+        8938.3 -5645.0 8938.3 -5644.9 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8385.6 -5830.5 8464.9 -5830.5 
+        8385.6 -5865.3 8385.6 -5729.7 
+        8385.6 -5729.7 8375.6 -5719.7 
+        8375.6 -5719.7 8268.9 -5719.7 
+        8361.8 -5719.7 8361.8 -5719.8 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8365.8 -5884.9 8365.9 -5885.0 
+        8365.9 -5885.0 8385.6 -5865.3 
+        8385.6 -5865.3 8385.6 -5729.7 
+        8385.6 -5830.5 8464.9 -5830.5 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        7478.9 -5955.0 7478.9 -5954.9 
+        7478.9 -5955.0 7479.0 -5955.0 
+        7542.5 0.0 7542.5 0.1 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 6.0
+        8302.3 -5935.0 8302.3 -5934.9 
+        8302.3 -5935.0 8302.4 -5935.0 
+        8354.9 0.0 8354.9 0.1 
+      )
+      (net "N-000066" 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 6.0
+        8354.9 -5935.0 8354.8 -5934.9 
+        8354.9 -5935.0 8379.9 -5910.0 
+        8379.9 -5910.0 8510.0 -5910.0 
+        8510.0 -5910.0 8510.0 -5910.1 
+      )
+      (net "N-000066" 1)
       (clearance_class "kicad_default")
     )
     (wire
@@ -6982,243 +6234,263 @@
       (type shove_fixed)
     )
     (wire
-      (polyline_path Front 20.0
-        8097.7 -6135.0 8097.7 -6135.1 
-        8097.7 -6135.0 8097.6 -6135.0 
-        8034.1 0.0 8034.1 -0.1 
+      (polyline_path Back 20.0
+        7324.2 -6180.7 7324.2 -6180.8 
+        7324.2 -6180.7 7082.6 -6180.7 
+        7082.6 -6180.7 6831.6 -5929.7 
+        6831.6 -5929.7 6270.2 -5929.7 
+        6270.2 -5929.7 6270.2 -5929.8 
+        6270.2 -5929.8 6200.0 -6000.0 
+        6200.0 -6000.0 6199.9 -5999.9 
       )
-      (net /OUT1 1)
+      (net /OUT2 1)
       (clearance_class "LED_GND")
-      (type shove_fixed)
     )
     (wire
       (polyline_path Front 20.0
-        8097.7 -6085.0 8097.7 -6085.1 
-        8097.7 -6085.0 8097.6 -6085.0 
-        8034.1 0.0 8034.1 -0.1 
+        7100.0 -6000.0 7100.1 -6000.0 
+        7100.0 -6000.0 7100.0 -6009.9 
+        7100.0 -6009.9 7325.1 -6235.0 
+        7325.1 -6235.0 8097.7 -6235.0 
+        8097.7 -6235.0 8097.7 -6235.1 
       )
-      (net /OUT0 1)
+      (net /OUT3 1)
       (clearance_class "LED_GND")
-      (type shove_fixed)
     )
     (wire
       (polyline_path Front 20.0
-        8302.3 -6085.0 8302.3 -6084.9 
-        8302.3 -6085.0 8302.4 -6085.0 
-        8365.9 0.0 8365.9 0.1 
+        8097.7 -6185.0 8097.6 -6185.0 
+        8034.1 -6185.0 8034.0 -6184.9 
+        7324.2 -6180.7 7324.1 -6180.7 
+        7324.2 -6180.7 7324.1 -6180.6 
       )
-      (net /OUT7 1)
-      (clearance_class "LED_GND")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Front 20.0
-        8365.9 -6085.0 8366.0 -6085.1 
-        8365.9 -6085.0 8366.0 -6085.0 
-        9460.3 -6091.3 9545.8 -6005.8 
-        9545.8 -6005.8 9553.8 -6005.8 
-        9553.8 -6005.8 9623.9 -6075.9 
-        9623.9 -6075.9 11924.1 -6075.9 
-        11924.1 -6075.9 12000.0 -6000.0 
-        12000.0 -6000.0 12000.1 -6000.1 
-      )
-      (net /OUT7 1)
+      (net /OUT2 1)
       (clearance_class "LED_GND")
     )
     (wire
       (polyline_path Front 6.0
-        7398.9 -5955.0 7398.9 -5955.1 
-        7398.9 -5955.0 7398.8 -5955.0 
-        7346.3 0.0 7346.3 -0.1 
+        7440.0 -5277.4 7440.0 -5277.3 
+        7440.0 -5277.4 7440.1 -5277.4 
+        7478.8 0.0 7478.8 0.1 
       )
-      (net /PB3 1)
+      (net "N-000011" 1)
       (clearance_class "kicad_default")
       (type shove_fixed)
     )
     (wire
       (polyline_path Front 6.0
-        2880.0 -5620.0 2880.1 -5619.9 
-        2880.0 -5620.0 2919.6 -5659.6 
-        2919.6 -5659.6 7193.5 -5659.6 
-        7193.5 -5659.6 7338.9 -5805.0 
-        7368.9 -5805.0 7445.3 -5805.0 
-        7398.9 -5805.0 7398.9 -5805.1 
+        7980.0 -5240.0 7980.0 -5240.1 
+        7980.0 -5240.0 7979.9 -5240.0 
+        7943.2 0.0 7943.2 -0.1 
       )
-      (net /PB0 1)
+      (net "N-000011" 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8000.0 -5607.4 8000.0 -5607.5 
+        8000.0 -5607.4 7999.9 -5607.4 
+        7950.2 0.0 7950.2 -0.1 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 6.0
+        8209.9 -5520.0 8210.0 -5520.0 
+        8210.0 -5480.8 8210.0 -5463.5 
+        8210.0 -5463.5 8209.9 -5463.5 
+      )
+      (net /RESET 1)
       (clearance_class "kicad_default")
     )
     (wire
       (polyline_path Front 6.0
-        2880.0 -5720.0 2880.0 -5719.9 
-        2880.0 -5720.0 7209.0 -5720.0 
-        7209.0 -5720.0 7344.0 -5855.0 
-        7394.7 -5855.0 7445.3 -5855.0 
-        7398.9 -5855.0 7398.9 -5855.1 
+        8470.0 -5212.6 8470.0 -5212.7 
+        0.1 -5247.4 0.0 -5247.4 
+        8470.0 -5212.6 8395.9 -5286.7 
+        8395.9 -5286.7 8395.9 -5333.7 
+        8210.0 -5505.2 8209.9 -5505.3 
+        8210.0 -5463.5 8209.9 -5463.5 
+        8210.0 -5480.8 8210.0 -5463.5 
       )
-      (net /PB1 1)
+      (net /RESET 1)
       (clearance_class "kicad_default")
     )
     (wire
-      (polyline_path Back 6.0
-        7880.0 -5240.0 7880.0 -5240.1 
-        7880.0 -5240.0 7867.5 -5240.0 
-        7867.5 -5240.0 7785.0 -5157.5 
-        7785.0 -5157.5 7785.1 -5157.4 
+      (polyline_path Back 20.0
+        8037.4 -5520.0 8325.0 -5232.4 
+        8325.0 -5232.4 8325.0 -5157.5 
+        8325.0 -5157.5 8325.1 -5157.5 
       )
       (net GND 1)
-      (clearance_class "kicad_default")
+      (clearance_class "LED_GND")
     )
     (wire
-      (polyline_path Front 6.0
-        8325.0 -5157.5 8325.1 -5157.6 
-        8325.0 -5157.5 8279.4 -5203.1 
-        7934.7 -5203.1 7934.6 -5203.1 
-        7925.8 -5194.2 7880.0 -5240.0 
-        7880.0 -5240.0 7879.9 -5239.9 
+      (polyline_path Back 20.0
+        8865.0 -5157.5 8865.1 -5157.6 
+        8865.0 -5157.5 8777.5 -5245.0 
+        8325.0 -5232.4 8324.9 -5232.4 
+        8325.0 -5232.4 8325.1 -5232.3 
       )
       (net GND 1)
-      (clearance_class "kicad_default")
+      (clearance_class "LED_GND")
     )
     (wire
       (polyline_path Front 6.0
-        8328.6 -6035.0 8328.6 -6035.1 
-        8315.5 -6035.0 8270.8 -6035.0 
-        8302.3 -6035.0 8302.3 -6034.9 
-      )
-      (net /ENABLE 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 6.0
-        8328.6 -6035.0 8326.6 -6033.0 
-        8302.3 -6035.0 8302.4 -6035.0 
-        8354.9 0.0 8354.9 0.1 
-      )
-      (net /ENABLE 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7607.4 -6070.0 7607.4 -6070.1 
-        7607.4 -6070.0 7607.3 -6070.0 
-        7572.6 0.0 7572.6 -0.1 
+        8470.0 -5212.6 8470.1 -5212.6 
+        8470.0 -5212.6 8470.0 -5212.7 
+        0.0 -5247.4 0.1 -5247.4 
       )
       (net /RESET 1)
       (clearance_class "kicad_default")
       (type shove_fixed)
     )
     (wire
-      (polyline_path Back 6.0
-        8690.0 -5202.6 8690.0 -5202.7 
-        8520.0 -5202.6 8519.9 -5202.6 
-        8520.0 -5202.6 8520.1 -5202.5 
-      )
-      (net "N-000010" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8950.0 -5202.6 8950.1 -5202.7 
-        8780.0 -5202.6 8779.9 -5202.6 
-        8780.0 -5202.6 8780.1 -5202.5 
-      )
-      (net "N-000063" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        8150.0 -5202.6 8150.0 -5202.5 
-        8188.9 -5202.6 8240.0 -5202.6 
-        8240.0 -5202.6 8240.0 -5202.7 
-      )
-      (net "N-000061" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Back 6.0
-        7607.4 -5820.0 7607.5 -5820.0 
-        7607.4 -5820.0 7607.4 -5820.1 
-        0.0 -5858.8 0.1 -5858.8 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path Back 6.0
-        7625.1 -5950.0 7625.0 -5950.0 
-        7625.1 -5950.0 7625.1 -5837.7 
-        7607.4 -5858.8 7607.3 -5858.7 
-        7607.4 -5820.1 7607.4 -5820.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path Front 20.0
-        8302.3 -6235.0 8302.3 -6234.9 
-        9050.0 -6235.0 9065.0 -6235.0 
-        9065.0 -6235.0 9065.0 -6235.1 
-      )
-      (net /OUT4 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Back 20.0
-        9300.1 -6000.1 9300.0 -6000.0 
-        9300.0 -6000.0 9202.9 -6097.1 
-        9050.0 -6235.0 9065.0 -6235.0 
-      )
-      (net /OUT4 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Back 20.0
-        11100.0 -5990.0 11099.9 -5990.1 
-        11100.0 -5990.0 10994.5 -5884.5 
-        10994.5 -5884.5 9521.7 -5884.5 
-        9521.7 -5884.5 9271.2 -6135.0 
-        9271.2 -6135.0 9271.1 -6134.9 
-      )
-      (net /OUT6 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
-      (polyline_path Front 20.0
-        8302.3 -6135.0 8302.3 -6134.9 
-        8302.3 -6135.0 9271.2 -6135.0 
-        9279.5 -6126.7 9271.2 -6135.0 
-      )
-      (net /OUT6 1)
-      (clearance_class "LED_GND")
-    )
-    (wire
       (polyline_path Front 6.0
-        7398.9 -5755.0 7398.9 -5755.1 
-        7398.9 -5755.0 7398.8 -5755.0 
-        7346.3 0.0 7346.3 -0.1 
+        7478.9 -5505.0 7478.9 -5504.9 
+        7478.9 -5505.0 7479.0 -5505.0 
+        7531.5 0.0 7531.5 0.1 
       )
-      (net /PD6 1)
+      (net /RESET 1)
       (clearance_class "kicad_default")
       (type shove_fixed)
     )
     (wire
       (polyline_path Front 20.0
-        8087.6 -5544.9 8097.7 -5555.0 
-        8097.7 -5555.0 8097.7 -5605.0 
-        8097.7 -5605.0 8097.6 -5605.0 
+        7904.7 -5505.0 7904.8 -5504.9 
+        7904.7 -5505.0 7950.2 -5550.5 
+        7950.2 -5550.5 7950.2 -5607.4 
+        7950.2 -5607.4 7950.1 -5607.4 
       )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8375.6 -5719.7 8268.9 -5719.7 
+        8361.8 -5550.1 8361.8 -5550.0 
+        8310.0 -5520.0 8454.9 -5520.0 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8215.6 -5770.0 8256.4 -5729.2 
+        8165.1 -5770.0 8262.6 -5770.0 
+        8262.6 -5770.0 8262.6 -5770.1 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
       (type protect)
     )
     (wire
       (polyline_path Front 20.0
-        7920.0 -5544.9 7920.0 -5544.8 
-        7920.0 -5544.9 8087.6 -5544.9 
-        8087.6 -5544.9 8097.7 -5555.0 
-        8097.7 -5555.0 8097.8 -5554.9 
+        8361.8 -5550.1 8361.8 -5550.0 
+        8310.0 -5520.0 8454.9 -5520.0 
+        8404.3 -5514.9 8404.4 -5514.8 
+        8459.9 -5514.9 8460.0 -5514.9 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8310.0 -5520.0 8310.0 -5519.9 
+        8310.0 -5520.0 8454.9 -5520.0 
+        8361.8 -5550.1 8361.8 -5550.0 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        7841.1 -5505.0 7841.1 -5504.9 
+        7841.1 -5505.0 7841.2 -5505.0 
+        7904.7 0.0 7904.7 0.1 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8460.0 -5514.9 8460.0 -5515.0 
+        8460.0 -5514.9 8459.9 -5514.9 
+        8404.3 0.0 8404.3 -0.1 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8302.3 -5885.0 8302.3 -5884.9 
+        8302.3 -5885.0 8302.4 -5885.0 
+        8365.9 0.0 8365.9 0.1 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8000.0 -5532.6 8000.0 -5532.5 
+        8000.0 -5532.6 8000.1 -5532.6 
+        8049.8 0.0 8049.8 0.1 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8110.0 -5520.0 8110.0 -5520.1 
+        8110.0 -5520.0 8012.6 -5520.0 
+        8049.8 -5532.6 8049.7 -5532.7 
+        8000.1 -5532.6 8000.0 -5532.6 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8460.0 -5514.9 8459.9 -5514.9 
+        8460.0 -5514.9 8460.0 -5514.8 
+        0.0 -5463.2 -0.1 -5463.2 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8470.0 -5287.4 8470.1 -5287.4 
+        8470.0 -5287.4 8470.0 -5504.9 
+        8460.0 -5463.2 8459.9 -5463.3 
+        8460.0 -5514.8 8460.0 -5514.9 
+      )
+      (net VCC 1)
+      (clearance_class "LED_GND")
+    )
+    (wire
+      (polyline_path Front 20.0
+        8460.0 -5625.1 8460.1 -5625.1 
+        8460.0 -5625.1 8460.0 -5625.2 
+        0.0 -5676.9 0.1 -5676.9 
+      )
+      (net GND 1)
+      (clearance_class "LED_GND")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Front 80.0
+        8700.0 -5380.0 8700.0 -5020.0 
+        3360.0 -5020.0 13050.0 -5020.0 
+        13050.0 -5020.0 13050.0 -5020.1 
       )
       (net GNDPWR 1)
       (clearance_class GNDPWR)
@@ -7226,9 +6498,9 @@
     )
     (wire
       (polyline_path Front 80.0
-        7880.0 -5150.0 7880.0 -5020.0 
-        8000.0 -5020.0 9550.0 -5020.0 
-        9550.0 -5020.0 9550.0 -5020.1 
+        3360.0 -5020.0 3360.0 -5019.9 
+        3360.0 -5020.0 13050.0 -5020.0 
+        8700.0 -5380.0 8700.0 -5020.0 
       )
       (net GNDPWR 1)
       (clearance_class GNDPWR)
@@ -7236,9 +6508,10 @@
     )
     (wire
       (polyline_path Front 80.0
-        6850.0 -5020.0 6850.0 -5019.9 
-        8000.0 -5020.0 9550.0 -5020.0 
-        7880.0 -5150.0 7880.0 -5020.0 
+        8195.0 -5885.0 8195.0 -6330.0 
+        7910.0 -6330.0 2670.0 -6330.0 
+        2670.0 -6330.0 2670.0 -5920.0 
+        2670.0 -5920.0 2670.1 -5920.0 
       )
       (net GNDPWR 1)
       (clearance_class GNDPWR)
@@ -7246,9 +6519,9 @@
     )
     (wire
       (polyline_path Front 80.0
-        7910.0 -5900.0 7910.0 -6330.0 
-        9550.0 -6330.0 6850.0 -6330.0 
-        6850.0 -6330.0 6850.0 -6329.9 
+        8200.0 -6330.1 8200.0 -6330.0 
+        7910.0 -6330.0 2670.0 -6330.0 
+        8195.0 -5885.0 8195.0 -6330.0 
       )
       (net GNDPWR 1)
       (clearance_class GNDPWR)
@@ -7256,9 +6529,39 @@
     )
     (wire
       (polyline_path Front 80.0
-        9550.0 -6330.0 9550.0 -6330.1 
-        9550.0 -6330.0 6850.0 -6330.0 
-        7910.0 -5900.0 7910.0 -6330.0 
+        8195.0 -5885.0 8195.0 -6330.0 
+        8195.0 -6330.0 8200.0 -6330.0 
+        8200.0 -6330.0 8200.0 -6330.1 
+      )
+      (net GNDPWR 1)
+      (clearance_class GNDPWR)
+      (type protect)
+    )
+    (wire
+      (polyline_path Front 80.0
+        8195.0 -5885.0 8195.1 -5885.0 
+        8195.0 -5885.0 8195.0 -6330.0 
+        7910.0 -6330.0 2670.0 -6330.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class GNDPWR)
+      (type protect)
+    )
+    (wire
+      (polyline_path Front 80.0
+        2780.0 -5920.0 2780.0 -5920.1 
+        2880.0 -5920.0 2670.0 -5920.0 
+        2670.0 -5920.0 2670.0 -5919.9 
+      )
+      (net GNDPWR 1)
+      (clearance_class GNDPWR)
+      (type protect)
+    )
+    (wire
+      (polyline_path Front 80.0
+        2880.0 -5920.0 2880.0 -5920.1 
+        2880.0 -5920.0 2670.0 -5920.0 
+        2780.0 -5920.0 2780.0 -5920.1 
       )
       (net GNDPWR 1)
       (clearance_class GNDPWR)
@@ -7285,23 +6588,63 @@
       (type protect)
     )
     (wire
-      (polyline_path Front 80.0
-        2780.0 -5920.0 2780.0 -5920.1 
-        2880.0 -5920.0 2670.0 -5920.0 
-        2670.0 -5920.0 2670.0 -5919.9 
+      (polyline_path Back 80.0
+        2780.0 -6020.0 2780.0 -6020.1 
+        2880.0 -6020.0 2670.0 -6020.0 
+        2670.0 -6020.0 2670.0 -6019.9 
       )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
+      (net "/V_LED" 1)
+      (clearance_class "V_LED")
       (type protect)
     )
     (wire
-      (polyline_path Front 80.0
-        2880.0 -5920.0 2880.0 -5920.1 
-        2880.0 -5920.0 2670.0 -5920.0 
-        2780.0 -5920.0 2780.0 -5920.1 
+      (polyline_path Back 80.0
+        2880.0 -6020.0 2880.0 -6020.1 
+        2880.0 -6020.0 2670.0 -6020.0 
+        2780.0 -6020.0 2780.0 -6020.1 
       )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
+      (net "/V_LED" 1)
+      (clearance_class "V_LED")
+      (type protect)
+    )
+    (wire
+      (polyline_path Back 80.0
+        13630.0 -6020.0 13630.0 -6019.9 
+        13530.0 -6020.0 13730.0 -6020.0 
+        13730.0 -6020.0 13730.0 -6020.1 
+      )
+      (net "/V_LED" 1)
+      (clearance_class "V_LED")
+      (type protect)
+    )
+    (wire
+      (polyline_path Back 80.0
+        13530.0 -6020.0 13530.0 -6019.9 
+        13530.0 -6020.0 13730.0 -6020.0 
+        13630.0 -6020.0 13630.0 -6019.9 
+      )
+      (net "/V_LED" 1)
+      (clearance_class "V_LED")
+      (type protect)
+    )
+    (wire
+      (polyline_path Back 80.0
+        4850.0 -6000.0 4850.0 -6330.0 
+        3950.0 -6330.0 5750.0 -6330.0 
+        5750.0 -6330.0 5750.0 -6330.1 
+      )
+      (net "/V_LED" 1)
+      (clearance_class "V_LED")
+      (type protect)
+    )
+    (wire
+      (polyline_path Back 80.0
+        3950.0 -6330.0 3950.0 -6329.9 
+        3950.0 -6330.0 5750.0 -6330.0 
+        4850.0 -6000.0 4850.0 -6330.0 
+      )
+      (net "/V_LED" 1)
+      (clearance_class "V_LED")
       (type protect)
     )
     (wire
@@ -7345,103 +6688,12 @@
       (type protect)
     )
     (wire
-      (polyline_path Back 80.0
-        4850.0 -6000.0 4850.0 -6330.0 
-        3950.0 -6330.0 5750.0 -6330.0 
-        5750.0 -6330.0 5750.0 -6330.1 
-      )
-      (net "/V_LED" 1)
-      (clearance_class "V_LED")
-      (type protect)
-    )
-    (wire
-      (polyline_path Back 80.0
-        3950.0 -6330.0 3950.0 -6329.9 
-        3950.0 -6330.0 5750.0 -6330.0 
-        4850.0 -6000.0 4850.0 -6330.0 
-      )
-      (net "/V_LED" 1)
-      (clearance_class "V_LED")
-      (type protect)
-    )
-    (wire
-      (polyline_path Back 80.0
-        13630.0 -6020.0 13630.0 -6019.9 
-        13530.0 -6020.0 13730.0 -6020.0 
-        13730.0 -6020.0 13730.0 -6020.1 
-      )
-      (net "/V_LED" 1)
-      (clearance_class "V_LED")
-      (type protect)
-    )
-    (wire
-      (polyline_path Back 80.0
-        13530.0 -6020.0 13530.0 -6019.9 
-        13530.0 -6020.0 13730.0 -6020.0 
-        13630.0 -6020.0 13630.0 -6019.9 
-      )
-      (net "/V_LED" 1)
-      (clearance_class "V_LED")
-      (type protect)
-    )
-    (wire
-      (polyline_path Back 80.0
-        2780.0 -6020.0 2780.0 -6020.1 
-        2880.0 -6020.0 2670.0 -6020.0 
-        2670.0 -6020.0 2670.0 -6019.9 
-      )
-      (net "/V_LED" 1)
-      (clearance_class "V_LED")
-      (type protect)
-    )
-    (wire
-      (polyline_path Back 80.0
-        2880.0 -6020.0 2880.0 -6020.1 
-        2880.0 -6020.0 2670.0 -6020.0 
-        2780.0 -6020.0 2780.0 -6020.1 
-      )
-      (net "/V_LED" 1)
-      (clearance_class "V_LED")
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 20.0
-        8000.0 -5655.1 8000.0 -5600.0 
-        7920.0 -5655.1 8097.6 -5655.1 
-        8097.6 -5655.1 8097.7 -5655.0 
-        8097.7 -5655.0 8097.8 -5655.1 
-      )
-      (net "/V_LED" 1)
-      (clearance_class "V_LED")
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 20.0
-        7920.0 -5655.1 7920.0 -5655.0 
-        7920.0 -5655.1 8097.6 -5655.1 
-        8000.0 -5655.1 8000.0 -5600.0 
-      )
-      (net "/V_LED" 1)
-      (clearance_class "V_LED")
-      (type protect)
-    )
-    (wire
-      (polyline_path Back 20.0
-        9300.0 -5800.0 9299.9 -5800.0 
-        9300.0 -5800.0 9300.0 -5550.0 
-        9300.0 -5550.0 9300.1 -5550.0 
-      )
-      (net "N-000054" 1)
-      (clearance_class "LED_GND")
-      (type protect)
-    )
-    (wire
       (polyline_path Back 20.0
         10650.0 -5550.0 10650.1 -5550.0 
         10650.0 -5550.0 10650.0 -5800.0 
         10650.0 -5800.0 10649.9 -5800.0 
       )
-      (net "N-000052" 1)
+      (net "N-000062" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7451,7 +6703,7 @@
         10200.0 -5350.0 10650.0 -5350.0 
         10650.0 -5350.0 10650.0 -5350.1 
       )
-      (net "N-000051" 1)
+      (net "N-000061" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7461,7 +6713,7 @@
         10200.0 -5800.0 10200.0 -5550.0 
         10200.0 -5550.0 10200.1 -5550.0 
       )
-      (net "N-000050" 1)
+      (net "N-000060" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7471,7 +6723,7 @@
         12000.0 -5800.0 12000.0 -5550.0 
         12000.0 -5550.0 12000.1 -5550.0 
       )
-      (net "N-000048" 1)
+      (net "N-000058" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7481,7 +6733,7 @@
         12000.0 -5350.0 12450.0 -5350.0 
         12450.0 -5350.0 12450.0 -5350.1 
       )
-      (net "N-000046" 1)
+      (net "N-000056" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7491,7 +6743,7 @@
         12450.0 -5550.0 12450.0 -5800.0 
         12450.0 -5800.0 12449.9 -5800.0 
       )
-      (net "N-000045" 1)
+      (net "N-000055" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7501,7 +6753,7 @@
         11100.0 -5790.0 11100.0 -5550.0 
         11100.0 -5550.0 11100.1 -5550.0 
       )
-      (net "N-000043" 1)
+      (net "N-000054" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7511,7 +6763,7 @@
         11100.0 -5350.0 11560.0 -5350.0 
         11560.0 -5350.0 11560.0 -5350.1 
       )
-      (net "N-000041" 1)
+      (net "N-000052" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7521,27 +6773,17 @@
         11560.0 -5550.0 11560.0 -5800.0 
         11560.0 -5800.0 11559.9 -5800.0 
       )
-      (net "N-000040" 1)
+      (net "N-000051" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
     (wire
       (polyline_path Back 20.0
-        4850.0 -5550.0 4850.1 -5550.0 
-        4850.0 -5550.0 4850.0 -5800.0 
-        4850.0 -5800.0 4849.9 -5800.0 
-      )
-      (net "N-000039" 1)
-      (clearance_class "LED_GND")
-      (type protect)
-    )
-    (wire
-      (polyline_path Back 20.0
-        4400.0 -5800.0 4399.9 -5800.0 
-        4400.0 -5800.0 4400.0 -5550.0 
         4400.0 -5550.0 4400.1 -5550.0 
+        4400.0 -5550.0 4400.0 -5800.0 
+        4400.0 -5800.0 4399.9 -5800.0 
       )
-      (net "N-000038" 1)
+      (net "N-000049" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7551,7 +6793,7 @@
         3949.9 -5350.0 4400.0 -5350.0 
         4400.0 -5350.0 4400.0 -5350.1 
       )
-      (net "N-000036" 1)
+      (net "N-000047" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7562,7 +6804,7 @@
         3950.0 -5550.1 3949.9 -5550.0 
         3949.9 -5550.0 3950.0 -5549.9 
       )
-      (net "N-000035" 1)
+      (net "N-000046" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7572,7 +6814,7 @@
         5750.0 -5800.0 5750.0 -5550.0 
         5750.0 -5550.0 5750.1 -5550.0 
       )
-      (net "N-000029" 1)
+      (net "N-000040" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7582,17 +6824,27 @@
         5750.0 -5350.0 6200.0 -5350.0 
         6200.0 -5350.0 6200.0 -5350.1 
       )
-      (net "N-000028" 1)
+      (net "N-000039" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
     (wire
       (polyline_path Back 20.0
-        6200.0 -5800.0 6199.9 -5800.0 
-        6200.0 -5800.0 6200.0 -5550.0 
         6200.0 -5550.0 6200.1 -5550.0 
+        6200.0 -5550.0 6200.0 -5800.0 
+        6200.0 -5800.0 6199.9 -5800.0 
       )
-      (net "N-000027" 1)
+      (net "N-000038" 1)
+      (clearance_class "LED_GND")
+      (type protect)
+    )
+    (wire
+      (polyline_path Back 20.0
+        4850.0 -5800.0 4849.9 -5800.0 
+        4850.0 -5800.0 4850.0 -5550.0 
+        4850.0 -5550.0 4850.1 -5550.0 
+      )
+      (net "N-000037" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7602,7 +6854,7 @@
         6650.0 -5800.0 6650.0 -5550.0 
         6650.0 -5550.0 6650.1 -5550.0 
       )
-      (net "N-000025" 1)
+      (net "N-000036" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7612,37 +6864,37 @@
         6650.0 -5350.0 7100.0 -5350.0 
         7100.0 -5350.0 7100.0 -5350.1 
       )
-      (net "N-000024" 1)
+      (net "N-000035" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
     (wire
       (polyline_path Back 20.0
-        7100.0 -5800.0 7099.9 -5800.0 
-        7100.0 -5800.0 7100.0 -5550.0 
         7100.0 -5550.0 7100.1 -5550.0 
+        7100.0 -5550.0 7100.0 -5800.0 
+        7100.0 -5800.0 7099.9 -5800.0 
       )
-      (net "N-000023" 1)
+      (net "N-000034" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
     (wire
       (polyline_path Back 20.0
-        5300.0 -5800.0 5299.9 -5800.0 
-        5300.0 -5800.0 5300.0 -5550.0 
         5300.0 -5550.0 5300.1 -5550.0 
+        5300.0 -5550.0 5300.0 -5800.0 
+        5300.0 -5800.0 5299.9 -5800.0 
       )
-      (net "N-000021" 1)
+      (net "N-000032" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
     (wire
       (polyline_path Back 20.0
-        5300.0 -5350.0 5300.0 -5350.1 
-        5300.0 -5350.0 4850.0 -5350.0 
         4850.0 -5350.0 4850.0 -5349.9 
+        4850.0 -5350.0 5300.0 -5350.0 
+        5300.0 -5350.0 5300.0 -5350.1 
       )
-      (net "N-000019" 1)
+      (net "N-000030" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7652,7 +6904,7 @@
         9750.0 -5550.0 9750.0 -5800.0 
         9750.0 -5800.0 9749.9 -5800.0 
       )
-      (net "N-000005" 1)
+      (net "N-000010" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7662,7 +6914,17 @@
         9300.0 -5350.0 9750.0 -5350.0 
         9750.0 -5350.0 9750.0 -5350.1 
       )
-      (net "N-000004" 1)
+      (net "N-000009" 1)
+      (clearance_class "LED_GND")
+      (type protect)
+    )
+    (wire
+      (polyline_path Back 20.0
+        9300.0 -5800.0 9299.9 -5800.0 
+        9300.0 -5800.0 9300.0 -5550.0 
+        9300.0 -5550.0 9300.1 -5550.0 
+      )
+      (net "N-000008" 1)
       (clearance_class "LED_GND")
       (type protect)
     )
@@ -7670,7 +6932,8 @@
       (polyline_path Front 80.0
         13730.0 -5920.0 13729.9 -5920.0 
         13730.0 -5920.0 13730.0 -5020.0 
-        13730.0 -5020.0 13730.1 -5020.0 
+        13730.0 -5020.0 13050.0 -5020.0 
+        13050.0 -5019.9 13050.0 -5020.0 
       )
       (net GNDPWR 1)
       (clearance_class GNDPWR)
@@ -7678,8 +6941,8 @@
     )
     (wire
       (polyline_path Front 80.0
-        12790.0 -6330.0 12790.0 -6329.9 
-        12790.0 -6330.0 13730.0 -6330.0 
+        8200.0 -6330.0 8200.0 -6329.9 
+        8200.0 -6330.0 13730.0 -6330.0 
         13730.0 -6330.0 13730.0 -5920.0 
         13730.0 -5920.0 13730.1 -5920.0 
       )
@@ -7700,50 +6963,9 @@
     )
     (wire
       (polyline_path Front 80.0
-        3650.0 -6330.0 3650.0 -6330.1 
-        3650.0 -6330.0 2670.0 -6330.0 
-        2670.0 -6330.0 2670.0 -5920.0 
-        2670.0 -5920.0 2670.1 -5920.0 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
         13050.0 -5520.0 13049.9 -5520.0 
         13050.0 -5520.0 13050.0 -5020.0 
         13050.0 -5020.0 13050.1 -5020.0 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        12750.0 -5200.0 12749.9 -5200.0 
-        12750.0 -5200.0 12750.0 -5020.0 
-        12750.0 -5020.0 12750.1 -5020.0 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        9550.0 -5200.0 9549.9 -5200.0 
-        9550.0 -5200.0 9550.0 -5020.0 
-        9550.0 -5020.0 9550.1 -5020.0 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        3650.0 -5200.0 3649.9 -5200.0 
-        3650.0 -5200.0 3650.0 -5020.0 
-        3650.0 -5020.0 3650.1 -5020.0 
       )
       (net GNDPWR 1)
       (clearance_class GNDPWR)
@@ -7760,203 +6982,10 @@
       (type protect)
     )
     (wire
-      (polyline_path Front 80.0
-        6850.0 -6150.0 6850.1 -6150.0 
-        6850.0 -6150.0 6850.0 -6330.0 
-        6850.0 -6330.0 6849.9 -6330.0 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        6850.0 -6330.0 6850.0 -6330.1 
-        6850.0 -6330.0 3650.0 -6330.0 
-        3650.0 -6330.0 3650.0 -6329.9 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        9550.0 -6150.0 9550.1 -6150.0 
-        9550.0 -6150.0 9550.0 -6330.0 
-        9550.0 -6330.0 9549.9 -6330.0 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        12760.0 -6330.0 12760.0 -6329.9 
-        12760.0 -6330.0 12790.0 -6330.0 
-        12790.0 -6330.0 12790.0 -6330.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        12750.0 -6150.0 12750.1 -6150.0 
-        12750.0 -6150.0 12750.0 -6320.0 
-        12750.0 -6320.0 12760.0 -6330.0 
-        12760.0 -6330.0 12759.9 -6330.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        12790.0 -6330.0 12790.0 -6330.1 
-        12790.0 -6330.0 12760.0 -6330.0 
-        12760.0 -6330.0 12760.0 -6329.9 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        12760.0 -6330.0 12760.0 -6330.1 
-        12760.0 -6330.0 9550.0 -6330.0 
-        9550.0 -6330.0 9550.0 -6329.9 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        3650.0 -6150.0 3650.1 -6150.0 
-        3650.0 -6150.0 3650.0 -6330.0 
-        3650.0 -6330.0 3649.9 -6330.0 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        13590.0 -5020.0 13590.0 -5019.9 
-        13590.0 -5020.0 13730.0 -5020.0 
-        13730.0 -5020.0 13730.0 -5020.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        13590.0 -5020.0 13590.0 -5019.9 
-        13590.0 -5020.0 13730.0 -5020.0 
-        13730.0 -5020.0 13730.0 -5020.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        3360.0 -5020.0 3360.0 -5019.9 
-        3360.0 -5020.0 3650.0 -5020.0 
-        3650.0 -5020.0 3650.0 -5020.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        6850.0 -5200.0 6849.9 -5200.0 
-        6850.0 -5200.0 6850.0 -5020.0 
-        6850.0 -5020.0 6850.1 -5020.0 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        6850.0 -5020.0 6850.0 -5020.1 
-        6850.0 -5020.0 6840.0 -5020.0 
-        6840.0 -5020.0 6840.0 -5019.9 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        3650.0 -5020.0 3650.0 -5019.9 
-        3650.0 -5020.0 6840.0 -5020.0 
-        6840.0 -5020.0 6840.0 -5020.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        6840.0 -5020.0 6840.0 -5019.9 
-        6840.0 -5020.0 6850.0 -5020.0 
-        6850.0 -5020.0 6850.0 -5020.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        9550.0 -5020.0 9550.0 -5019.9 
-        9550.0 -5020.0 12750.0 -5020.0 
-        12750.0 -5020.0 12750.0 -5020.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        12750.0 -5020.0 12750.0 -5019.9 
-        12750.0 -5020.0 13050.0 -5020.0 
-        13050.0 -5020.0 13050.0 -5020.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Front 80.0
-        13050.0 -5020.0 13050.0 -5019.9 
-        13050.0 -5020.0 13590.0 -5020.0 
-        13590.0 -5020.0 13590.0 -5020.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Back 20.0
-        8200.0 -6122.6 8199.9 -6122.6 
-        8200.0 -6122.6 8200.0 -6025.1 
-        8200.0 -6025.1 8200.1 -6025.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
       (polyline_path Front 40.0
-        8097.7 -5885.0 8097.7 -5885.1 
-        8097.7 -5885.0 7925.0 -5885.0 
-        7925.0 -5885.0 7910.0 -5900.0 
-        7910.0 -5900.0 7910.0 -6330.0 
-        7910.0 -6330.0 7909.9 -6330.0 
+        8097.7 -5885.0 8097.7 -5884.9 
+        8097.7 -5885.0 8195.0 -5885.0 
+        8195.0 -5885.0 8195.0 -5885.1 
       )
       (net GNDPWR 1)
       (clearance_class GNDPWR)
@@ -7964,23 +6993,10 @@
     )
     (wire
       (polyline_path Front 20.0
-        8097.7 -5885.0 8097.6 -5885.0 
-        8097.7 -5885.0 8097.7 -5822.3 
-        8097.7 -5822.3 8110.0 -5810.0 
-        8110.0 -5810.0 8130.0 -5810.0 
-        8130.0 -5810.0 8130.0 -5810.1 
-      )
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
-    )
-    (wire
-      (polyline_path Back 20.0
-        8130.0 -5810.0 8130.1 -5810.0 
-        8130.0 -5810.0 8130.0 -6000.0 
-        8130.0 -6000.0 8155.1 -6025.1 
-        8155.1 -6025.1 8200.0 -6025.1 
-        8200.0 -6025.1 8200.0 -6025.2 
+        8054.9 -5770.0 8055.0 -5770.0 
+        8054.9 -5770.0 8054.9 -5842.2 
+        8054.9 -5842.2 8097.7 -5885.0 
+        8097.7 -5885.0 8097.6 -5885.1 
       )
       (net GNDPWR 1)
       (clearance_class GNDPWR)
@@ -7988,13 +7004,48 @@
     )
     (wire
       (polyline_path Front 20.0
-        7920.0 -5544.9 7919.9 -5544.9 
-        7920.0 -5544.9 7920.0 -5370.0 
-        7920.0 -5370.0 7830.0 -5280.0 
-        7830.0 -5280.0 7830.0 -5200.0 
-        7830.0 -5200.0 7880.0 -5150.0 
-        7880.0 -5150.0 7880.0 -5020.0 
-        7880.0 -5020.0 7880.1 -5020.0 
+        8195.0 -5885.0 8194.9 -5884.9 
+        8195.0 -5885.0 8240.0 -5840.0 
+        8240.0 -5840.0 8320.0 -5840.0 
+        8320.0 -5840.0 8337.4 -5822.6 
+        8337.4 -5822.6 8337.4 -5770.0 
+        8337.4 -5770.0 8337.5 -5770.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class GNDPWR)
+      (type protect)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8560.0 -5514.9 8560.0 -5514.8 
+        8560.0 -5514.9 8584.9 -5514.9 
+        8584.9 -5514.9 8615.0 -5545.0 
+        8615.0 -5545.0 8677.7 -5545.0 
+        8677.7 -5545.0 8677.7 -5545.1 
+      )
+      (net GNDPWR 1)
+      (clearance_class GNDPWR)
+      (type protect)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8677.7 -5545.0 8677.8 -5545.0 
+        8677.7 -5545.0 8677.7 -5595.0 
+        8677.7 -5595.0 8677.6 -5595.0 
+      )
+      (net GNDPWR 1)
+      (clearance_class GNDPWR)
+      (type protect)
+    )
+    (wire
+      (polyline_path Front 20.0
+        8560.0 -5514.9 8559.9 -5514.9 
+        8560.0 -5514.9 8560.0 -5430.0 
+        8560.0 -5430.0 8580.0 -5410.0 
+        8580.0 -5410.0 8670.0 -5410.0 
+        8670.0 -5410.0 8700.0 -5380.0 
+        8700.0 -5380.0 8700.0 -5020.0 
+        8700.0 -5020.0 8700.1 -5020.0 
       )
       (net GNDPWR 1)
       (clearance_class GNDPWR)
@@ -8004,19 +7055,8 @@
       (polyline_path Back 80.0
         2670.0 -6020.0 2669.9 -6020.0 
         2670.0 -6020.0 2670.0 -5020.0 
-        2670.0 -5020.0 8000.0 -5020.0 
-        8000.0 -5020.0 8000.0 -5020.1 
-      )
-      (net "/V_LED" 1)
-      (clearance_class "V_LED")
-      (type protect)
-    )
-    (wire
-      (polyline_path Back 80.0
-        8000.0 -5020.0 8000.0 -5019.9 
-        8320.0 -5020.0 13730.0 -5020.0 
-        13730.0 -5020.0 13730.0 -6020.0 
-        13730.0 -6020.0 13729.9 -6020.0 
+        8000.0 -5020.0 8780.0 -5020.0 
+        8780.0 -5020.0 8780.0 -5020.1 
       )
       (net "/V_LED" 1)
       (clearance_class "V_LED")
@@ -8196,14 +7236,23 @@
       (type protect)
     )
     (wire
-      (polyline_path Back 20.0
-        8000.0 -5600.0 7999.9 -5600.0 
-        8000.0 -5600.0 8000.0 -5320.0 
-        8000.0 -5320.0 8040.0 -5280.0 
-        8040.0 -5280.0 8040.0 -5210.0 
-        8040.0 -5210.0 8000.0 -5170.0 
-        8000.0 -5170.0 8000.0 -5020.0 
-        8000.0 -5020.0 8000.1 -5020.0 
+      (polyline_path Front 20.0
+        8560.0 -5625.1 8560.0 -5625.0 
+        8560.0 -5625.1 8605.1 -5625.1 
+        8605.1 -5625.1 8625.0 -5645.0 
+        8625.0 -5645.0 8677.7 -5645.0 
+        8677.7 -5645.0 8677.7 -5645.1 
+      )
+      (net "/V_LED" 1)
+      (clearance_class "V_LED")
+      (type protect)
+    )
+    (wire
+      (polyline_path Back 80.0
+        8780.0 -5020.0 8780.0 -5019.9 
+        9010.0 -5020.0 13730.0 -5020.0 
+        13730.0 -5020.0 13730.0 -6020.0 
+        13730.0 -6020.0 13729.9 -6020.0 
       )
       (net "/V_LED" 1)
       (clearance_class "V_LED")
@@ -8211,156 +7260,113 @@
     )
     (wire
       (polyline_path Front 20.0
-        8000.0 -5655.1 7999.9 -5655.1 
-        8000.0 -5655.1 8000.0 -5600.0 
-        8000.0 -5600.0 8000.1 -5600.0 
+        8560.0 -5625.1 8560.1 -5625.1 
+        8560.0 -5625.1 8560.0 -5680.0 
+        8560.0 -5680.0 8590.0 -5710.0 
+        8590.0 -5710.0 8730.0 -5710.0 
+        8730.0 -5710.0 8780.0 -5660.0 
+        8780.0 -5660.0 8780.0 -5090.0 
+        8780.0 -5090.0 8780.1 -5090.0 
       )
       (net "/V_LED" 1)
       (clearance_class "V_LED")
       (type protect)
     )
-    (via "Via[0-1]_35:25_mil" 7866.5 -5843.3
-      (net /SW3 1)
-      (clearance_class "kicad_default")
+    (wire
+      (polyline_path Back 20.0
+        8780.0 -5090.0 8779.9 -5090.0 
+        8780.0 -5090.0 8780.0 -5020.0 
+        8780.0 -5020.0 8780.1 -5020.0 
+      )
+      (net "/V_LED" 1)
+      (clearance_class "V_LED")
+      (type protect)
     )
-    (via "Via[0-1]_35:25_mil" 7827.9 -5879.4
+    (via "Via[0-1]_35:25_mil" 7547.1 -5764.8
       (net /SW2 1)
       (clearance_class "kicad_default")
     )
-    (via "Via[0-1]_35:25_mil" 7827.1 -6081.2
-      (net /TXO 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 7526.8 -6016.6
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 8438.3 -5524.9
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 7970.0 -5934.7
-      (net "/DATA_/_MISO" 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 7803.5 -5559.8
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 7466.6 -6086.1
-      (net "/DATA_/_MISO" 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 13209.2 -5886.6
-      (net /LATCH 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 9064.4 -5659.4
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 8378.2 -6006.1
-      (net /CLOCK 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 8221.8 -5692.1
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 8236.0 -5859.4
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 7109.3 -6261.9
-      (net /RXI 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 7693.0 -5805.8
-      (net /LED 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 7466.4 -6035.3
-      (net /MOSI 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 7683.6 -5750.7
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 9339.9 -6185.0
-      (net /OUT5 1)
-      (clearance_class "LED_GND")
-    )
-    (via "Via[0-1]_35:25_mil" 8015.9 -6049.0
-      (net /ENABLE 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 8012.9 -5774.4
-      (net /ENABLE 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 8004.6 -6238.6
-      (net /OUT3 1)
-      (clearance_class "LED_GND")
-    )
-    (via "Via[0-1]_35:25_mil" 7656.9 -6084.6
-      (net /RESET 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 7785.9 -5643.6
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_35:25_mil" 7695.5 -5930.8
+    (via "Via[0-1]_35:25_mil" 7637.3 -5436.7
       (net /SW1 1)
       (clearance_class "kicad_default")
     )
-    (via "Via[0-1]_35:25_mil" 7468.2 -6147.3
+    (via "Via[0-1]_35:25_mil" 7588.4 -5734.0
+      (net /SW1 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7512.3 -5461.4
+      (net /RXI 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7411.3 -5861.4
+      (net /LED 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7955.6 -5828.2
+      (net /PB3 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7958.2 -5764.7
+      (net /LATCH 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 8370.6 -5971.8
+      (net /ENABLE 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7909.3 -5854.9
+      (net /ENABLE 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 9064.0 -5628.5
+      (net /PD6 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7772.7 -5857.0
+      (net /PB1 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7716.5 -5265.8
+      (net /LED 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7604.9 -5844.6
+      (net /SW3 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7956.1 -5685.2
       (net /CLOCK 1)
       (clearance_class "kicad_default")
     )
-    (via "Via[0-1]_35:25_mil" 7670.2 -6154.8
-      (net /OUT0 1)
-      (clearance_class "LED_GND")
+    (via "Via[0-1]_35:25_mil" 7908.4 -5673.3
+      (net /MOSI 1)
+      (clearance_class "kicad_default")
     )
-    (via "Via[0-1]_35:25_mil" 7961.1 -6118.4
-      (net /OUT0 1)
-      (clearance_class "LED_GND")
-    )
-    (via "Via[0-1]_35:25_mil" 7299.7 -6032.0
-      (net /OUT1 1)
-      (clearance_class "LED_GND")
-    )
-    (via "Via[0-1]_35:25_mil" 7254.0 -6032.0
-      (net /OUT1 1)
-      (clearance_class "LED_GND")
-    )
-    (via "Via[0-1]_35:25_mil" 7959.7 -6163.8
-      (net /OUT1 1)
-      (clearance_class "LED_GND")
-    )
-    (via "Via[0-1]_35:25_mil" 7268.5 -6114.2
-      (net /OUT2 1)
-      (clearance_class "LED_GND")
-    )
-    (via "Via[0-1]_35:25_mil" 7959.6 -6209.2
-      (net /OUT2 1)
-      (clearance_class "LED_GND")
+    (via "Via[0-1]_35:25_mil" 7409.8 -5605.0
+      (net /TXO 1)
+      (clearance_class "kicad_default")
     )
     (via "Via[0-1]_35:25_mil" 9065.0 -6235.0
       (net /OUT4 1)
       (clearance_class "LED_GND")
     )
-    (via "Via[0-1]_35:25_mil" 9271.2 -6135.0
-      (net /OUT6 1)
+    (via "Via[0-1]_35:25_mil" 7630.7 -5904.5
+      (net /PD6 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7685.9 -5909.3
+      (net /PB0 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_35:25_mil" 7550.1 -5875.9
+      (net GND 1)
       (clearance_class "LED_GND")
     )
-    (via "Via[0-1]_35:25_mil" 8130.0 -5810.0
-      (net GNDPWR 1)
-      (clearance_class GNDPWR)
-      (type protect)
+    (via "Via[0-1]_35:25_mil" 7324.2 -6180.7
+      (net /OUT2 1)
+      (clearance_class "LED_GND")
     )
-    (via "Via[0-1]_35:25_mil" 8000.0 -5600.0
+    (via "Via[0-1]_35:25_mil" 8780.0 -5090.0
       (net "/V_LED" 1)
       (clearance_class "V_LED")
       (type protect)

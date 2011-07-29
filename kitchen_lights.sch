@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 29 Jul 2011 03:02:18 AM CEST
+EESchema Schematic File Version 2  date Fri 29 Jul 2011 06:51:47 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,14 +44,22 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "BestKitchenLightsEver(tm)"
-Date "28 jul 2011"
-Rev "1.1"
+Date "29 jul 2011"
+Rev "1.10"
 Comp "My 2µF Blog"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 3050 4000
+NoConn ~ 3050 3900
+NoConn ~ 3050 3800
+NoConn ~ 3050 3700
+NoConn ~ 3050 3600
+NoConn ~ 3050 3500
+NoConn ~ 3050 3400
+NoConn ~ 3050 3300
 Wire Wire Line
 	1550 5100 1950 5100
 Wire Wire Line
@@ -137,11 +145,6 @@ Wire Wire Line
 	6000 1450 5600 1450
 Wire Wire Line
 	5600 1450 5600 1400
-Connection ~ 3000 3900
-Wire Wire Line
-	3050 4000 3000 4000
-Wire Wire Line
-	3000 4000 3000 3600
 Wire Wire Line
 	5000 3600 5200 3600
 Wire Wire Line
@@ -166,17 +169,6 @@ Wire Notes Line
 	10850 6550 7250 6550
 Wire Notes Line
 	7250 6550 7250 1500
-Connection ~ 3000 3700
-Wire Wire Line
-	3000 3800 3050 3800
-Connection ~ 2850 3400
-Wire Wire Line
-	3050 3300 2850 3300
-Wire Wire Line
-	2850 3300 2850 3700
-Connection ~ 2850 3600
-Wire Wire Line
-	2850 3500 3050 3500
 Wire Wire Line
 	10500 2900 10500 2950
 Wire Wire Line
@@ -384,14 +376,6 @@ Wire Wire Line
 	10500 3350 10500 3400
 Wire Wire Line
 	10500 2450 10500 2500
-Wire Wire Line
-	2850 3600 3050 3600
-Wire Wire Line
-	2850 3400 3050 3400
-Connection ~ 2850 3500
-Connection ~ 3000 3600
-Wire Wire Line
-	3000 3700 3050 3700
 Wire Notes Line
 	550  3150 550  550 
 Wire Notes Line
@@ -426,9 +410,6 @@ Wire Notes Line
 	5450 4050 5450 3200
 Wire Notes Line
 	5450 3200 3850 3200
-Wire Wire Line
-	3000 3900 3050 3900
-Connection ~ 3000 3800
 Wire Wire Line
 	5600 1000 5600 950 
 Wire Wire Line
@@ -711,15 +692,6 @@ P 3200 3700
 F 0 "MH4" H 3280 3700 40  0000 L CNN
 F 1 "CONN_1" H 3200 3755 30  0001 C CNN
 	1    3200 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDPWR #PWR05
-U 1 1 4D7ED608
-P 2850 3700
-F 0 "#PWR05" H 2850 3750 40  0001 C CNN
-F 1 "GNDPWR" H 2850 3620 40  0000 C CNN
-	1    2850 3700
 	1    0    0    -1  
 $EndComp
 $Comp

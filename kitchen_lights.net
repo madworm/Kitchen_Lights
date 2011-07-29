@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 04 May 2011 08:11:04 PM CEST
+# EESchema Netlist Version 1.1 created  Fri 29 Jul 2011 01:21:52 AM CEST
 (
  ( /4D7EAC9E -C0805 C1 100nF
   ( 1 VCC )
@@ -34,151 +34,157 @@
  )
  ( /4D723331 MADW__TOPBRIGHT_STRAW_HAT D1 LED
   ( 1 /V_LED )
-  ( 2 N-000055 )
+  ( 2 N-000035 )
  )
  ( /4D723363 MADW__TOPBRIGHT_STRAW_HAT D2 LED
-  ( 1 N-000055 )
-  ( 2 N-000056 )
+  ( 1 N-000035 )
+  ( 2 N-000036 )
  )
  ( /4D723367 MADW__TOPBRIGHT_STRAW_HAT D3 LED
-  ( 1 N-000056 )
-  ( 2 N-000058 )
+  ( 1 N-000036 )
+  ( 2 N-000038 )
  )
  ( /4D72336A MADW__TOPBRIGHT_STRAW_HAT D4 LED
-  ( 1 N-000058 )
+  ( 1 N-000038 )
   ( 2 /OUT0 )
  )
  ( /4D723370 MADW__TOPBRIGHT_STRAW_HAT D5 LED
   ( 1 /V_LED )
-  ( 2 N-000059 )
+  ( 2 N-000039 )
  )
  ( /4D723373 MADW__TOPBRIGHT_STRAW_HAT D6 LED
-  ( 1 N-000059 )
-  ( 2 N-000051 )
+  ( 1 N-000039 )
+  ( 2 N-000019 )
  )
  ( /4D723376 MADW__TOPBRIGHT_STRAW_HAT D7 LED
-  ( 1 N-000051 )
-  ( 2 N-000050 )
+  ( 1 N-000019 )
+  ( 2 N-000021 )
  )
  ( /4D723379 MADW__TOPBRIGHT_STRAW_HAT D8 LED
-  ( 1 N-000050 )
+  ( 1 N-000021 )
   ( 2 /OUT1 )
  )
  ( /4D7233F3 MADW__TOPBRIGHT_STRAW_HAT D9 LED
   ( 1 /V_LED )
-  ( 2 N-000053 )
+  ( 2 N-000029 )
  )
  ( /4D7233F2 MADW__TOPBRIGHT_STRAW_HAT D10 LED
-  ( 1 N-000053 )
-  ( 2 N-000052 )
+  ( 1 N-000029 )
+  ( 2 N-000028 )
  )
  ( /4D7233F1 MADW__TOPBRIGHT_STRAW_HAT D11 LED
-  ( 1 N-000052 )
-  ( 2 N-000043 )
+  ( 1 N-000028 )
+  ( 2 N-000027 )
  )
  ( /4D7233F0 MADW__TOPBRIGHT_STRAW_HAT D12 LED
-  ( 1 N-000043 )
+  ( 1 N-000027 )
   ( 2 /OUT2 )
  )
  ( /4D7233EF MADW__TOPBRIGHT_STRAW_HAT D13 LED
   ( 1 /V_LED )
-  ( 2 N-000045 )
+  ( 2 N-000025 )
  )
  ( /4D7233EE MADW__TOPBRIGHT_STRAW_HAT D14 LED
-  ( 1 N-000045 )
-  ( 2 N-000046 )
+  ( 1 N-000025 )
+  ( 2 N-000024 )
  )
  ( /4D7233ED MADW__TOPBRIGHT_STRAW_HAT D15 LED
-  ( 1 N-000046 )
-  ( 2 N-000047 )
+  ( 1 N-000024 )
+  ( 2 N-000023 )
  )
  ( /4D7233EC MADW__TOPBRIGHT_STRAW_HAT D16 LED
-  ( 1 N-000047 )
+  ( 1 N-000023 )
   ( 2 /OUT3 )
  )
  ( /4D7EA5E3 MADW__TOPBRIGHT_STRAW_HAT D17 LED
   ( 1 /V_LED )
-  ( 2 N-000004 )
- )
- ( /4D7EA5E2 MADW__TOPBRIGHT_STRAW_HAT D18 LED
-  ( 1 N-000004 )
   ( 2 N-000005 )
  )
- ( /4D7EA5E1 MADW__TOPBRIGHT_STRAW_HAT D19 LED
+ ( /4D7EA5E2 MADW__TOPBRIGHT_STRAW_HAT D18 LED
   ( 1 N-000005 )
-  ( 2 N-000021 )
+  ( 2 N-000004 )
+ )
+ ( /4D7EA5E1 MADW__TOPBRIGHT_STRAW_HAT D19 LED
+  ( 1 N-000004 )
+  ( 2 N-000054 )
  )
  ( /4D7EA5E0 MADW__TOPBRIGHT_STRAW_HAT D20 LED
-  ( 1 N-000021 )
+  ( 1 N-000054 )
   ( 2 /OUT4 )
  )
  ( /4D7EA5DF MADW__TOPBRIGHT_STRAW_HAT D21 LED
   ( 1 /V_LED )
-  ( 2 N-000019 )
+  ( 2 N-000052 )
  )
  ( /4D7EA5DE MADW__TOPBRIGHT_STRAW_HAT D22 LED
-  ( 1 N-000019 )
-  ( 2 N-000018 )
+  ( 1 N-000052 )
+  ( 2 N-000051 )
  )
  ( /4D7EA5DD MADW__TOPBRIGHT_STRAW_HAT D23 LED
-  ( 1 N-000018 )
-  ( 2 N-000017 )
+  ( 1 N-000051 )
+  ( 2 N-000050 )
  )
  ( /4D7EA5DC MADW__TOPBRIGHT_STRAW_HAT D24 LED
-  ( 1 N-000017 )
+  ( 1 N-000050 )
   ( 2 /OUT5 )
  )
  ( /4D7EA5D4 MADW__TOPBRIGHT_STRAW_HAT D25 LED
   ( 1 /V_LED )
-  ( 2 N-000009 )
+  ( 2 N-000040 )
  )
  ( /4D7EA5D5 MADW__TOPBRIGHT_STRAW_HAT D26 LED
-  ( 1 N-000009 )
-  ( 2 N-000008 )
+  ( 1 N-000040 )
+  ( 2 N-000041 )
  )
  ( /4D7EA5D6 MADW__TOPBRIGHT_STRAW_HAT D27 LED
-  ( 1 N-000008 )
-  ( 2 N-000007 )
+  ( 1 N-000041 )
+  ( 2 N-000043 )
  )
  ( /4D7EA5D7 MADW__TOPBRIGHT_STRAW_HAT D28 LED
-  ( 1 N-000007 )
+  ( 1 N-000043 )
   ( 2 /OUT6 )
  )
  ( /4D7EA5D8 MADW__TOPBRIGHT_STRAW_HAT D29 LED
   ( 1 /V_LED )
-  ( 2 N-000012 )
+  ( 2 N-000045 )
  )
  ( /4D7EA5D9 MADW__TOPBRIGHT_STRAW_HAT D30 LED
-  ( 1 N-000012 )
-  ( 2 N-000013 )
+  ( 1 N-000045 )
+  ( 2 N-000046 )
  )
  ( /4D7EA5DA MADW__TOPBRIGHT_STRAW_HAT D31 LED
-  ( 1 N-000013 )
-  ( 2 N-000015 )
+  ( 1 N-000046 )
+  ( 2 N-000048 )
  )
  ( /4D7EA5DB MADW__TOPBRIGHT_STRAW_HAT D32 LED
-  ( 1 N-000015 )
+  ( 1 N-000048 )
   ( 2 /OUT7 )
  )
  ( /4D7EA61F LEDV D33 LED
-  ( 1 N-000001 )
+  ( 1 N-000006 )
   ( 2 GND )
  )
- ( /4D7E900D -SO-14 IC1 ATTINY24/44/84-SSU
-  ( 1 VCC )
-  ( 2 /ENABLE )
-  ( 3 /LATCH )
-  ( 4 /RESET )
-  ( 5 /LED )
-  ( 6 /SWITCHES )
-  ( 7 /MOSI )
-  ( 8 /DATA_/_MISO )
-  ( 9 /CLOCK )
-  ( 10 /PA3 )
-  ( 11 /PA2 )
-  ( 12 /PA1 )
-  ( 13 /PA0 )
-  ( 14 GND )
+ ( /4DC71637 -SO-20DW IC1 MADW__ATTINY2313DIP/SO
+  ( 1 /RESET )
+  ( 2 /RXI )
+  ( 3 /TXO )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 /SW1 )
+  ( 7 /SW2 )
+  ( 8 /SW3 )
+  ( 9 /LED )
+  ( 10 GND )
+  ( 11 /PD6 )
+  ( 12 /PB0 )
+  ( 13 /PB1 )
+  ( 14 /ENABLE )
+  ( 15 /PB3 )
+  ( 16 /LATCH )
+  ( 17 /MOSI )
+  ( 18 /DATA_/_MISO )
+  ( 19 /CLOCK )
+  ( 20 VCC )
  )
  ( /4D723286 MADW__SO16 IC2 MBI5168
   ( 1 GNDPWR )
@@ -195,7 +201,7 @@
   ( 12 /OUT7 )
   ( 13 /ENABLE )
   ( 14 ? )
-  ( 15 N-000071 )
+  ( 15 N-000058 )
   ( 16 VCC )
  )
  ( /4D7EADDB -SO-08 IC3 7805MS
@@ -207,12 +213,12 @@
   ( 8 /V_LED )
  )
  ( /4D7232C3 pin_array_3x2 JP1 ISP
-  ( 1 /DATA_/_MISO )
-  ( 2 VCC )
-  ( 3 /CLOCK )
+  ( 1 VCC )
+  ( 2 /DATA_/_MISO )
+  ( 3 /RESET )
   ( 4 /MOSI )
-  ( 5 /RESET )
-  ( 6 GND )
+  ( 5 GND )
+  ( 6 /CLOCK )
  )
  ( /4D7ED5D4 MADW__mounting_hole_3mm MH0 CONN_1
   ( 1 GNDPWR )
@@ -238,111 +244,71 @@
  ( /4D84F423 MADW__mounting_hole_3mm MH7 CONN_1
   ( 1 GNDPWR )
  )
- ( /4DC1364B MADW__SIL-8 P1 CONN_8
-  ( 1 /PA0 )
-  ( 2 /PA1 )
-  ( 3 /PA2 )
-  ( 4 /PA3 )
-  ( 5 /V_LED )
-  ( 6 /V_LED )
-  ( 7 GNDPWR )
-  ( 8 GNDPWR )
+ ( /4DC71AB8 pin_array_8x2 P1 CONN_8X2
+  ( 1 /RXI )
+  ( 2 /TXO )
+  ( 3 /MOSI )
+  ( 4 /LED )
+  ( 5 /DATA_/_MISO )
+  ( 6 /PD6 )
+  ( 7 /CLOCK )
+  ( 8 /PB0 )
+  ( 9 /LATCH )
+  ( 10 /PB1 )
+  ( 11 /ENABLE )
+  ( 12 /PB3 )
+  ( 13 GNDPWR )
+  ( 14 GNDPWR )
+  ( 15 /V_LED )
+  ( 16 /V_LED )
  )
- ( /4DC13669 MADW__SIL-8 P2 CONN_8
-  ( 1 /PA0 )
-  ( 2 /PA1 )
-  ( 3 /PA2 )
-  ( 4 /PA3 )
-  ( 5 /V_LED )
-  ( 6 /V_LED )
-  ( 7 GNDPWR )
-  ( 8 GNDPWR )
- )
- ( /4D84E524 PIN_ARRAY-6X1 P4 CONN_6
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 ? )
-  ( 6 ? )
- )
- ( /4D84E527 PIN_ARRAY-6X1 P5 CONN_6
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 ? )
-  ( 6 ? )
- )
- ( /4D84E6B1 PIN_ARRAY-6X1 P6 CONN_6
-  ( 1 /PA1 )
-  ( 2 /PA2 )
-  ( 3 /PA3 )
-  ( 4 /RESET )
-  ( 5 GND )
-  ( 6 VCC )
+ ( /4DC71ABB pin_array_8x2 P2 CONN_8X2
+  ( 1 /RXI )
+  ( 2 /TXO )
+  ( 3 /MOSI )
+  ( 4 /LED )
+  ( 5 /DATA_/_MISO )
+  ( 6 /PD6 )
+  ( 7 /CLOCK )
+  ( 8 /PB0 )
+  ( 9 /LATCH )
+  ( 10 /PB1 )
+  ( 11 /ENABLE )
+  ( 12 /PB3 )
+  ( 13 GNDPWR )
+  ( 14 GNDPWR )
+  ( 15 /V_LED )
+  ( 16 /V_LED )
  )
  ( /4D7E9CFF -R0805 R1 10k
   ( 1 VCC )
   ( 2 /RESET )
  )
- ( /4D7E9C92 -R0805 R2 10k
-  ( 1 VCC )
-  ( 2 /SWITCHES )
- )
- ( /4D7E9C4B -R0805 R3 10k
-  ( 1 /SWITCHES )
-  ( 2 N-000065 )
- )
- ( /4D7E9C55 -R0805 R4 10k
-  ( 1 /SWITCHES )
-  ( 2 N-000061 )
- )
- ( /4D7E9FFD -R0805 R5 10k
-  ( 1 N-000061 )
-  ( 2 N-000060 )
- )
- ( /4D7E9DF2 -R0805 R6 10k
-  ( 1 N-000064 )
-  ( 2 N-000063 )
- )
- ( /4D7EA001 -R0805 R7 10k
-  ( 1 N-000063 )
-  ( 2 N-000011 )
- )
- ( /4D7EA007 -R0805 R8 10k
-  ( 1 N-000010 )
-  ( 2 N-000064 )
- )
- ( /4D7EA004 -R0805 R9 10k
-  ( 1 /SWITCHES )
-  ( 2 N-000010 )
- )
  ( /4D7EA62E -R0805 R10 1k
-  ( 1 N-000001 )
+  ( 1 N-000006 )
   ( 2 /LED )
  )
  ( /4D7E94BE RV2X4 RV1 I_REF
   ( 1 ? )
-  ( 2 N-000071 )
+  ( 2 N-000058 )
   ( 3 GND )
  )
  ( /4D7E9BEE MADW__LPH_SW SW1 LPH_SW
   ( 1 ? )
   ( 2 GND )
-  ( 3 N-000065 )
+  ( 3 /SW1 )
   ( 4 ? )
  )
  ( /4D7E9BF5 MADW__LPH_SW SW2 LPH_SW
   ( 1 ? )
   ( 2 GND )
-  ( 3 N-000060 )
+  ( 3 /SW2 )
   ( 4 ? )
  )
  ( /4D7E9BE7 MADW__LPH_SW SW3 LPH_SW
   ( 1 ? )
   ( 2 GND )
-  ( 3 N-000011 )
+  ( 3 /SW3 )
   ( 4 ? )
  )
 )
@@ -684,54 +650,6 @@ $component D33
  LEDV
 $endlist
 $component R1
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R9
  R?
  SM0603
  SM0805

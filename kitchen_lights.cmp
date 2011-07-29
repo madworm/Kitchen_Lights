@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Wed 04 May 2011 08:11:04 PM CEST
+Cmp-Mod V01 Created by CvPCB (2011-04-28)-stable date = Fri 29 Jul 2011 01:21:52 AM CEST
 
 BeginCmp
 TimeStamp = /4D7EAC9E;
@@ -288,10 +288,10 @@ IdModule  = LEDV;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7E900D;
+TimeStamp = /4DC71637;
 Reference = IC1;
-ValeurCmp = ATTINY24/44/84-SSU;
-IdModule  = -SO-14;
+ValeurCmp = MADW__ATTINY2313DIP/SO;
+IdModule  = -SO-20DW;
 EndCmp
 
 BeginCmp
@@ -372,99 +372,22 @@ IdModule  = MADW__mounting_hole_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4DC1364B;
+TimeStamp = /4DC71AB8;
 Reference = P1;
-ValeurCmp = CONN_8;
-IdModule  = MADW__SIL-8;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4DC13669;
+TimeStamp = /4DC71ABB;
 Reference = P2;
-ValeurCmp = CONN_8;
-IdModule  = MADW__SIL-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D84E524;
-Reference = P4;
-ValeurCmp = CONN_6;
-IdModule  = PIN_ARRAY-6X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D84E527;
-Reference = P5;
-ValeurCmp = CONN_6;
-IdModule  = PIN_ARRAY-6X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D84E6B1;
-Reference = P6;
-ValeurCmp = CONN_6;
-IdModule  = PIN_ARRAY-6X1;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7E9CFF;
 Reference = R1;
-ValeurCmp = 10k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7E9C92;
-Reference = R2;
-ValeurCmp = 10k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7E9C4B;
-Reference = R3;
-ValeurCmp = 10k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7E9C55;
-Reference = R4;
-ValeurCmp = 10k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7E9FFD;
-Reference = R5;
-ValeurCmp = 10k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7E9DF2;
-Reference = R6;
-ValeurCmp = 10k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7EA001;
-Reference = R7;
-ValeurCmp = 10k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7EA007;
-Reference = R8;
-ValeurCmp = 10k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7EA004;
-Reference = R9;
 ValeurCmp = 10k;
 IdModule  = -R0805;
 EndCmp

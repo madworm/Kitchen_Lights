@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-04-28)-stable date = Fri 29 Jul 2011 05:33:21 PM CEST
+Cmp-Mod V01 Created by CvPCB (2011-04-28)-stable date = Sat 30 Jul 2011 04:19:47 AM CEST
 
 BeginCmp
 TimeStamp = /4D7EAC9E;
@@ -57,227 +57,227 @@ IdModule  = MADW__elko_16.5mm_RM7.62mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D723331;
+TimeStamp = /4E335967;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D723363;
+TimeStamp = /4E33599E;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D723367;
+TimeStamp = /4E3359A3;
 Reference = D3;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D72336A;
+TimeStamp = /4E3359A6;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D723370;
+TimeStamp = /4E3367AB;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D723373;
+TimeStamp = /4E3367AA;
 Reference = D6;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D723376;
+TimeStamp = /4E3367A9;
 Reference = D7;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D723379;
+TimeStamp = /4E3367A8;
 Reference = D8;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7233F3;
+TimeStamp = /4E3367B8;
 Reference = D9;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7233F2;
+TimeStamp = /4E3367B7;
 Reference = D10;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7233F1;
+TimeStamp = /4E3367B6;
 Reference = D11;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7233F0;
+TimeStamp = /4E3367B5;
 Reference = D12;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7233EF;
+TimeStamp = /4E3367B1;
 Reference = D13;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7233EE;
+TimeStamp = /4E3367B2;
 Reference = D14;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7233ED;
+TimeStamp = /4E3367B3;
 Reference = D15;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7233EC;
+TimeStamp = /4E3367B4;
 Reference = D16;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5E3;
+TimeStamp = /4E3367C8;
 Reference = D17;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5E2;
+TimeStamp = /4E3367C7;
 Reference = D18;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5E1;
+TimeStamp = /4E3367C6;
 Reference = D19;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5E0;
+TimeStamp = /4E3367C5;
 Reference = D20;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5DF;
+TimeStamp = /4E3367C1;
 Reference = D21;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5DE;
+TimeStamp = /4E3367C2;
 Reference = D22;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5DD;
+TimeStamp = /4E3367C3;
 Reference = D23;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5DC;
+TimeStamp = /4E3367C4;
 Reference = D24;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5D4;
+TimeStamp = /4E3367B9;
 Reference = D25;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5D5;
+TimeStamp = /4E3367BA;
 Reference = D26;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5D6;
+TimeStamp = /4E3367BB;
 Reference = D27;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5D7;
+TimeStamp = /4E3367BC;
 Reference = D28;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5D8;
+TimeStamp = /4E3367C0;
 Reference = D29;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5D9;
+TimeStamp = /4E3367BF;
 Reference = D30;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5DA;
+TimeStamp = /4E3367BE;
 Reference = D31;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7EA5DB;
+TimeStamp = /4E3367BD;
 Reference = D32;
 ValeurCmp = LED;
-IdModule  = MADW__TOPBRIGHT_STRAW_HAT;
+IdModule  = MADW__NICHIA_NSPWR70CS-K1;
 EndCmp
 
 BeginCmp

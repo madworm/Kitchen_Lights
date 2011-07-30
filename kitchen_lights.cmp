@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-04-28)-stable date = Sat 30 Jul 2011 04:51:47 PM CEST
+Cmp-Mod V01 Created by CvPCB (2011-04-28)-stable date = Sat 30 Jul 2011 10:27:05 PM CEST
 
 BeginCmp
 TimeStamp = /4D7EAC9E;
@@ -283,8 +283,43 @@ EndCmp
 BeginCmp
 TimeStamp = /4D7EA61F;
 Reference = D33;
-ValeurCmp = LED;
+ValeurCmp = LED_GREEN;
 IdModule  = LEDV;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E3464E5;
+Reference = D34;
+ValeurCmp = LED_ORANGE;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E3464EA;
+Reference = D35;
+ValeurCmp = LED_ORANGE;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E345FBA;
+Reference = D36;
+ValeurCmp = LED_RED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E345FBF;
+Reference = D37;
+ValeurCmp = LED_GREEN;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E345FC3;
+Reference = D38;
+ValeurCmp = LED_BLUE;
+IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
@@ -451,7 +486,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E33E23B;
 Reference = R8;
-ValeurCmp = 510;
+ValeurCmp = 1k;
 IdModule  = SM0603;
 EndCmp
 
@@ -521,7 +556,42 @@ EndCmp
 BeginCmp
 TimeStamp = /4E33F671;
 Reference = R18;
-ValeurCmp = 510;
+ValeurCmp = 470;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E3464E3;
+Reference = R19;
+ValeurCmp = 470;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E3464EC;
+Reference = R20;
+ValeurCmp = 470;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E345F45;
+Reference = R21;
+ValeurCmp = 470;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E345F4A;
+Reference = R22;
+ValeurCmp = 470;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E345F55;
+Reference = R23;
+ValeurCmp = 470;
 IdModule  = SM0603;
 EndCmp
 

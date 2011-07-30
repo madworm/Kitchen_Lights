@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 30 Jul 2011 04:51:47 PM CEST
+# EESchema Netlist Version 1.1 created  Sat 30 Jul 2011 10:27:05 PM CEST
 (
  ( /4D7EAC9E -C0805 C1 100nF
   ( 1 VCC )
@@ -224,9 +224,29 @@
   ( 3 /D31_32 )
   ( 4 ? )
  )
- ( /4D7EA61F LEDV D33 LED
-  ( 1 N-000087 )
+ ( /4D7EA61F LEDV D33 LED_GREEN
+  ( 1 N-000090 )
   ( 2 GND )
+ )
+ ( /4E3464E5 LED-0805 D34 LED_ORANGE
+  ( 1 N-000157 )
+  ( 2 GND )
+ )
+ ( /4E3464EA LED-0805 D35 LED_ORANGE
+  ( 1 N-000156 )
+  ( 2 GND )
+ )
+ ( /4E345FBA LED-0805 D36 LED_RED
+  ( 1 VCC )
+  ( 2 N-000132 )
+ )
+ ( /4E345FBF LED-0805 D37 LED_GREEN
+  ( 1 VCC )
+  ( 2 N-000154 )
+ )
+ ( /4E345FC3 LED-0805 D38 LED_BLUE
+  ( 1 VCC )
+  ( 2 N-000131 )
  )
  ( /4E33E2B1 D3 DS1 DIODESCH
   ( 1 /V_LED_in_L )
@@ -238,24 +258,24 @@
  )
  ( /4DC71637 -SO-20DW IC1 MADW__ATTINY2313DIP/SO
   ( 1 /RESET )
-  ( 2 N-000102 )
-  ( 3 N-000134 )
+  ( 2 N-000145 )
+  ( 3 N-000123 )
   ( 4 ? )
   ( 5 ? )
-  ( 6 N-000103 )
-  ( 7 N-000136 )
-  ( 8 N-000107 )
-  ( 9 N-000132 )
+  ( 6 N-000149 )
+  ( 7 N-000124 )
+  ( 8 N-000148 )
+  ( 9 /S_LED_i )
   ( 10 GND )
-  ( 11 N-000114 )
-  ( 12 N-000129 )
-  ( 13 N-000115 )
-  ( 14 N-000127 )
-  ( 15 N-000116 )
-  ( 16 N-000131 )
-  ( 17 N-000117 )
-  ( 18 N-000138 )
-  ( 19 N-000113 )
+  ( 11 /TX_LED_i )
+  ( 12 N-000126 )
+  ( 13 N-000153 )
+  ( 14 /RX_LED_i )
+  ( 15 N-000152 )
+  ( 16 N-000127 )
+  ( 17 N-000151 )
+  ( 18 N-000128 )
+  ( 19 N-000150 )
   ( 20 VCC )
  )
  ( /4D723286 MADW__SO16 IC2 MBI5168
@@ -273,7 +293,7 @@
   ( 12 /OUT7 )
   ( 13 /ENABLE )
   ( 14 ? )
-  ( 15 N-000119 )
+  ( 15 N-000129 )
   ( 16 VCC )
  )
  ( /4D7EADDB -SO-08 IC3 7805MS
@@ -324,15 +344,15 @@
   ( 1 /RXI )
   ( 2 /TXO )
   ( 3 /MOSI )
-  ( 4 /LED )
+  ( 4 /S_LED )
   ( 5 /DATA/MISO )
-  ( 6 /PD6 )
+  ( 6 /TX_LED )
   ( 7 /CLOCK )
   ( 8 /PB0 )
   ( 9 /LATCH )
   ( 10 /PB1 )
   ( 11 /ENABLE )
-  ( 12 /PB3 )
+  ( 12 /RX_LED )
   ( 13 GNDPWR )
   ( 14 GNDPWR )
   ( 15 /V_LED_in_L )
@@ -342,15 +362,15 @@
   ( 1 /RXI )
   ( 2 /TXO )
   ( 3 /MOSI )
-  ( 4 /LED )
+  ( 4 /S_LED )
   ( 5 /DATA/MISO )
-  ( 6 /PD6 )
+  ( 6 /TX_LED )
   ( 7 /CLOCK )
   ( 8 /PB0 )
   ( 9 /LATCH )
   ( 10 /PB1 )
   ( 11 /ENABLE )
-  ( 12 /PB3 )
+  ( 12 /RX_LED )
   ( 13 GNDPWR )
   ( 14 GNDPWR )
   ( 15 /V_LED_in_R )
@@ -362,90 +382,110 @@
  )
  ( /4E33E1FD SM0603 R3 1k
   ( 1 /RXI )
-  ( 2 N-000102 )
+  ( 2 N-000145 )
  )
  ( /4E33E22C SM0603 R4 1k
   ( 1 /TXO )
-  ( 2 N-000134 )
+  ( 2 N-000123 )
  )
  ( /4E33E6F1 SM0603 R5 1k
   ( 1 /SW1 )
-  ( 2 N-000103 )
+  ( 2 N-000149 )
  )
  ( /4E33E6FA SM0603 R6 1k
   ( 1 /SW2 )
-  ( 2 N-000136 )
+  ( 2 N-000124 )
  )
  ( /4E33E231 SM0603 R7 1k
   ( 1 /SW3 )
-  ( 2 N-000107 )
+  ( 2 N-000148 )
  )
- ( /4E33E23B SM0603 R8 510
-  ( 1 /LED )
-  ( 2 N-000132 )
+ ( /4E33E23B SM0603 R8 1k
+  ( 1 /S_LED )
+  ( 2 /S_LED_i )
  )
  ( /4E33E23F SM0603 R9 1k
-  ( 1 /PD6 )
-  ( 2 N-000114 )
+  ( 1 /TX_LED )
+  ( 2 /TX_LED_i )
  )
  ( /4E33E242 SM0603 R10 1k
   ( 1 /PB0 )
-  ( 2 N-000129 )
+  ( 2 N-000126 )
  )
  ( /4E33E62B SM0603 R11 1k
   ( 1 /PB1 )
-  ( 2 N-000115 )
+  ( 2 N-000153 )
  )
  ( /4E33E63E SM0603 R12 1k
-  ( 1 /ENABLE )
-  ( 2 N-000127 )
+  ( 1 /RX_LED )
+  ( 2 /RX_LED_i )
  )
  ( /4E33E642 SM0603 R13 1k
-  ( 1 /PB3 )
-  ( 2 N-000116 )
+  ( 1 /ENABLE )
+  ( 2 N-000152 )
  )
  ( /4E33E645 SM0603 R14 1k
   ( 1 /LATCH )
-  ( 2 N-000131 )
+  ( 2 N-000127 )
  )
  ( /4E33E648 SM0603 R15 1k
   ( 1 /MOSI )
-  ( 2 N-000117 )
+  ( 2 N-000151 )
  )
  ( /4E33E64B SM0603 R16 1k
   ( 1 /DATA/MISO )
-  ( 2 N-000138 )
+  ( 2 N-000128 )
  )
  ( /4E33E64D SM0603 R17 1k
   ( 1 /CLOCK )
-  ( 2 N-000113 )
+  ( 2 N-000150 )
  )
- ( /4E33F671 SM0603 R18 510
-  ( 1 /LED )
-  ( 2 N-000087 )
+ ( /4E33F671 SM0603 R18 470
+  ( 1 /S_LED_i )
+  ( 2 N-000090 )
+ )
+ ( /4E3464E3 SM0603 R19 470
+  ( 1 /RX_LED_i )
+  ( 2 N-000157 )
+ )
+ ( /4E3464EC SM0603 R20 470
+  ( 1 /TX_LED_i )
+  ( 2 N-000156 )
+ )
+ ( /4E345F45 SM0603 R21 470
+  ( 1 N-000094 )
+  ( 2 N-000132 )
+ )
+ ( /4E345F4A SM0603 R22 470
+  ( 1 N-000121 )
+  ( 2 N-000154 )
+ )
+ ( /4E345F55 SM0603 R23 470
+  ( 1 N-000096 )
+  ( 2 N-000131 )
  )
  ( /4D7E94BE RV2X4 RV1 I_REF
   ( 1 ? )
-  ( 2 N-000119 )
+  ( 2 N-000129 )
   ( 3 GND )
  )
  ( /4D7E9BEE MADW__LPH_SW SW1 LPH_SW
   ( 1 ? )
   ( 2 GND )
   ( 3 /SW1 )
-  ( 4 ? )
+  ( 4 N-000094 )
  )
  ( /4D7E9BF5 MADW__LPH_SW SW2 LPH_SW
   ( 1 ? )
   ( 2 GND )
   ( 3 /SW2 )
-  ( 4 ? )
+  ( 4 N-000121 )
  )
  ( /4D7E9BE7 MADW__LPH_SW SW3 LPH_SW
   ( 1 ? )
   ( 2 GND )
   ( 3 /SW3 )
-  ( 4 ? )
+  ( 4 N-000096 )
  )
 )
 *
@@ -489,6 +529,51 @@ $component C8
  SM*
 $endlist
 $component D33
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D34
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D35
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D36
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D37
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D38
  LED-3MM
  LED-5MM
  LED-10MM
@@ -602,6 +687,36 @@ $component R17
  R?-*
 $endlist
 $component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R23
  R?
  SM0603
  SM0805

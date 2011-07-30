@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 30 Jul 2011 04:19:47 AM CEST
+# EESchema Netlist Version 1.1 created  Sat 30 Jul 2011 04:51:47 PM CEST
 (
  ( /4D7EAC9E -C0805 C1 100nF
   ( 1 VCC )
@@ -24,11 +24,11 @@
   ( 1 VCC )
   ( 2 GND )
  )
- ( /4DC14BAC MADW__elko_16.5mm_RM7.62mm C7 2.2mF
+ ( /4DC14BAC C2V10 C7 1mF
   ( 1 /V_LED )
   ( 2 GNDPWR )
  )
- ( /4DC14BB0 MADW__elko_16.5mm_RM7.62mm C8 2.2mF
+ ( /4DC14BB0 C2V10 C8 1mF
   ( 1 /V_LED )
   ( 2 GNDPWR )
  )
@@ -36,223 +36,231 @@
   ( 1 ? )
   ( 2 /V_LED )
   ( 3 ? )
-  ( 4 N-000057 )
+  ( 4 /D01_02 )
  )
  ( /4E33599E MADW__NICHIA_NSPWR70CS-K1 D2 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000057 )
-  ( 4 N-000055 )
+  ( 3 /D01_02 )
+  ( 4 /D02_03 )
  )
  ( /4E3359A3 MADW__NICHIA_NSPWR70CS-K1 D3 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000055 )
-  ( 4 N-000052 )
+  ( 3 /D02_03 )
+  ( 4 /D03_04 )
  )
  ( /4E3359A6 MADW__NICHIA_NSPWR70CS-K1 D4 LED
   ( 1 /OUT0 )
   ( 2 ? )
-  ( 3 N-000052 )
+  ( 3 /D03_04 )
   ( 4 ? )
  )
  ( /4E3367AB MADW__NICHIA_NSPWR70CS-K1 D5 LED
   ( 1 ? )
   ( 2 /V_LED )
   ( 3 ? )
-  ( 4 N-000032 )
+  ( 4 /D05_06 )
  )
  ( /4E3367AA MADW__NICHIA_NSPWR70CS-K1 D6 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000032 )
-  ( 4 N-000035 )
+  ( 3 /D05_06 )
+  ( 4 /D06_07 )
  )
  ( /4E3367A9 MADW__NICHIA_NSPWR70CS-K1 D7 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000035 )
-  ( 4 N-000060 )
+  ( 3 /D06_07 )
+  ( 4 /D07_08 )
  )
  ( /4E3367A8 MADW__NICHIA_NSPWR70CS-K1 D8 LED
   ( 1 /OUT1 )
   ( 2 ? )
-  ( 3 N-000060 )
+  ( 3 /D07_08 )
   ( 4 ? )
  )
  ( /4E3367B8 MADW__NICHIA_NSPWR70CS-K1 D9 LED
   ( 1 ? )
   ( 2 /V_LED )
   ( 3 ? )
-  ( 4 N-000114 )
+  ( 4 /D09_10 )
  )
  ( /4E3367B7 MADW__NICHIA_NSPWR70CS-K1 D10 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000114 )
-  ( 4 N-000090 )
+  ( 3 /D09_10 )
+  ( 4 /D10_11 )
  )
  ( /4E3367B6 MADW__NICHIA_NSPWR70CS-K1 D11 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000090 )
-  ( 4 N-000115 )
+  ( 3 /D10_11 )
+  ( 4 /D11_12 )
  )
  ( /4E3367B5 MADW__NICHIA_NSPWR70CS-K1 D12 LED
   ( 1 /OUT2 )
   ( 2 ? )
-  ( 3 N-000115 )
+  ( 3 /D11_12 )
   ( 4 ? )
  )
  ( /4E3367B1 MADW__NICHIA_NSPWR70CS-K1 D13 LED
   ( 1 ? )
   ( 2 /V_LED )
   ( 3 ? )
-  ( 4 N-000026 )
+  ( 4 /D13_14 )
  )
  ( /4E3367B2 MADW__NICHIA_NSPWR70CS-K1 D14 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000026 )
-  ( 4 N-000044 )
+  ( 3 /D13_14 )
+  ( 4 /D14_15 )
  )
  ( /4E3367B3 MADW__NICHIA_NSPWR70CS-K1 D15 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000044 )
-  ( 4 N-000045 )
+  ( 3 /D14_15 )
+  ( 4 /D15_16 )
  )
  ( /4E3367B4 MADW__NICHIA_NSPWR70CS-K1 D16 LED
   ( 1 /OUT3 )
   ( 2 ? )
-  ( 3 N-000045 )
+  ( 3 /D15_16 )
   ( 4 ? )
  )
  ( /4E3367C8 MADW__NICHIA_NSPWR70CS-K1 D17 LED
   ( 1 ? )
   ( 2 /V_LED )
   ( 3 ? )
-  ( 4 N-000121 )
+  ( 4 /D17_18 )
  )
  ( /4E3367C7 MADW__NICHIA_NSPWR70CS-K1 D18 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000121 )
-  ( 4 N-000087 )
+  ( 3 /D17_18 )
+  ( 4 /D18_19 )
  )
  ( /4E3367C6 MADW__NICHIA_NSPWR70CS-K1 D19 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000087 )
-  ( 4 N-000122 )
+  ( 3 /D18_19 )
+  ( 4 /D19_20 )
  )
  ( /4E3367C5 MADW__NICHIA_NSPWR70CS-K1 D20 LED
   ( 1 /OUT4 )
   ( 2 ? )
-  ( 3 N-000122 )
+  ( 3 /D19_20 )
   ( 4 ? )
  )
  ( /4E3367C1 MADW__NICHIA_NSPWR70CS-K1 D21 LED
   ( 1 ? )
   ( 2 /V_LED )
   ( 3 ? )
-  ( 4 N-000084 )
+  ( 4 /D21_22 )
  )
  ( /4E3367C2 MADW__NICHIA_NSPWR70CS-K1 D22 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000084 )
-  ( 4 N-000107 )
+  ( 3 /D21_22 )
+  ( 4 /D22_23 )
  )
  ( /4E3367C3 MADW__NICHIA_NSPWR70CS-K1 D23 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000107 )
-  ( 4 N-000086 )
+  ( 3 /D22_23 )
+  ( 4 /D23_24 )
  )
  ( /4E3367C4 MADW__NICHIA_NSPWR70CS-K1 D24 LED
   ( 1 /OUT5 )
   ( 2 ? )
-  ( 3 N-000086 )
+  ( 3 /D23_24 )
   ( 4 ? )
  )
  ( /4E3367B9 MADW__NICHIA_NSPWR70CS-K1 D25 LED
   ( 1 ? )
   ( 2 /V_LED )
   ( 3 ? )
-  ( 4 N-000120 )
+  ( 4 /D25_26 )
  )
  ( /4E3367BA MADW__NICHIA_NSPWR70CS-K1 D26 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000120 )
-  ( 4 N-000119 )
+  ( 3 /D25_26 )
+  ( 4 /D26_27 )
  )
  ( /4E3367BB MADW__NICHIA_NSPWR70CS-K1 D27 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000119 )
-  ( 4 N-000118 )
+  ( 3 /D26_27 )
+  ( 4 /D27_28 )
  )
  ( /4E3367BC MADW__NICHIA_NSPWR70CS-K1 D28 LED
   ( 1 /OUT6 )
   ( 2 ? )
-  ( 3 N-000118 )
+  ( 3 /D27_28 )
   ( 4 ? )
  )
  ( /4E3367C0 MADW__NICHIA_NSPWR70CS-K1 D29 LED
   ( 1 ? )
   ( 2 /V_LED )
   ( 3 ? )
-  ( 4 N-000089 )
+  ( 4 /D29_30 )
  )
  ( /4E3367BF MADW__NICHIA_NSPWR70CS-K1 D30 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000089 )
-  ( 4 N-000088 )
+  ( 3 /D29_30 )
+  ( 4 /D30_31 )
  )
  ( /4E3367BE MADW__NICHIA_NSPWR70CS-K1 D31 LED
   ( 1 ? )
   ( 2 ? )
-  ( 3 N-000088 )
-  ( 4 N-000085 )
+  ( 3 /D30_31 )
+  ( 4 /D31_32 )
  )
  ( /4E3367BD MADW__NICHIA_NSPWR70CS-K1 D32 LED
   ( 1 /OUT7 )
   ( 2 ? )
-  ( 3 N-000085 )
+  ( 3 /D31_32 )
   ( 4 ? )
  )
  ( /4D7EA61F LEDV D33 LED
-  ( 1 N-000067 )
+  ( 1 N-000087 )
   ( 2 GND )
+ )
+ ( /4E33E2B1 D3 DS1 DIODESCH
+  ( 1 /V_LED_in_L )
+  ( 2 /V_LED )
+ )
+ ( /4E33E9B6 D3 DS2 DIODESCH
+  ( 1 /V_LED_in_R )
+  ( 2 /V_LED )
  )
  ( /4DC71637 -SO-20DW IC1 MADW__ATTINY2313DIP/SO
   ( 1 /RESET )
-  ( 2 /RXI )
-  ( 3 /TXO )
+  ( 2 N-000102 )
+  ( 3 N-000134 )
   ( 4 ? )
   ( 5 ? )
-  ( 6 /SW1 )
-  ( 7 /SW2 )
-  ( 8 /SW3 )
-  ( 9 /LED )
+  ( 6 N-000103 )
+  ( 7 N-000136 )
+  ( 8 N-000107 )
+  ( 9 N-000132 )
   ( 10 GND )
-  ( 11 /PD6 )
-  ( 12 /PB0 )
-  ( 13 /PB1 )
-  ( 14 /ENABLE )
-  ( 15 /PB3 )
-  ( 16 /LATCH )
-  ( 17 /MOSI )
-  ( 18 /DATA_/_MISO )
-  ( 19 /CLOCK )
+  ( 11 N-000114 )
+  ( 12 N-000129 )
+  ( 13 N-000115 )
+  ( 14 N-000127 )
+  ( 15 N-000116 )
+  ( 16 N-000131 )
+  ( 17 N-000117 )
+  ( 18 N-000138 )
+  ( 19 N-000113 )
   ( 20 VCC )
  )
  ( /4D723286 MADW__SO16 IC2 MBI5168
   ( 1 GNDPWR )
-  ( 2 /DATA_/_MISO )
+  ( 2 /DATA/MISO )
   ( 3 /CLOCK )
   ( 4 /LATCH )
   ( 5 /OUT0 )
@@ -265,7 +273,7 @@
   ( 12 /OUT7 )
   ( 13 /ENABLE )
   ( 14 ? )
-  ( 15 N-000083 )
+  ( 15 N-000119 )
   ( 16 VCC )
  )
  ( /4D7EADDB -SO-08 IC3 7805MS
@@ -278,11 +286,15 @@
  )
  ( /4D7232C3 pin_array_3x2 JP1 ISP
   ( 1 VCC )
-  ( 2 /DATA_/_MISO )
+  ( 2 /DATA/MISO )
   ( 3 /RESET )
   ( 4 /MOSI )
   ( 5 GND )
   ( 6 /CLOCK )
+ )
+ ( /4E33DFA8 PIN_ARRAY_2X1 JP2 R/T_loop
+  ( 1 /RXI )
+  ( 2 /TXO )
  )
  ( /4D7ED5D4 MADW__mounting_hole_3mm MH0 CONN_1
   ( 1 ? )
@@ -313,7 +325,7 @@
   ( 2 /TXO )
   ( 3 /MOSI )
   ( 4 /LED )
-  ( 5 /DATA_/_MISO )
+  ( 5 /DATA/MISO )
   ( 6 /PD6 )
   ( 7 /CLOCK )
   ( 8 /PB0 )
@@ -323,15 +335,15 @@
   ( 12 /PB3 )
   ( 13 GNDPWR )
   ( 14 GNDPWR )
-  ( 15 /V_LED )
-  ( 16 /V_LED )
+  ( 15 /V_LED_in_L )
+  ( 16 /V_LED_in_L )
  )
  ( /4DC71ABB pin_array_8x2 P2 CONN_8X2
   ( 1 /RXI )
   ( 2 /TXO )
   ( 3 /MOSI )
   ( 4 /LED )
-  ( 5 /DATA_/_MISO )
+  ( 5 /DATA/MISO )
   ( 6 /PD6 )
   ( 7 /CLOCK )
   ( 8 /PB0 )
@@ -341,20 +353,80 @@
   ( 12 /PB3 )
   ( 13 GNDPWR )
   ( 14 GNDPWR )
-  ( 15 /V_LED )
-  ( 16 /V_LED )
+  ( 15 /V_LED_in_R )
+  ( 16 /V_LED_in_R )
  )
- ( /4D7E9CFF -R0805 R1 10k
+ ( /4D7E9CFF SM0603 R1 10k
   ( 1 VCC )
   ( 2 /RESET )
  )
- ( /4D7EA62E -R0805 R10 1k
-  ( 1 N-000067 )
-  ( 2 /LED )
+ ( /4E33E1FD SM0603 R3 1k
+  ( 1 /RXI )
+  ( 2 N-000102 )
+ )
+ ( /4E33E22C SM0603 R4 1k
+  ( 1 /TXO )
+  ( 2 N-000134 )
+ )
+ ( /4E33E6F1 SM0603 R5 1k
+  ( 1 /SW1 )
+  ( 2 N-000103 )
+ )
+ ( /4E33E6FA SM0603 R6 1k
+  ( 1 /SW2 )
+  ( 2 N-000136 )
+ )
+ ( /4E33E231 SM0603 R7 1k
+  ( 1 /SW3 )
+  ( 2 N-000107 )
+ )
+ ( /4E33E23B SM0603 R8 510
+  ( 1 /LED )
+  ( 2 N-000132 )
+ )
+ ( /4E33E23F SM0603 R9 1k
+  ( 1 /PD6 )
+  ( 2 N-000114 )
+ )
+ ( /4E33E242 SM0603 R10 1k
+  ( 1 /PB0 )
+  ( 2 N-000129 )
+ )
+ ( /4E33E62B SM0603 R11 1k
+  ( 1 /PB1 )
+  ( 2 N-000115 )
+ )
+ ( /4E33E63E SM0603 R12 1k
+  ( 1 /ENABLE )
+  ( 2 N-000127 )
+ )
+ ( /4E33E642 SM0603 R13 1k
+  ( 1 /PB3 )
+  ( 2 N-000116 )
+ )
+ ( /4E33E645 SM0603 R14 1k
+  ( 1 /LATCH )
+  ( 2 N-000131 )
+ )
+ ( /4E33E648 SM0603 R15 1k
+  ( 1 /MOSI )
+  ( 2 N-000117 )
+ )
+ ( /4E33E64B SM0603 R16 1k
+  ( 1 /DATA/MISO )
+  ( 2 N-000138 )
+ )
+ ( /4E33E64D SM0603 R17 1k
+  ( 1 /CLOCK )
+  ( 2 N-000113 )
+ )
+ ( /4E33F671 SM0603 R18 510
+  ( 1 /LED )
+  ( 2 N-000087 )
  )
  ( /4D7E94BE RV2X4 RV1 I_REF
   ( 1 ? )
-  ( 2 N-000083 )
+  ( 2 N-000119 )
   ( 3 GND )
  )
  ( /4D7E9BEE MADW__LPH_SW SW1 LPH_SW
@@ -425,13 +497,111 @@ $component D33
  LED-1206
  LEDV
 $endlist
+$component DS1
+ D?
+ S*
+$endlist
+$component DS2
+ D?
+ S*
+$endlist
 $component R1
  R?
  SM0603
  SM0805
  R?-*
 $endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
 $component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R18
  R?
  SM0603
  SM0805

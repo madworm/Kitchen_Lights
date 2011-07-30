@@ -21,7 +21,9 @@
       )
     )
     (boundary
-      (path pcb 0  2620 -4970  13780 -4970  13780 -6380  2620 -6380  2620 -4970)
+      (path pcb 0  2900 -6400  2820 -6400  2820 -4950  2900 -4950  13510 -4950
+            13580 -4950  13590 -4950  13590 -6400  13580 -6400  13510 -6400
+            2900 -6400  2910 -6400)
     )
     (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
     (rule
@@ -67,11 +69,7 @@
       (place D32 12450 -5900 front 0 (PN LED))
     )
     (component pin_array_3x2
-      (place JP1 8210 -5570 front 180 (PN ISP))
-    )
-    (component -R0805
-      (place R1 8470 -5250 front 90 (PN 10k))
-      (place R10 7440 -5240 front 90 (PN 1k))
+      (place JP1 8210 -5550 front 180 (PN ISP))
     )
     (component MADW__LPH_SW
       (place SW3 8740 -5250 front 0 (PN LPH_SW))
@@ -83,7 +81,7 @@
     )
     (component -C0805
       (place C3 8300 -5770 front 0 (PN 100nF))
-      (place C1 8000 -5570 front 90 (PN 100nF))
+      (place C1 8430 -5240 front 90 (PN 100nF))
     )
     (component -C1206
       (place C6 9000 -5570 front 90 (PN 10muF))
@@ -110,16 +108,42 @@
     (component "-SO-08"
       (place IC3 8780 -5570 front 90 (PN 7805MS))
     )
-    (component MADW__elko_16.5mm_RM7.62mm
-      (place C8 13050 -5670 front 90 (PN 2.2mF))
-      (place C7 3360 -5670 front 90 (PN 2.2mF))
-    )
     (component "-SO-20DW"
-      (place IC1 7660 -5730 front 270 (PN MADW__ATTINY2313DIP/SO))
+      (place IC1 7660 -5760 front 270 (PN MADW__ATTINY2313DIP/SO))
     )
     (component pin_array_8x2
-      (place P2 13580 -5670 front 270 (PN CONN_8X2))
-      (place P1 2830 -5670 front 270 (PN CONN_8X2))
+      (place P2 13360 -5670 front 270 (PN CONN_8X2))
+      (place P1 3050 -5670 front 270 (PN CONN_8X2))
+    )
+    (component D3
+      (place DS2 13260 -6170 front 0 (PN DIODESCH))
+      (place DS1 3150 -6170 front 180 (PN DIODESCH))
+    )
+    (component SM0603
+      (place R1 8520 -5250 front 90 (PN 10k))
+      (place R3 7370 -5580 front 0 (PN 1k))
+      (place R4 7600 -5570 back 90 (PN 1k))
+      (place R5 7600 -5760 back 90 (PN 1k))
+      (place R6 7370 -5840 front 0 (PN 1k))
+      (place R7 7600 -5950 back 270 (PN 1k))
+      (place R8 7370 -5940 front 0 (PN 510))
+      (place R9 7950 -5990 front 180 (PN 1k))
+      (place R10 7730 -5950 back 90 (PN 1k))
+      (place R11 7950 -5890 front 180 (PN 1k))
+      (place R12 7730 -5820 back 180 (PN 1k))
+      (place R13 7950 -5780 front 180 (PN 1k))
+      (place R14 7730 -5700 back 180 (PN 1k))
+      (place R15 7950 -5680 front 180 (PN 1k))
+      (place R16 7730 -5570 back 90 (PN 1k))
+      (place R17 7950 -5580 front 180 (PN 1k))
+      (place R18 7930 -5390 front 0 (PN 510))
+    )
+    (component C2V10
+      (place C7 3480 -5670 front 90 (PN 1mF))
+      (place C8 12930 -5670 front 90 (PN 1mF))
+    )
+    (component PIN_ARRAY_2X1
+      (place JP2 13360 -5160 front 0 (PN RX/TX_loop))
     )
   )
   (library
@@ -153,28 +177,6 @@
       (pin Round[A]Pad_60_mil 4 0 50)
       (pin Round[A]Pad_60_mil 5 100 -50)
       (pin Round[A]Pad_60_mil 6 100 50)
-    )
-    (image -R0805
-      (outline (path signal 2.6  16 -27.5  41.5 -27.5))
-      (outline (path signal 2.6  41.5 -27.5  41.5 27.6))
-      (outline (path signal 2.6  16 27.6  41.5 27.6))
-      (outline (path signal 2.6  16 -27.5  16 27.6))
-      (outline (path signal 2.6  -42 -27.5  -16.4 -27.5))
-      (outline (path signal 2.6  -16.4 -27.5  -16.4 27.6))
-      (outline (path signal 2.6  -42 27.6  -16.4 27.6))
-      (outline (path signal 2.6  -42 -27.5  -42 27.6))
-      (outline (path signal 2.6  -7.8 -19.6  7.8 -19.6))
-      (outline (path signal 2.6  7.8 -19.6  7.8 19.6))
-      (outline (path signal 2.6  -7.8 19.6  7.8 19.6))
-      (outline (path signal 2.6  -7.8 -19.6  -7.8 19.6))
-      (outline (path signal 6  -16.1 25  16.1 25))
-      (outline (path signal 6  -16.1 -25  16.1 -25))
-      (outline (path signal 2  -77.6 38.7  77.6 38.7))
-      (outline (path signal 2  77.6 38.7  77.6 -38.7))
-      (outline (path signal 2  77.6 -38.7  -77.6 -38.7))
-      (outline (path signal 2  -77.6 -38.7  -77.6 38.7))
-      (pin Rect[T]Pad_51.1x59_mil 1 -37.4 0)
-      (pin Rect[T]Pad_51.1x59_mil 2 37.4 0)
     )
     (image MADW__LPH_SW
       (outline (path signal 15  116 47.5  116 -37.5))
@@ -425,24 +427,6 @@
       (pin Rect[T]Pad_23.6x86.6_mil 7 -25 102.3)
       (pin Rect[T]Pad_23.6x86.6_mil 8 -75 102.3)
     )
-    (image MADW__elko_16.5mm_RM7.62mm
-      (outline (path signal 15  120 -170  180 -170))
-      (outline (path signal 15  -180 -170  -120 -170))
-      (outline (path signal 15  -150 -140  -150 -200))
-      (outline (path signal 15  -50 180  -130 180))
-      (outline (path signal 15  20 180  100 180))
-      (outline (path signal 15  -10 260  20 260))
-      (outline (path signal 15  20 260  20 100))
-      (outline (path signal 15  20 100  -10 100))
-      (outline (path signal 15  -10 260  -10 100))
-      (outline (path signal 15  -50 260  -50 100))
-      (outline (path signal 15  330 0  313.8 -101.9  266.9 -193.9  193.9 -266.9  101.9 -313.8
-            0 -330  -101.9 -313.8  -193.9 -266.9  -266.9 -193.9  -313.8 -101.9
-            -330 0  -313.8 101.9  -266.9 193.9  -193.9 266.9  -101.9 313.8
-            0 330  101.9 313.8  193.9 266.9  266.9 193.9  313.8 101.9))
-      (pin Rect[A]Pad_100x100_mil 1 -150 0)
-      (pin Round[A]Pad_100_mil 2 150 0)
-    )
     (image "-SO-20DW"
       (outline (path signal 2.6  -234.6 -209.4  -215.3 -209.4))
       (outline (path signal 2.6  -215.3 -209.4  -215.3 -149.6))
@@ -576,10 +560,43 @@
       (pin Round[A]Pad_60_mil 15 350 -50)
       (pin Round[A]Pad_60_mil 16 350 50)
     )
-    (padstack Round[A]Pad_100_mil
-      (shape (circle Front 100))
-      (shape (circle Back 100))
-      (attach off)
+    (image D3
+      (outline (path signal 12  150 0  120 0))
+      (outline (path signal 12  120 0  120 40))
+      (outline (path signal 12  120 40  -120 40))
+      (outline (path signal 12  -120 40  -120 0))
+      (outline (path signal 12  -120 0  -150 0))
+      (outline (path signal 12  -120 0  -120 -40))
+      (outline (path signal 12  -120 -40  120 -40))
+      (outline (path signal 12  120 -40  120 0))
+      (outline (path signal 12  100 40  100 -40))
+      (outline (path signal 12  90 -40  90 40))
+      (pin Rect[A]Pad_55x55_mil 2 150 0)
+      (pin Round[A]Pad_55_mil 1 -150 0)
+    )
+    (image SM0603
+      (outline (path signal 5  -45 25  45 25))
+      (outline (path signal 5  45 25  45 -25))
+      (outline (path signal 5  45 -25  -45 -25))
+      (outline (path signal 5  -45 -25  -45 25))
+      (pin Rect[T]Pad_25x45_mil 1 -30 0)
+      (pin Rect[T]Pad_25x45_mil 2 30 0)
+    )
+    (image C2V10
+      (outline (path signal 12  219.5 0  208.7 -67.8  177.6 -129  129 -177.6  67.8 -208.7
+            0 -219.5  -67.8 -208.7  -129 -177.6  -177.6 -129  -208.7 -67.8
+            -219.5 0  -208.7 67.8  -177.6 129  -129 177.6  -67.8 208.7  0 219.5
+            67.8 208.7  129 177.6  177.6 129  208.7 67.8))
+      (pin Rect[A]Pad_70x70_mil 1 -100 0)
+      (pin Round[A]Pad_70_mil 2 100 0)
+    )
+    (image PIN_ARRAY_2X1
+      (outline (path signal 6  -100 -50  -100 50))
+      (outline (path signal 6  -100 50  100 50))
+      (outline (path signal 6  100 50  100 -50))
+      (outline (path signal 6  100 -50  -100 -50))
+      (pin Rect[A]Pad_60x60_mil 1 -50 0)
+      (pin Round[A]Pad_60_mil 2 50 0)
     )
     (padstack Round[A]Pad_160_mil
       (shape (circle Front 160))
@@ -596,6 +613,11 @@
       (shape (circle Back 60))
       (attach off)
     )
+    (padstack Round[A]Pad_70_mil
+      (shape (circle Front 70))
+      (shape (circle Back 70))
+      (attach off)
+    )
     (padstack Round[A]Pad_80_mil
       (shape (circle Front 80))
       (shape (circle Back 80))
@@ -603,6 +625,10 @@
     )
     (padstack Rect[T]Pad_23.6x86.6_mil
       (shape (rect Front -11.8 -43.3 11.8 43.3))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_25x45_mil
+      (shape (rect Front -12.5 -22.5 12.5 22.5))
       (attach off)
     )
     (padstack Rect[T]Pad_51.1x59_mil
@@ -623,14 +649,14 @@
       (shape (rect Front -31.45 -35.4 31.45 35.4))
       (attach off)
     )
+    (padstack Rect[A]Pad_70x70_mil
+      (shape (rect Front -35 -35 35 35))
+      (shape (rect Back -35 -35 35 35))
+      (attach off)
+    )
     (padstack Rect[A]Pad_80x80_mil
       (shape (rect Front -40 -40 40 40))
       (shape (rect Back -40 -40 40 40))
-      (attach off)
-    )
-    (padstack Rect[A]Pad_100x100_mil
-      (shape (rect Front -50 -50 50 50))
-      (shape (rect Back -50 -50 50 50))
       (attach off)
     )
     (padstack "Via[0-1]_35:25_mil"
@@ -646,22 +672,94 @@
   )
   (network
     (net /CLOCK
-      (pins JP1-6 IC2-3 IC1-19 P2-7 P1-7)
+      (pins JP1-6 IC2-3 P2-7 P1-7 R17-1)
     )
-    (net /DATA_/_MISO
-      (pins JP1-2 IC2-2 IC1-18 P2-5 P1-5)
+    (net /D01_02
+      (pins D2-3 D1-4)
+    )
+    (net /D02_03
+      (pins D2-4 D3-3)
+    )
+    (net /D03_04
+      (pins D3-4 D4-3)
+    )
+    (net /D05_06
+      (pins D5-4 D6-3)
+    )
+    (net /D06_07
+      (pins D6-4 D7-3)
+    )
+    (net /D07_08
+      (pins D7-4 D8-3)
+    )
+    (net /D09_10
+      (pins D9-4 D10-3)
+    )
+    (net /D10_11
+      (pins D10-4 D11-3)
+    )
+    (net /D11_12
+      (pins D11-4 D12-3)
+    )
+    (net /D13_14
+      (pins D13-4 D14-3)
+    )
+    (net /D14_15
+      (pins D14-4 D15-3)
+    )
+    (net /D15_16
+      (pins D15-4 D16-3)
+    )
+    (net /D17_18
+      (pins D17-4 D18-3)
+    )
+    (net /D18_19
+      (pins D18-4 D19-3)
+    )
+    (net /D19_20
+      (pins D19-4 D20-3)
+    )
+    (net /D21_22
+      (pins D21-4 D22-3)
+    )
+    (net /D22_23
+      (pins D22-4 D23-3)
+    )
+    (net /D23_24
+      (pins D23-4 D24-3)
+    )
+    (net /D25_26
+      (pins D25-4 D26-3)
+    )
+    (net /D26_27
+      (pins D26-4 D27-3)
+    )
+    (net /D27_28
+      (pins D27-4 D28-3)
+    )
+    (net /D29_30
+      (pins D29-4 D30-3)
+    )
+    (net /D30_31
+      (pins D30-4 D31-3)
+    )
+    (net /D31_32
+      (pins D31-4 D32-3)
+    )
+    (net /DATA/MISO
+      (pins JP1-2 IC2-2 P2-5 P1-5 R16-1)
     )
     (net /ENABLE
-      (pins IC2-13 IC1-14 P2-11 P1-11)
+      (pins IC2-13 P2-11 P1-11 R12-1)
     )
     (net /LATCH
-      (pins IC2-4 IC1-16 P2-9 P1-9)
+      (pins IC2-4 P2-9 P1-9 R14-1)
     )
     (net /LED
-      (pins R10-2 IC1-9 P2-4 P1-4)
+      (pins P2-4 P1-4 R8-1 R18-1)
     )
     (net /MOSI
-      (pins JP1-4 IC1-17 P2-3 P1-3)
+      (pins JP1-4 P2-3 P1-3 R15-1)
     )
     (net /OUT0
       (pins D4-1 IC2-5)
@@ -688,128 +786,110 @@
       (pins IC2-12 D32-1)
     )
     (net /PB0
-      (pins IC1-12 P2-8 P1-8)
+      (pins P2-8 P1-8 R10-1)
     )
     (net /PB1
-      (pins IC1-13 P2-10 P1-10)
+      (pins P2-10 P1-10 R11-1)
     )
     (net /PB3
-      (pins IC1-15 P2-12 P1-12)
+      (pins P2-12 P1-12 R13-1)
     )
     (net /PD6
-      (pins IC1-11 P2-6 P1-6)
+      (pins P2-6 P1-6 R9-1)
     )
     (net /RESET
-      (pins JP1-3 R1-2 IC1-1)
+      (pins JP1-3 IC1-1 R1-2)
     )
     (net /RXI
-      (pins IC1-2 P2-1 P1-1)
+      (pins P2-1 P1-1 R3-1 JP2-1)
     )
     (net /SW1
-      (pins SW1-3 IC1-6)
+      (pins SW1-3 R5-1)
     )
     (net /SW2
-      (pins SW2-3 IC1-7)
+      (pins SW2-3 R6-1)
     )
     (net /SW3
-      (pins SW3-3 IC1-8)
+      (pins SW3-3 R7-1)
     )
     (net /TXO
-      (pins IC1-3 P2-2 P1-2)
+      (pins P2-2 P1-2 R4-1 JP2-2)
     )
     (net /V_LED
-      (pins D9-2 D1-2 C5-1 IC3-8 C8-1 C7-1 P2-15 P2-16 P1-15 P1-16 D5-2 D13-2 D17-2
-        D21-2 D25-2 D29-2)
+      (pins D9-2 D1-2 C5-1 IC3-8 D5-2 D13-2 D17-2 D21-2 D25-2 D29-2 DS2-2 DS1-2 C7-1
+        C8-1)
+    )
+    (net /V_LED_in_L
+      (pins P1-15 P1-16 DS1-1)
+    )
+    (net /V_LED_in_R
+      (pins P2-15 P2-16 DS2-1)
     )
     (net GND
       (pins JP1-5 SW3-2 SW2-2 SW1-2 D33-2 C1-2 C6-2 C2-2 RV1-3 IC3-2 IC3-3 IC1-10)
     )
     (net GNDPWR
-      (pins C3-2 C5-2 C4-2 IC2-1 IC3-6 IC3-7 C8-2 C7-2 P2-13 P2-14 P1-13 P1-14)
-    )
-    (net "N-000026"
-      (pins D13-4 D14-3)
-    )
-    (net "N-000032"
-      (pins D5-4 D6-3)
-    )
-    (net "N-000035"
-      (pins D6-4 D7-3)
-    )
-    (net "N-000044"
-      (pins D14-4 D15-3)
-    )
-    (net "N-000045"
-      (pins D15-4 D16-3)
-    )
-    (net "N-000052"
-      (pins D3-4 D4-3)
-    )
-    (net "N-000055"
-      (pins D2-4 D3-3)
-    )
-    (net "N-000057"
-      (pins D2-3 D1-4)
-    )
-    (net "N-000060"
-      (pins D7-4 D8-3)
-    )
-    (net "N-000067"
-      (pins R10-1 D33-1)
-    )
-    (net "N-000083"
-      (pins RV1-2 IC2-15)
-    )
-    (net "N-000084"
-      (pins D21-4 D22-3)
-    )
-    (net "N-000085"
-      (pins D31-4 D32-3)
-    )
-    (net "N-000086"
-      (pins D23-4 D24-3)
+      (pins C3-2 C5-2 C4-2 IC2-1 IC3-6 IC3-7 P2-13 P2-14 P1-13 P1-14 C7-2 C8-2)
     )
     (net "N-000087"
-      (pins D18-4 D19-3)
+      (pins D33-1 R18-2)
     )
-    (net "N-000088"
-      (pins D30-4 D31-3)
+    (net "N-000102"
+      (pins IC1-2 R3-2)
     )
-    (net "N-000089"
-      (pins D29-4 D30-3)
-    )
-    (net "N-000090"
-      (pins D10-4 D11-3)
+    (net "N-000103"
+      (pins IC1-6 R5-2)
     )
     (net "N-000107"
-      (pins D22-4 D23-3)
+      (pins IC1-8 R7-2)
+    )
+    (net "N-000113"
+      (pins IC1-19 R17-2)
     )
     (net "N-000114"
-      (pins D9-4 D10-3)
+      (pins IC1-11 R9-2)
     )
     (net "N-000115"
-      (pins D11-4 D12-3)
+      (pins IC1-13 R11-2)
     )
-    (net "N-000118"
-      (pins D27-4 D28-3)
+    (net "N-000116"
+      (pins IC1-15 R13-2)
+    )
+    (net "N-000117"
+      (pins IC1-17 R15-2)
     )
     (net "N-000119"
-      (pins D26-4 D27-3)
+      (pins RV1-2 IC2-15)
     )
-    (net "N-000120"
-      (pins D25-4 D26-3)
+    (net "N-000127"
+      (pins IC1-14 R12-2)
     )
-    (net "N-000121"
-      (pins D17-4 D18-3)
+    (net "N-000129"
+      (pins IC1-12 R10-2)
     )
-    (net "N-000122"
-      (pins D19-4 D20-3)
+    (net "N-000131"
+      (pins IC1-16 R14-2)
+    )
+    (net "N-000132"
+      (pins IC1-9 R8-2)
+    )
+    (net "N-000134"
+      (pins IC1-3 R4-2)
+    )
+    (net "N-000136"
+      (pins IC1-7 R6-2)
+    )
+    (net "N-000138"
+      (pins IC1-18 R16-2)
     )
     (net VCC
-      (pins JP1-1 R1-1 C3-1 C1-1 C6-1 C4-1 C2-1 IC2-16 IC3-1 IC1-20)
+      (pins JP1-1 C3-1 C1-1 C6-1 C4-1 C2-1 IC2-16 IC3-1 IC1-20 R1-1)
     )
-    (class kicad_default "" /CLOCK /DATA_/_MISO /ENABLE /LATCH /LED /MOSI
-      /PB0 /PB1 /PB3 /PD6 /RESET /RXI /SW1 /SW2 /SW3 /TXO "N-000067" "N-000083"
+    (class kicad_default "" /CLOCK /DATA/MISO /ENABLE /LATCH /LED /MOSI /PB0
+      /PB1 /PB3 /PD6 /RESET /RXI /SW1 /SW2 /SW3 /TXO "N-000087" "N-000102"
+      "N-000103" "N-000107" "N-000113" "N-000114" "N-000115" "N-000116" "N-000117"
+      "N-000119" "N-000127" "N-000129" "N-000131" "N-000132" "N-000134" "N-000136"
+      "N-000138"
       (circuit
         (use_via Via[0-1]_35:25_mil)
       )
@@ -827,11 +907,10 @@
         (clearance 10.1)
       )
     )
-    (class LED_GND /OUT0 /OUT1 /OUT2 /OUT3 /OUT4 /OUT5 /OUT6 /OUT7 GND "N-000026"
-      "N-000032" "N-000035" "N-000044" "N-000045" "N-000052" "N-000055" "N-000057"
-      "N-000060" "N-000084" "N-000085" "N-000086" "N-000087" "N-000088" "N-000089"
-      "N-000090" "N-000107" "N-000114" "N-000115" "N-000118" "N-000119" "N-000120"
-      "N-000121" "N-000122" VCC
+    (class LED_GND /D01_02 /D02_03 /D03_04 /D05_06 /D06_07 /D07_08 /D09_10
+      /D10_11 /D11_12 /D13_14 /D14_15 /D15_16 /D17_18 /D18_19 /D19_20 /D21_22
+      /D22_23 /D23_24 /D25_26 /D26_27 /D27_28 /D29_30 /D30_31 /D31_32 /OUT0
+      /OUT1 /OUT2 /OUT3 /OUT4 /OUT5 /OUT6 /OUT7 GND VCC
       (circuit
         (use_via Via[0-1]_35:25_mil)
       )
@@ -840,7 +919,7 @@
         (clearance 10.1)
       )
     )
-    (class V_LED /V_LED
+    (class V_LED /V_LED /V_LED_in_L /V_LED_in_R
       (circuit
         (use_via Via[0-1]_35:25_mil)
       )
@@ -851,37 +930,83 @@
     )
   )
   (wiring
-    (wire (path Back 80  9200 -6000  9200 -6330  9210 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  6550 -6000  6550 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  5650 -6000  5650 -6320  5640 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  4750 -6000  4750 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  3850 -6000  3850 -6320  3840 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  11900 -6000  11900 -6330  11900 -6310  11900 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  11000 -6000  11000 -6330  11000 -6320  11000 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  10090 -6000  10090 -6330  10090 -6310  10090 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  3360 -6330  3840 -6330  4750 -6330  5640 -6330  6550 -6330
-            9210 -6330  10090 -6330  11000 -6330  11900 -6330  13050 -6330)(net /V_LED)(type protect))
+    (wire (path Back 20  4050 -5800  4050 -5550)(net /D01_02)(type protect))
+    (wire (path Back 20  4050 -5350  4300 -5350)(net /D02_03)(type protect))
+    (wire (path Back 20  4300 -5550  4300 -5800)(net /D03_04)(type protect))
+    (wire (path Back 20  4950 -5800  4950 -5550)(net /D05_06)(type protect))
+    (wire (path Back 20  4950 -5350  5200 -5350)(net /D06_07)(type protect))
+    (wire (path Back 20  5200 -5550  5200 -5800)(net /D07_08)(type protect))
+    (wire (path Back 20  5850 -5800  5850 -5550)(net /D09_10)(type protect))
+    (wire (path Back 20  5850 -5350  6100 -5350)(net /D10_11)(type protect))
+    (wire (path Back 20  6100 -5550  6100 -5800)(net /D11_12)(type protect))
+    (wire (path Back 20  6750 -5800  6750 -5550)(net /D13_14)(type protect))
+    (wire (path Back 20  6750 -5350  7000 -5350)(net /D14_15)(type protect))
+    (wire (path Back 20  7000 -5550  7000 -5800)(net /D15_16)(type protect))
+    (wire (path Back 20  9400 -5800  9400 -5550)(net /D17_18)(type protect))
+    (wire (path Back 20  9400 -5350  9650 -5350)(net /D18_19)(type protect))
+    (wire (path Back 20  9650 -5550  9650 -5800)(net /D19_20)(type protect))
+    (wire (path Back 20  10290 -5800  10290 -5550)(net /D21_22)(type protect))
+    (wire (path Back 20  10290 -5350  10550 -5350)(net /D22_23)(type protect))
+    (wire (path Back 20  10550 -5550  10550 -5800)(net /D23_24)(type protect))
+    (wire (path Back 20  11200 -5550  11200 -5800)(net /D25_26)(type protect))
+    (wire (path Back 20  11200 -5350  11460 -5350)(net /D26_27)(type protect))
+    (wire (path Back 20  11460 -5550  11460 -5800)(net /D27_28)(type protect))
+    (wire (path Back 20  12100 -5800  12100 -5550)(net /D29_30)(type protect))
+    (wire (path Back 20  12100 -5350  12350 -5350)(net /D30_31)(type protect))
+    (wire (path Back 20  12350 -5550  12350 -5800)(net /D31_32)(type protect))
+    (wire (path Front 20  8677.7 -5645  8765 -5645)(net /V_LED)(type protect))
     (wire (path Back 20  8780 -5090  8780 -5020)(net /V_LED)(type protect))
-    (wire (path Front 20  8780 -5660  8780 -5090)(net /V_LED)(type protect))
-    (wire (path Front 20  8730 -5710  8780 -5660)(net /V_LED)(type protect))
-    (wire (path Front 20  8590 -5710  8730 -5710)(net /V_LED)(type protect))
-    (wire (path Front 20  8560 -5680  8590 -5710)(net /V_LED)(type protect))
-    (wire (path Front 20  8560 -5625.1  8560 -5680)(net /V_LED)(type protect))
-    (wire (path Back 80  13730 -5020  13730 -6020)(net /V_LED)(type protect))
-    (wire (path Back 80  8780 -5020  13730 -5020)(net /V_LED)(type protect))
+    (wire (path Front 20  8780 -5630  8780 -5090)(net /V_LED)(type protect))
+    (wire (path Front 20  8765 -5645  8780 -5630)(net /V_LED)(type protect))
+    (wire (path Back 20  8780 -5020  8780 -5030  8780 -5020)(net /V_LED)(type protect))
+    (wire (path Back 80  2890 -6170  2890 -5020  3480 -5020  8780 -5020)(net /V_LED)(type protect))
+    (wire (path Back 80  13520 -5020  13520 -6170)(net /V_LED)(type protect))
+    (wire (path Back 80  8780 -5020  12930 -5020  13520 -5020)(net /V_LED)(type protect))
+    (wire (path Back 80  3000 -6170  2890 -6170)(net /V_LED)(type protect))
+    (wire (path Back 80  2890 -6330  3480 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  2890 -6170  2890 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  12930 -6330  13520 -6330  13520 -6170  13410 -6170)(net /V_LED)(type protect))
+    (wire (path Back 80  3480 -5770  3480 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  3490 -6320  3490 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  3480 -6330  3490 -6320)(net /V_LED)(type protect))
+    (wire (path Back 80  12930 -5770  12930 -6330  12930 -6320  12930 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  6550 -6000  6550 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  5650 -6320  5640 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  5650 -6000  5650 -6320)(net /V_LED)(type protect))
+    (wire (path Back 80  4750 -6000  4750 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  3850 -6320  3840 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  3850 -6000  3850 -6320)(net /V_LED)(type protect))
+    (wire (path Back 80  11900 -6000  11900 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  11000 -6000  11000 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  10090 -6000  10090 -6330)(net /V_LED)(type protect))
     (wire (path Front 20  8625 -5645  8677.7 -5645)(net /V_LED)(type protect))
     (wire (path Front 20  8605.1 -5625.1  8625 -5645)(net /V_LED)(type protect))
     (wire (path Front 20  8560 -5625.1  8605.1 -5625.1)(net /V_LED)(type protect))
-    (wire (path Back 80  3360 -5820  3360 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  13050 -5820  13050 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  13730 -6330  13050 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  13730 -6020  13730 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  2670 -6330  2670 -6020)(net /V_LED)(type protect))
-    (wire (path Back 80  3360 -6330  2670 -6330)(net /V_LED)(type protect))
-    (wire (path Back 80  2670 -5020  8780 -5020)(net /V_LED)(type protect))
-    (wire (path Back 80  2670 -6020  2670 -5020)(net /V_LED)(type protect))
-    (wire (path Back 80  13530 -6020  13630 -6020  13730 -6020)(net /V_LED)(type protect))
-    (wire (path Back 80  2880 -6020  2780 -6020  2670 -6020)(net /V_LED)(type protect))
+    (wire (path Back 80  3490 -6330  3840 -6330  4750 -6330  5640 -6330  6550 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  9200 -6000  9200 -6330  9210 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  6550 -6330  9200 -6330  9210 -6330  10090 -6330  11000 -6330
+            11900 -6330  12930 -6330)(net /V_LED)(type protect))
+    (wire (path Back 80  3000 -6020  3100 -6020  3300 -6020  3300 -6170)(net /V_LED_in_L)(type protect))
+    (wire (path Back 80  13410 -6020  13310 -6020  13110 -6020  13110 -6170)(net /V_LED_in_R)(type protect))
+    (wire (path Front 80  8195 -5885  8195 -6330  8200 -6330)(net GNDPWR)(type protect))
+    (wire (path Front 80  13310 -5920  13410 -5920  13520 -5920)(net GNDPWR)(type protect))
+    (wire (path Front 80  2890 -5920  3000 -5920  3100 -5920)(net GNDPWR)(type protect))
+    (wire (path Front 80  13520 -5310  13520 -5920)(net GNDPWR)(type protect))
+    (wire (path Front 80  2890 -6330  3190 -6330)(net GNDPWR)(type protect))
+    (wire (path Front 80  2890 -5920  2890 -6330)(net GNDPWR)(type protect))
+    (wire (path Front 80  3480 -6330  8200 -6330)(net GNDPWR)(type protect))
+    (wire (path Front 80  3190 -6330  3480 -6330)(net GNDPWR)(type protect))
+    (wire (path Front 80  8200 -6330  13330 -6330)(net GNDPWR)(type protect))
+    (wire (path Front 80  13520 -6330  13520 -5920)(net GNDPWR)(type protect))
+    (wire (path Front 80  13520 -6330  13330 -6330)(net GNDPWR)(type protect))
+    (wire (path Front 80  13520 -5300  13520 -5310)(net GNDPWR)(type protect))
+    (wire (path Front 80  13520 -5020  13520 -5300)(net GNDPWR)(type protect))
+    (wire (path Front 80  12930 -5020  13520 -5020)(net GNDPWR)(type protect))
+    (wire (path Front 80  3480 -5020  2890 -5020  2890 -5920)(net GNDPWR)(type protect))
+    (wire (path Front 80  3480 -5570  3480 -5020  3480 -5030  3480 -5020)(net GNDPWR)(type protect))
+    (wire (path Front 80  12930 -5570  12930 -5020)(net GNDPWR)(type protect))
+    (wire (path Front 80  12920 -5030  12920 -5020)(net GNDPWR)(type protect))
+    (wire (path Front 80  12930 -5020  12920 -5030)(net GNDPWR)(type protect))
     (wire (path Front 20  8700 -5380  8700 -5020)(net GNDPWR)(type protect))
     (wire (path Front 20  8670 -5410  8700 -5380)(net GNDPWR)(type protect))
     (wire (path Front 20  8580 -5410  8670 -5410)(net GNDPWR)(type protect))
@@ -898,44 +1023,7 @@
     (wire (path Front 20  8054.9 -5842.2  8097.7 -5885)(net GNDPWR)(type protect))
     (wire (path Front 20  8054.9 -5770  8054.9 -5842.2)(net GNDPWR)(type protect))
     (wire (path Front 40  8097.7 -5885  8195 -5885)(net GNDPWR)(type protect))
-    (wire (path Front 80  3360 -5520  3360 -5020)(net GNDPWR)(type protect))
-    (wire (path Front 80  13050 -5520  13050 -5020)(net GNDPWR)(type protect))
-    (wire (path Front 80  2670 -5020  3360 -5020)(net GNDPWR)(type protect))
-    (wire (path Front 80  2670 -5920  2670 -5020)(net GNDPWR)(type protect))
-    (wire (path Front 80  13730 -6330  13730 -5920)(net GNDPWR)(type protect))
-    (wire (path Front 80  8200 -6330  13730 -6330)(net GNDPWR)(type protect))
-    (wire (path Front 80  13730 -5020  13050 -5020)(net GNDPWR)(type protect))
-    (wire (path Front 80  13730 -5920  13730 -5020)(net GNDPWR)(type protect))
-    (wire (path Front 80  13530 -5920  13630 -5920  13730 -5920)(net GNDPWR)(type protect))
-    (wire (path Front 80  2880 -5920  2780 -5920  2670 -5920)(net GNDPWR)(type protect))
-    (wire (path Front 80  8195 -5885  8195 -6330  8200 -6330  8195 -6330)(net GNDPWR)(type protect))
-    (wire (path Front 80  2670 -6330  2670 -5920)(net GNDPWR)(type protect))
-    (wire (path Front 80  8195 -6330  2670 -6330)(net GNDPWR)(type protect))
-    (wire (path Front 80  3360 -5020  8700 -5020  13050 -5020)(net GNDPWR)(type protect))
-    (wire (path Back 20  6750 -5800  6750 -5550)(net "N-000026")(type protect))
-    (wire (path Back 20  4950 -5800  4950 -5550)(net "N-000032")(type protect))
-    (wire (path Back 20  4950 -5350  5200 -5350)(net "N-000035")(type protect))
-    (wire (path Back 20  6750 -5350  7000 -5350)(net "N-000044")(type protect))
-    (wire (path Back 20  7000 -5550  7000 -5800)(net "N-000045")(type protect))
-    (wire (path Back 20  4300 -5550  4300 -5800)(net "N-000052")(type protect))
-    (wire (path Back 20  4050 -5350  4300 -5350)(net "N-000055")(type protect))
-    (wire (path Back 20  4050 -5800  4050 -5550)(net "N-000057")(type protect))
-    (wire (path Back 20  5200 -5550  5200 -5800)(net "N-000060")(type protect))
-    (wire (path Back 20  10290 -5800  10290 -5550)(net "N-000084")(type protect))
-    (wire (path Back 20  12350 -5800  12350 -5550)(net "N-000085")(type protect))
-    (wire (path Back 20  10550 -5550  10550 -5800)(net "N-000086")(type protect))
-    (wire (path Back 20  9400 -5350  9650 -5350)(net "N-000087")(type protect))
-    (wire (path Back 20  12350 -5350  12100 -5350)(net "N-000088")(type protect))
-    (wire (path Back 20  12100 -5550  12100 -5800)(net "N-000089")(type protect))
-    (wire (path Back 20  5850 -5350  6100 -5350)(net "N-000090")(type protect))
-    (wire (path Back 20  10290 -5350  10550 -5350)(net "N-000107")(type protect))
-    (wire (path Back 20  5850 -5800  5850 -5550)(net "N-000114")(type protect))
-    (wire (path Back 20  6100 -5550  6100 -5800)(net "N-000115")(type protect))
-    (wire (path Back 20  11460 -5550  11460 -5800)(net "N-000118")(type protect))
-    (wire (path Back 20  11200 -5350  11460 -5350)(net "N-000119")(type protect))
-    (wire (path Back 20  11200 -5800  11200 -5550)(net "N-000120")(type protect))
-    (wire (path Back 20  9400 -5800  9400 -5550)(net "N-000121")(type protect))
-    (wire (path Back 20  9650 -5550  9650 -5800)(net "N-000122")(type protect))
+    (wire (path Front 80  3480 -5020  8700 -5020  12920 -5020)(net GNDPWR)(type protect))
     (via "Via[0-1]_35:25_mil"  8780 -5090 (net /V_LED)(type protect))
   )
 )

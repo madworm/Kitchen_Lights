@@ -1,6 +1,6 @@
-update=Fri 29 Jul 2011 06:51:55 PM CEST
+update=Sat 30 Jul 2011 05:24:30 PM CEST
 version=1
-last_client=kicad
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=
@@ -80,22 +80,23 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
 [pcbnew]
 version=1
 PadDrlX=394
 PadDimH=1000
 PadDimV=1000
 BoardThickness=630
-SgPcb45=1
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
+TxtPcbV=500
+TxtPcbH=500
+TxtModV=500
+TxtModH=500
+TxtModW=80
 VEgarde=40
 DrawLar=150
 EdgeLar=150
-TxtLar=120
+TxtLar=80
 MSegLar=120
 LastNetListRead=kitchen_lights.net
 [pcbnew/libraries]
@@ -113,5 +114,3 @@ LibName10=dip_sockets
 LibName11=ref-packages
 LibName12=murata-resonators
 LibName13=/home/robert/Arduino/KiCAD/LIBS/my_parts
-[general]
-version=1

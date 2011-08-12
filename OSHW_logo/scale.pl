@@ -14,10 +14,10 @@ my $outfile = $ARGV[1];
 my $size = $ARGV[2]; # in 'mm' or in 'in'
 my $factor;
 
-if($size =~ m/^\d{1}\.\d{1,3}in$/) {
+if($size =~ m/^\d{1,3}\.\d{1,3}in$/) {
 	$size =~ s/in//;
 	$factor = 1/1.18*$size;
-} elsif($size =~ m/^\d{1}\.\d{1,3}mm$/) {
+} elsif($size =~ m/^\d{1,3}\.\d{1,3}mm$/) {
 	$size =~ s/mm//;
 	$factor = 1/1.18/25.4*$size;
 } else {

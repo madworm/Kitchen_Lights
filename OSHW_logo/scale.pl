@@ -37,7 +37,7 @@ foreach $line (@infiledata) {
 }
 
 sub usage() {
-	print "\nusage: scale.pl <infile.emp> <outfile.emp> <size: e.g. 5mm or 0.25in>\n\n";
+	print "\nusage: scale.pl <infile.emp> <outfile.emp> <size: e.g. 5.00mm or 0.25in>\n\n";
 	exit;
 }
 

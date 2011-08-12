@@ -4,7 +4,7 @@ about 1.18in height, which may be too large for your project.
 
 Use the scale.pl script to resize it:
 
-scale.pl OSHW_logo_orig.emp new_logo.emp 5mm
+scale.pl OSHW_logo_orig.emp new_logo.emp 5.0mm
 
 or 
 

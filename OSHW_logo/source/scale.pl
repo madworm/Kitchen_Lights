@@ -2,10 +2,6 @@
 
 sub usage();
 
-open(FILE, '<', $ARGV[0]) || die("cannot open: $!");
-my @infiledata = <FILE>;
-close(FILE);
-
 if(scalar(@ARGV) < 3) {
 	usage();
 }
@@ -13,6 +9,10 @@ if(scalar(@ARGV) < 3) {
 my $outfile = $ARGV[1];
 my $size = $ARGV[2]; # in 'mm' or in 'in'
 my $factor;
+
+open(FILE, '<', $ARGV[0]) || die("cannot open: $!");
+my @infiledata = <FILE>;
+close(FILE);
 
 if($size =~ m/^\d{1,3}\.\d{1,3}in$/) {
 	$size =~ s/in//;
@@ -35,6 +35,8 @@ foreach $line (@infiledata) {
 		print FILE $line;
 	}
 }
+
+close(FILE);
 
 sub usage() {
 	print "\nusage: scale.pl <infile.emp> <outfile.emp> <size: e.g. 5.00mm or 0.25in>\n\n";

@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sun 21 Aug 2011 07:48:25 PM CEST
+PCBNEW-BOARD Version 1 date Mon 22 Aug 2011 04:42:56 PM CEST
 
 # Created by Pcbnew(2011-aug-04)-testing
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A3 16535 11700
 Title "BestKitchenLightsEver(tm)"
-Date "21 aug 2011"
+Date "22 aug 2011"
 Rev "1.10"
 Comp "My 2µF Blog"
 Comment1 ""
@@ -60,8 +60,8 @@ TextPcbSize 500 500
 EdgeModWidth 120
 TextModSize 500 500
 TextModWidth 80
-PadSize 1000 1000
-PadDrill 394
+PadSize 600 600
+PadDrill 400
 Pad2MaskClearance 0
 AuxiliaryAxisOrg 0 0
 PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 100) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory gerber/))
@@ -8368,7 +8368,7 @@ Po -1000 1000
 $EndPAD
 $EndMODULE  MADW__NICHIA_NSPWR70CS-K1
 $MODULE D3
-Po 132600 61700 0 15 4E33F0C1 4E33EB96 ~~
+Po 132600 61700 0 15 4E526ABB 4E33EB96 ~~
 Li D3
 Cd Diode 3 pas
 Kw DIODE DEV
@@ -8388,15 +8388,15 @@ DS 1200 400 1200 0 120 21
 DS 1000 -400 1000 400 120 21
 DS 900 400 900 -400 120 21
 $PAD
-Sh "2" R 550 550 0 0 0
-Dr 320 0 0
+Sh "2" R 600 600 0 0 0
+Dr 400 0 0
 At STD N 00E0FFFF
 Ne 52 "/V_LED"
 Po 1500 0
 $EndPAD
 $PAD
-Sh "1" C 550 550 0 0 0
-Dr 320 0 0
+Sh "1" C 600 600 0 0 0
+Dr 400 0 0
 At STD N 00E0FFFF
 Ne 54 "/V_LED_in_R"
 Po -1500 0
@@ -8409,7 +8409,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  D3
 $MODULE D3
-Po 31500 61700 1800 15 4E33F021 4E33EB98 ~~
+Po 31500 61700 1800 15 4E526AE4 4E33EB98 ~~
 Li D3
 Cd Diode 3 pas
 Kw DIODE DEV
@@ -8429,15 +8429,15 @@ DS 1200 400 1200 0 120 21
 DS 1000 -400 1000 400 120 21
 DS 900 400 900 -400 120 21
 $PAD
-Sh "2" R 550 550 0 0 1800
-Dr 320 0 0
+Sh "2" R 600 600 0 0 1800
+Dr 400 0 0
 At STD N 00E0FFFF
 Ne 52 "/V_LED"
 Po 1500 0
 $EndPAD
 $PAD
-Sh "1" C 550 550 0 0 1800
-Dr 320 0 0
+Sh "1" C 600 600 0 0 1800
+Dr 400 0 0
 At STD N 00E0FFFF
 Ne 53 "/V_LED_in_L"
 Po -1500 0

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 22 Aug 2011 11:49:54 PM CEST
+EESchema Schematic File Version 2  date Tue 23 Aug 2011 12:52:13 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,7 +44,7 @@ encoding utf-8
 Sheet 1 1
 Title "BestKitchenLightsEver(tm)"
 Date "22 aug 2011"
-Rev "1.10"
+Rev "1.11"
 Comp "My 2µF Blog"
 Comment1 ""
 Comment2 ""

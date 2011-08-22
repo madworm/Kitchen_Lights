@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-04-28)-stable date = Sat 30 Jul 2011 10:27:05 PM CEST
+Cmp-Mod V01 Genere par PcbNew le Tue 23 Aug 2011 12:12:52 AM CEST
 
 BeginCmp
 TimeStamp = /4D7EAC9E;
@@ -284,7 +284,7 @@ BeginCmp
 TimeStamp = /4D7EA61F;
 Reference = D33;
 ValeurCmp = LED_GREEN;
-IdModule  = LEDV;
+IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
@@ -358,7 +358,7 @@ IdModule  = -SO-08;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7232C3;
+TimeStamp = /4E52CDE2;
 Reference = JP1;
 ValeurCmp = ISP;
 IdModule  = pin_array_3x2;
@@ -409,20 +409,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4D7EFB9A;
 Reference = MH5;
-ValeurCmp = CONN_1;
-IdModule  = MADW__mounting_hole_3mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D84F420;
-Reference = MH6;
-ValeurCmp = CONN_1;
-IdModule  = MADW__mounting_hole_3mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D84F423;
-Reference = MH7;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
 EndCmp

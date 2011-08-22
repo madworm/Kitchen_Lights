@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 30 Jul 2011 10:27:05 PM CEST
+# EESchema Netlist Version 1.1 created  Mon 22 Aug 2011 11:49:53 PM CEST
 (
  ( /4D7EAC9E -C0805 C1 100nF
   ( 1 VCC )
@@ -51,7 +51,7 @@
   ( 4 /D03_04 )
  )
  ( /4E3359A6 MADW__NICHIA_NSPWR70CS-K1 D4 LED
-  ( 1 /OUT0 )
+  ( 1 /OUT3 )
   ( 2 ? )
   ( 3 /D03_04 )
   ( 4 ? )
@@ -75,7 +75,7 @@
   ( 4 /D07_08 )
  )
  ( /4E3367A8 MADW__NICHIA_NSPWR70CS-K1 D8 LED
-  ( 1 /OUT1 )
+  ( 1 /OUT2 )
   ( 2 ? )
   ( 3 /D07_08 )
   ( 4 ? )
@@ -99,7 +99,7 @@
   ( 4 /D11_12 )
  )
  ( /4E3367B5 MADW__NICHIA_NSPWR70CS-K1 D12 LED
-  ( 1 /OUT2 )
+  ( 1 /OUT1 )
   ( 2 ? )
   ( 3 /D11_12 )
   ( 4 ? )
@@ -123,7 +123,7 @@
   ( 4 /D15_16 )
  )
  ( /4E3367B4 MADW__NICHIA_NSPWR70CS-K1 D16 LED
-  ( 1 /OUT3 )
+  ( 1 /OUT0 )
   ( 2 ? )
   ( 3 /D15_16 )
   ( 4 ? )
@@ -147,7 +147,7 @@
   ( 4 /D19_20 )
  )
  ( /4E3367C5 MADW__NICHIA_NSPWR70CS-K1 D20 LED
-  ( 1 /OUT4 )
+  ( 1 /OUT7 )
   ( 2 ? )
   ( 3 /D19_20 )
   ( 4 ? )
@@ -171,7 +171,7 @@
   ( 4 /D23_24 )
  )
  ( /4E3367C4 MADW__NICHIA_NSPWR70CS-K1 D24 LED
-  ( 1 /OUT5 )
+  ( 1 /OUT6 )
   ( 2 ? )
   ( 3 /D23_24 )
   ( 4 ? )
@@ -195,7 +195,7 @@
   ( 4 /D27_28 )
  )
  ( /4E3367BC MADW__NICHIA_NSPWR70CS-K1 D28 LED
-  ( 1 /OUT6 )
+  ( 1 /OUT5 )
   ( 2 ? )
   ( 3 /D27_28 )
   ( 4 ? )
@@ -219,34 +219,34 @@
   ( 4 /D31_32 )
  )
  ( /4E3367BD MADW__NICHIA_NSPWR70CS-K1 D32 LED
-  ( 1 /OUT7 )
+  ( 1 /OUT4 )
   ( 2 ? )
   ( 3 /D31_32 )
   ( 4 ? )
  )
- ( /4D7EA61F LEDV D33 LED_GREEN
+ ( /4D7EA61F LED-0805 D33 LED_GREEN
   ( 1 N-000090 )
   ( 2 GND )
  )
  ( /4E3464E5 LED-0805 D34 LED_ORANGE
-  ( 1 N-000157 )
+  ( 1 N-000133 )
   ( 2 GND )
  )
  ( /4E3464EA LED-0805 D35 LED_ORANGE
-  ( 1 N-000156 )
+  ( 1 N-000132 )
   ( 2 GND )
  )
  ( /4E345FBA LED-0805 D36 LED_RED
   ( 1 VCC )
-  ( 2 N-000132 )
+  ( 2 N-000138 )
  )
  ( /4E345FBF LED-0805 D37 LED_GREEN
   ( 1 VCC )
-  ( 2 N-000154 )
+  ( 2 N-000129 )
  )
  ( /4E345FC3 LED-0805 D38 LED_BLUE
   ( 1 VCC )
-  ( 2 N-000131 )
+  ( 2 N-000136 )
  )
  ( /4E33E2B1 D3 DS1 DIODESCH
   ( 1 /V_LED_in_L )
@@ -258,24 +258,24 @@
  )
  ( /4DC71637 -SO-20DW IC1 MADW__ATTINY2313DIP/SO
   ( 1 /RESET )
-  ( 2 N-000145 )
-  ( 3 N-000123 )
+  ( 2 N-000122 )
+  ( 3 N-000150 )
   ( 4 ? )
   ( 5 ? )
-  ( 6 N-000149 )
-  ( 7 N-000124 )
-  ( 8 N-000148 )
+  ( 6 N-000124 )
+  ( 7 N-000152 )
+  ( 8 N-000125 )
   ( 9 /S_LED_i )
   ( 10 GND )
   ( 11 /TX_LED_i )
-  ( 12 N-000126 )
-  ( 13 N-000153 )
+  ( 12 N-000149 )
+  ( 13 N-000126 )
   ( 14 /RX_LED_i )
-  ( 15 N-000152 )
-  ( 16 N-000127 )
-  ( 17 N-000151 )
-  ( 18 N-000128 )
-  ( 19 N-000150 )
+  ( 15 N-000116 )
+  ( 16 N-000155 )
+  ( 17 N-000117 )
+  ( 18 N-000151 )
+  ( 19 N-000118 )
   ( 20 VCC )
  )
  ( /4D723286 MADW__SO16 IC2 MBI5168
@@ -293,7 +293,7 @@
   ( 12 /OUT7 )
   ( 13 /ENABLE )
   ( 14 ? )
-  ( 15 N-000129 )
+  ( 15 N-000127 )
   ( 16 VCC )
  )
  ( /4D7EADDB -SO-08 IC3 7805MS
@@ -304,13 +304,13 @@
   ( 7 GNDPWR )
   ( 8 /V_LED )
  )
- ( /4D7232C3 pin_array_3x2 JP1 ISP
-  ( 1 VCC )
-  ( 2 /DATA/MISO )
-  ( 3 /RESET )
+ ( /4E52CDE2 pin_array_3x2 JP1 ISP
+  ( 1 /DATA/MISO )
+  ( 2 VCC )
+  ( 3 /CLOCK )
   ( 4 /MOSI )
-  ( 5 GND )
-  ( 6 /CLOCK )
+  ( 5 /RESET )
+  ( 6 GND )
  )
  ( /4E33DFA8 PIN_ARRAY_2X1 JP2 R/T_loop
   ( 1 /RXI )
@@ -332,12 +332,6 @@
   ( 1 ? )
  )
  ( /4D7EFB9A MADW__mounting_hole_3mm MH5 CONN_1
-  ( 1 ? )
- )
- ( /4D84F420 MADW__mounting_hole_3mm MH6 CONN_1
-  ( 1 ? )
- )
- ( /4D84F423 MADW__mounting_hole_3mm MH7 CONN_1
   ( 1 ? )
  )
  ( /4DC71AB8 pin_array_8x2 P1 CONN_8X2
@@ -382,23 +376,23 @@
  )
  ( /4E33E1FD SM0603 R3 1k
   ( 1 /RXI )
-  ( 2 N-000145 )
+  ( 2 N-000122 )
  )
  ( /4E33E22C SM0603 R4 1k
   ( 1 /TXO )
-  ( 2 N-000123 )
+  ( 2 N-000150 )
  )
  ( /4E33E6F1 SM0603 R5 1k
   ( 1 /SW1 )
-  ( 2 N-000149 )
+  ( 2 N-000124 )
  )
  ( /4E33E6FA SM0603 R6 1k
   ( 1 /SW2 )
-  ( 2 N-000124 )
+  ( 2 N-000152 )
  )
  ( /4E33E231 SM0603 R7 1k
   ( 1 /SW3 )
-  ( 2 N-000148 )
+  ( 2 N-000125 )
  )
  ( /4E33E23B SM0603 R8 1k
   ( 1 /S_LED )
@@ -410,11 +404,11 @@
  )
  ( /4E33E242 SM0603 R10 1k
   ( 1 /PB0 )
-  ( 2 N-000126 )
+  ( 2 N-000149 )
  )
  ( /4E33E62B SM0603 R11 1k
   ( 1 /PB1 )
-  ( 2 N-000153 )
+  ( 2 N-000126 )
  )
  ( /4E33E63E SM0603 R12 1k
   ( 1 /RX_LED )
@@ -422,23 +416,23 @@
  )
  ( /4E33E642 SM0603 R13 1k
   ( 1 /ENABLE )
-  ( 2 N-000152 )
+  ( 2 N-000116 )
  )
  ( /4E33E645 SM0603 R14 1k
   ( 1 /LATCH )
-  ( 2 N-000127 )
+  ( 2 N-000155 )
  )
  ( /4E33E648 SM0603 R15 1k
   ( 1 /MOSI )
-  ( 2 N-000151 )
+  ( 2 N-000117 )
  )
  ( /4E33E64B SM0603 R16 1k
   ( 1 /DATA/MISO )
-  ( 2 N-000128 )
+  ( 2 N-000151 )
  )
  ( /4E33E64D SM0603 R17 1k
   ( 1 /CLOCK )
-  ( 2 N-000150 )
+  ( 2 N-000118 )
  )
  ( /4E33F671 SM0603 R18 470
   ( 1 /S_LED_i )
@@ -446,27 +440,27 @@
  )
  ( /4E3464E3 SM0603 R19 470
   ( 1 /RX_LED_i )
-  ( 2 N-000157 )
+  ( 2 N-000133 )
  )
  ( /4E3464EC SM0603 R20 470
   ( 1 /TX_LED_i )
-  ( 2 N-000156 )
+  ( 2 N-000132 )
  )
  ( /4E345F45 SM0603 R21 470
   ( 1 N-000094 )
-  ( 2 N-000132 )
+  ( 2 N-000138 )
  )
  ( /4E345F4A SM0603 R22 470
-  ( 1 N-000121 )
-  ( 2 N-000154 )
+  ( 1 N-000137 )
+  ( 2 N-000129 )
  )
  ( /4E345F55 SM0603 R23 470
-  ( 1 N-000096 )
-  ( 2 N-000131 )
+  ( 1 N-000154 )
+  ( 2 N-000136 )
  )
  ( /4D7E94BE RV2X4 RV1 I_REF
   ( 1 ? )
-  ( 2 N-000129 )
+  ( 2 N-000127 )
   ( 3 GND )
  )
  ( /4D7E9BEE MADW__LPH_SW SW1 LPH_SW
@@ -479,13 +473,13 @@
   ( 1 ? )
   ( 2 GND )
   ( 3 /SW2 )
-  ( 4 N-000121 )
+  ( 4 N-000137 )
  )
  ( /4D7E9BE7 MADW__LPH_SW SW3 LPH_SW
   ( 1 ? )
   ( 2 GND )
   ( 3 /SW3 )
-  ( 4 N-000096 )
+  ( 4 N-000154 )
  )
 )
 *

@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 23 Aug 2011 12:53:03 AM CEST
+PCBNEW-BOARD Version 1 date Tue 23 Aug 2011 12:53:24 AM CEST
 
 # Created by Pcbnew(2011-07-08)-stable
 
@@ -9664,7 +9664,7 @@ Po 413 0
 $EndPAD
 $EndMODULE  LED-0805
 $TEXTPCB
-Te "V1.10 - 2011 blog.spitzenpfeil.org"
+Te "V1.11 - 2011 blog.spitzenpfeil.org"
 Po 60000 62200 500 500 80 0
 De 20 0 0 Normal C
 $EndTEXTPCB
@@ -9894,7 +9894,7 @@ Po 0 29000 49500 135100 49500 150
 De 28 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
-Te "V1.10 - 2011 blog.spitzenpfeil.org"
+Te "V1.11 - 2011 blog.spitzenpfeil.org"
 Po 60000 62200 500 500 80 0
 De 21 1 0 Normal C
 $EndTEXTPCB

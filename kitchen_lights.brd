@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 23 Aug 2011 12:53:24 AM CEST
+PCBNEW-BOARD Version 1 date Tue 23 Aug 2011 07:05:55 AM CEST
 
 # Created by Pcbnew(2011-07-08)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A3 16535 11700
 Title "BestKitchenLightsEver(tm)"
-Date "22 aug 2011"
+Date "23 aug 2011"
 Rev "1.11"
 Comp "My 2µF Blog"
 Comment1 ""
@@ -9662,6 +9662,12 @@ At SMD N 00888000
 Ne 55 "GND"
 Po 413 0
 $EndPAD
+$SHAPE3D
+Na "smd/led_0805.wrl"
+Sc 0.400000 0.400000 0.400000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
 $EndMODULE  LED-0805
 $TEXTPCB
 Te "V1.11 - 2011 blog.spitzenpfeil.org"

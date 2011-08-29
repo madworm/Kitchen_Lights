@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 23 Aug 2011 12:52:13 AM CEST
+EESchema Schematic File Version 2  date Mon 29 Aug 2011 04:15:10 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,8 +43,8 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "BestKitchenLightsEver(tm)"
-Date "22 aug 2011"
-Rev "1.11"
+Date "28 aug 2011"
+Rev "1.12"
 Comp "My 2µF Blog"
 Comment1 ""
 Comment2 ""
@@ -179,12 +179,6 @@ Wire Wire Line
 	4900 1250 4950 1250
 Wire Notes Line
 	5350 2850 550  2850
-Wire Wire Line
-	3800 4400 3950 4400
-Wire Wire Line
-	4350 4400 4500 4400
-Wire Wire Line
-	1950 4400 2100 4400
 Connection ~ 3650 3850
 Wire Wire Line
 	3650 3850 3650 4100
@@ -511,8 +505,6 @@ Wire Wire Line
 Wire Wire Line
 	2250 3850 2250 4100
 Connection ~ 2250 3850
-Wire Wire Line
-	1400 4400 1550 4400
 Wire Notes Line
 	5350 2850 5350 4600
 Wire Notes Line
@@ -854,23 +846,6 @@ F 1 "R/T loop" V 5675 1125 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODESCH DS2
-U 1 1 4E33E9B6
-P 4150 4400
-F 0 "DS2" H 4150 4500 40  0000 C CNN
-F 1 "DIODESCH" H 4150 4300 40  0000 C CNN
-	1    4150 4400
-	1    0    0    -1  
-$EndComp
-Text Label 4500 4400 0    60   ~ 0
-V_LED
-Text Label 3800 4400 2    60   ~ 0
-V_LED_in_R
-Text Label 1400 4400 2    60   ~ 0
-V_LED_in_L
-Text Label 2100 4400 0    60   ~ 0
-V_LED
-$Comp
 L GNDPWR #PWR04
 U 1 1 4E33E92E
 P 3650 4100
@@ -894,7 +869,7 @@ RX_LED
 Text Label 2350 3850 0    60   ~ 0
 GNDPWR
 Text Label 2350 3950 0    60   ~ 0
-V_LED_in_L
+V_LED
 $Comp
 L R R6
 U 1 1 4E33E6FA
@@ -975,15 +950,6 @@ F 0 "R11" V 4650 2000 50  0000 C CNN
 F 1 "1k" V 4650 1850 50  0000 C CNN
 	1    4650 1950
 	0    1    1    0   
-$EndComp
-$Comp
-L DIODESCH DS1
-U 1 1 4E33E2B1
-P 1750 4400
-F 0 "DS1" H 1750 4500 40  0000 C CNN
-F 1 "DIODESCH" H 1750 4300 40  0000 C CNN
-	1    1750 4400
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R10
@@ -1447,17 +1413,17 @@ TXO
 Text Label 4750 3250 0    60   ~ 0
 RXI
 Text Label 1150 3950 2    60   ~ 0
-V_LED_in_L
+V_LED
 Text Label 1150 3850 2    60   ~ 0
 GNDPWR
 Text Label 4750 3850 0    60   ~ 0
 GNDPWR
 Text Label 4750 3950 0    60   ~ 0
-V_LED_in_R
+V_LED
 Text Label 3550 3850 2    60   ~ 0
 GNDPWR
 Text Label 3550 3950 2    60   ~ 0
-V_LED_in_R
+V_LED
 Text Label 4950 2050 0    60   ~ 0
 RX_LED
 Text Label 4950 1950 0    60   ~ 0

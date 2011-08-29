@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08)-stable date = Tue 23 Aug 2011 12:52:28 AM CEST
+Cmp-Mod V01 Created by CvPCB (2011-07-08)-stable date = Mon 29 Aug 2011 04:15:08 AM CEST
 
 BeginCmp
 TimeStamp = /4D7EAC9E;
@@ -320,20 +320,6 @@ TimeStamp = /4E345FC3;
 Reference = D38;
 ValeurCmp = LED_BLUE;
 IdModule  = LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E33E2B1;
-Reference = DS1;
-ValeurCmp = DIODESCH;
-IdModule  = D3;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E33E9B6;
-Reference = DS2;
-ValeurCmp = DIODESCH;
-IdModule  = D3;
 EndCmp
 
 BeginCmp

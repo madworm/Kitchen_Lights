@@ -4,11 +4,20 @@ about 1.18in height, which may be too large for your project.
 
 Use the scale.pl script to resize it:
 
-scale.pl OSHW_logo_orig.emp new_logo.emp 5.0mm
+scale.pl OSHW_logo_orig.emp new_logo.emp <layer> 5.0mm
 
 or 
 
-scale.pl OSHW_logo_orig.emp new_logo.emp 0.5in
+scale.pl OSHW_logo_orig.emp new_logo.emp <layer> 0.5in
+
+
+Replace <layer> with the KiCad layer you need.
+
+Top copper:      0
+Top silkscreen: 21
+
+To move the object to bottom copper/silkscreen, just place
+the curser over the logo and press 'F' for flip in pcbnew.
 
 
 Now start kicad/pcbnew, go into the library/footprint editor

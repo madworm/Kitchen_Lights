@@ -46,7 +46,7 @@ sub usage() {
 	print "\nusage: scale.pl <infile.emp> <outfile.emp> <layer number> <size: e.g. 5.00mm or 0.25in>\n\n";
 	print "KiCad layers:\n";
 	print "-------------\n\n";
-	print "Top copper:         0\n";
+	print "Top copper:        15\n";
 	print "Top silkscreen:    21\n\n";
 	print "To move the logo to bottom copper/silkscreen\n";
 	print "move the curser over it and press F for flip layer\n\n";

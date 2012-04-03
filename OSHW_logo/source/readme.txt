@@ -13,7 +13,7 @@ scale.pl OSHW_logo_orig.emp new_logo.emp <layer> 0.5in
 
 Replace <layer> with the KiCad layer you need.
 
-Top copper:      0
+Top copper:     15
 Top silkscreen: 21
 
 To move the object to bottom copper/silkscreen, just place
